@@ -931,5 +931,179 @@ export const manualData = [
 </div>`
       }
     ]
+  },
+{
+    phaseId: 8,
+    phaseTitle: "8 바리스타 스탠다드 및 오퍼레이션 규정",
+    sections: [
+      {
+        sectionId: "8.1",
+        sectionTitle: "8.1 고객 접객 및 MOT 행동 강령",
+        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 3초 룰과 에코(Echo) 인사 프로토콜</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">고객이 문을 열고 들어온 직후 3초 이내에 바 내부의 전 직원이 고객을 인지해야 함. 입구를 최초로 발견한 직원이 작업 중이더라도 시선을 맞추며 "안녕하세요, 스트레토입니다"라고 차분하고 명확한 톤으로 선창함. 과도하게 높은 솔 톤의 기계적인 인사는 하이엔드 로스터리의 무게감을 떨어뜨리므로 지양함. 선창이 나오면 나머지 직원들은 즉각 하던 일을 멈추지 않더라도 "안녕하세요"라고 후창(Echo)하여, 전 직원이 고객을 환대하고 있다는 심리적 안정감을 제공함. 퇴점 시에도 동일하게 "감사합니다. 안녕히 가세요"로 에코 인사를 수행함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 스타벅스 LATTE 컴플레인 대응 시스템</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">음료 지연이나 맛에 대한 컴플레인 발생 시 알바생의 자의적 판단과 변명을 금지하며, 다음 5단계 프로토콜을 기계적으로 수행해야 함.<br>
+1단계 Listen(경청): 고객의 말을 끊거나 변명하지 않고 끝까지 들음.<br>
+2단계 Apologize(사과): 상황의 시시비비를 가리지 않고 "불편을 드려 죄송합니다"라고 즉각 사과함.<br>
+3단계 Take action(해결): "새로 한 잔 내려드리겠습니다" 등 즉각적인 보상 조치를 취함.<br>
+4단계 Thank(감사): "말씀해 주셔서 감사합니다"라며 피드백에 대한 예의를 갖춤.<br>
+5단계 Explain(설명): 핑계로 들리지 않도록 모든 조치가 끝난 후 사후에 간략히 원인을 설명함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 스페셜티 메뉴 도슨트 및 테이스팅 안내</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">바리스타는 커피의 향미를 정확히 전달하는 도슨트 역할을 수행해야 함. 예를 들어 산미가 있는 원두를 주문받을 때 "산미가 강한데 괜찮으십니까?" 같은 부정적인 톤의 질문을 금지함. 대신 "과일의 기분 좋은 단맛과 산뜻함이 특징인 원두입니다"라는 긍정적인 테이스팅 노트 기반의 스크립트를 사용해 고객의 미식 경험을 리드해야 함. 고객이 맛에 불만을 제기할 경우에도 "묵직하고 고소한 스트레토 블렌드로 다시 한 잔 준비해 드릴까요?"라며 전문가다운 대안을 제시하여 불만을 환기함.</p>`
+      },
+      {
+        sectionId: "8.2",
+        sectionTitle: "8.2 유니폼 및 복장 위생 규정",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">매장의 청결 상태와 직원의 통일된 외관은 커피 맛을 결정하는 첫 번째 시각적 지표임. 개인의 자율성을 제한하고 브랜드의 전문성을 우선함.</p>
+
+<div class="border-t border-stone-200 mt-6">
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 자율 복장 금지 및 매장 유니폼 제공 원칙</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      자율 복장은 바리스타의 개성을 살릴 수 있으나, 개인의 패션 센스와 위생 관념 편차가 심해 매장의 통일된 전문성을 심각하게 저해함. 따라서 근무 시간 중에는 매장에서 지급하는 통일된 카라 셔츠와 스트레토 로고가 각인된 전용 바리스타 에이프런(앞치마)을 반드시 착용해야 함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 에이프런 매장 일괄 세탁 시스템</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      에이프런에는 눈에 보이지 않는 미세한 커피 찌꺼기와 우유 단백질이 지속적으로 튀어 세균 번식과 악취의 원인이 됨. 이를 알바생 개인의 자율 세탁에 맡기면 위생 기준을 통제할 수 없음. 에이프런은 퇴근 시 바 스테이션 전용 수거함에 반납하는 것을 원칙으로 하며, 매장 내 세탁기를 이용해 매일 고온 살균 세탁 및 건조된 앞치마를 다음 근무자가 입도록 시스템화함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 개인위생 및 안전화 착용 규정</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      향수 및 향이 강한 핸드크림 사용을 절대 금지함. 손톱은 항상 짧게 유지하고 네일아트나 매니큐어, 치렁치렁한 팔찌는 위생상 철저히 금지함. 근무 시작 전과 화장실 사용 후에는 전용 세정제로 팔꿈치 밑까지 20초 이상 세척함. 또한 바닥의 물기와 뜨거운 물(90도 이상)로부터 발을 보호하기 위해 발등이 막히고 미끄럼 방지 패드가 부착된 안전 조리화 착용을 의무화함.
+    </div>
+  </details>
+</div>`
+      },
+      {
+        sectionId: "8.3",
+        sectionTitle: "8.3 주문 접수 시 돌발 상황 대처법",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">포스(POS) 앞에서 발생하는 다양한 변수에 대응하는 화법 매뉴얼임. 고객이 무안하지 않게 배려하면서도 매장의 흐름을 통제하는 것이 핵심임.</p>
+
+<div class="border-t border-stone-200 mt-6">
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 메뉴 선택을 지연시키는 고객 응대</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      뒤에 대기 줄이 긴데 메뉴판 앞에서 고민하는 고객에게 손가락으로 포스기를 두드리거나 한숨을 쉬며 재촉하는 뉘앙스를 주는 것은 최악의 응대임. 이때는 "천천히 고르시고 말씀해 주시겠어요?"라고 안내한 뒤 1보 뒤로 물러서서 시선을 아래로 두어 부담을 덜어주어야 함. 혹은 "저희 시그니처 메뉴인 너티 카라멜 라떼나 산뜻한 브루잉 커피를 많이 찾으시는데 추천해 드릴까요?"라며 선택지를 2개로 압축해 결정을 리드함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 목소리가 작거나 발음이 불분명한 고객 응대</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      고객이 웅얼거리거나 작게 말할 때 인상을 찌푸리며 "네? 뭐라고요?"라고 되묻는 행위를 엄격히 금지함. 바리스타가 상체를 카운터 쪽으로 살짝 기울이며 "고객님, 매장 음악 소리 때문에 잘 안 들리는데 아이스 카페 라떼 1잔 맞으실까요?"라며 정중하게 재확인해야 함. 소통 오류의 원인을 '매장 환경'으로 돌려 고객을 무안하지 않게 배려함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 과도한 커스텀(Customization) 요구 응대</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      얼음 3알만 넣어달라거나, 우유를 아주 조금만 넣어달라는 디테일한 커스텀 요구 시 "그렇게는 안 됩니다"라는 단호한 거절은 감정싸움을 유발함. "최대한 맞춰서 준비해 드리겠습니다만, 매장의 최적 레시피 비율이 변경되어 평소보다 커피 맛이 연해지거나 양이 적어 보일 수 있는 점 미리 양해 부탁드립니다"라고 부작용을 사전에 고지한 후 포스에 특이사항을 명확히 메모함.
+    </div>
+  </details>
+</div>`
+      },
+      {
+        sectionId: "8.4",
+        sectionTitle: "8.4 규정 위반 및 난해한 상황 통제 매뉴얼",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">현장에서 발생하는 감정 소모를 막기 위해 알바생의 자의적 판단을 배제함. 아래의 명확한 매장 규정을 방패 삼아 기계적이고 단호하게 대처할 것.</p>
+
+<div class="border-t border-stone-200 mt-6">
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 외부 음식 반입 및 취식 통제</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      "여기서 드시면 안 됩니다"라고 면박을 주면 안 됨. "고객님, 정말 죄송하지만 매장 내 위생 관리상 외부 음식 취식은 제한하고 있습니다. 매장에 머무르시는 동안 저희가 냉장고에 신선하게 보관해 드릴까요?"라고 거절과 동시에 대안을 제시하여 반발 심리를 차단함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 가구 이동 및 과도한 좌석 점유 통제</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      2인이 4인석 테이블을 2개씩 붙이거나 통로로 의자를 끌어올 경우 즉각 개입함. "고객님, 뜨거운 음료가 이동하는 통로라 동선 안전상의 이유로 가구 이동은 어렵습니다. 다치실 수 있으니 제자리로 부탁드리겠습니다"라며 '고객의 안전'을 명분으로 내세워 단호하게 제지함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 세척되지 않은 텀블러 지참 및 타 카페 컵 폐기 요구</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      오염된 개인 텀블러를 매장 싱크대에서 수세미로 닦는 것은 교차 오염을 유발함. "위생 안전상 싱크대 세척은 어려우며, 원하시면 끓는 물로 가볍게 헹궈만 드리겠습니다"라고 선을 그음. 타 카페 쓰레기 처리 요구 역시 "상가 분리수거 규정 및 위생 문제로 외부 쓰레기는 버려드리기 어렵습니다"라고 단호히 거절함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">4. 장시간 체류(카공족) 및 1인의 다인석 점유 통제</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      피크 타임 진입 시 다가가 "점심시간에는 다인원 방문객이 많아 1인석으로 자리 이동을 부탁드립니다"라고 요구함. 또한 전력망 과부하 핑계를 대어 "안전상의 이유로 전자기기 충전은 2시간 이내로 제한하고 있습니다"라고 안내하여 장기 체류 명분을 차단함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">5. 절반 이상 취식 후 환불/재제조 요구 통제</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      커피를 3분의 2 이상 마시고 맛이 이상하다며 리필을 요구할 경우 "고객님, 추출 이상은 첫 모금에 확인 가능합니다. 이미 절반 이상 드신 상태에서는 정확한 원인 파악이 어려워 규정상 재제조나 환불은 불가합니다"라고 악의적 요구에 명확한 선을 그어야 함.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">6. 통제되지 않는 아동(키즈) 및 반려동물 동반 고객</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      아동 방치 시 "바 주변에 뜨거운 물과 고가의 장비가 많아 아이가 다칠 위험이 큽니다. 안전을 위해 각별한 케어 부탁드립니다"라고 '안전'을 방패로 경고함. 목줄을 푼 반려동물의 경우 "다른 손님들도 함께 계시는 공간이라 리드줄을 짧게 잡아주시길 부탁드립니다"라며 펫티켓 룰을 주지시킴.
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">7. 취객 및 과도한 소음 유발 고객 통제</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
+      매장 분위기를 망칠 정도로 소란스러울 경우 "다른 테이블에서 소음으로 인한 불편 접수가 들어오고 있습니다. 조금만 목소리를 낮춰주시길 부탁드립니다"라고 가상의 클레임을 방패 삼아 1차 경고함. 10분 후에도 개선되지 않을 시 "주변 항의로 영업에 심각한 지장이 발생하여 부득이 퇴점을 요청드립니다"라고 매뉴얼대로 실행함.
+    </div>
+  </details>
+</div>`
+      }
+    ]
   }
 ];
