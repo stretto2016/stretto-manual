@@ -1105,5 +1105,173 @@ export const manualData = [
 </div>`
       }
     ]
+  },
+  {
+    phaseId: 9,
+    phaseTitle: "9 창업 그랜드 마스터 체크리스트",
+    sections: [
+      {
+        sectionId: "9.1",
+        sectionTitle: "9.1 행정, 부동산 및 인테리어 검증",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">카페 창업 시 단 하나의 항목이라도 누락될 경우 오픈 지연이나 심각한 오퍼레이션 마비가 발생할 수 있으므로 치밀한 교차 검증이 필수적임.</p>
+
+<div class="border-t border-stone-200 mt-6">
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 행정 및 부동산 인허가 타임라인</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">보건증:</strong> 점주 및 알바생 전원 구비 (검사 후 수령까지 최소 7일 소요됨)</li>
+        <li><strong class="font-bold text-stone-800">위생교육 수료증:</strong> 한국휴게음식업중앙회 온라인 교육 수료 완료 여부</li>
+        <li><strong class="font-bold text-stone-800">임대차계약서:</strong> 건축물대장상 1종 또는 2종 근린생활시설 휴게음식점 용도 확인 필수</li>
+        <li><strong class="font-bold text-stone-800">영업신고증:</strong> 관할 구청 위생과 발급 완료 (위반건축물 실사 대비)</li>
+        <li><strong class="font-bold text-stone-800">사업자등록증:</strong> 세무서 발급 및 부가세 환급을 위한 홈택스 사업용 계좌/카드 등록 완료</li>
+        <li><strong class="font-bold text-stone-800">인프라 검증:</strong> 전기 최소 15kW 3상 4선식 승압 여부, 50mm 이상 단독 배수관 확인</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 인테리어 및 바(Bar) 설비 치수</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">바 상판 높이:</strong> 900mm 타설 (바리스타 손목 관절 보호 및 탬핑 하중 최적화)</li>
+        <li><strong class="font-bold text-stone-800">바 통로 폭:</strong> 1인 근무 시 900mm, 2인 이상 교차 근무 시 1200mm 동선 확보</li>
+        <li><strong class="font-bold text-stone-800">매립 하부장:</strong> 테이블 냉장고 및 제빙기 발열 공간을 고려해 깊이 최소 800mm 확보</li>
+        <li><strong class="font-bold text-stone-800">타공 및 배선:</strong> 에스프레소 머신 하단 50mm 코어 타공, 장비별(머신, 온수기, 제빙기) 단독 2구 방수 콘센트 개별 할당</li>
+        <li><strong class="font-bold text-stone-800">배수 구배:</strong> 메인 하수구로 향하는 가파른 기울기 확보 및 70도 이상 고온수를 견디는 PVC 규격 검증</li>
+      </ul>
+    </div>
+  </details>
+</div>`
+      },
+      {
+        sectionId: "9.2",
+        sectionTitle: "9.2 장비, 바웨어 및 홀 인프라 검증",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">추출 퀄리티를 좌우하는 엔지니어링 하드웨어부터 소형 바웨어, 그리고 패키징 자재까지 누락 없이 발주하기 위한 실무 리스트임.</p>
+
+<div class="border-t border-stone-200 mt-6">
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 대형 하드웨어 라인업</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">에스프레소 머신:</strong> 2그룹 이상, 14L 이상 열교환기 보일러 또는 독립 듀얼 보일러 모델</li>
+        <li><strong class="font-bold text-stone-800">정밀 그라인더:</strong> 에스프레소용 메인 1대(75mm 이상 버), 디카페인 및 싱글용 서브 1대</li>
+        <li><strong class="font-bold text-stone-800">제빙기:</strong> 일일 생산량 50kg 이상 체급 (매장 통풍 환경에 따라 수냉식/공냉식 선택)</li>
+        <li><strong class="font-bold text-stone-800">냉장/냉동 설비:</strong> 1500mm 이상 규격의 간냉식 테이블 냉장고, 디저트 쇼케이스</li>
+        <li><strong class="font-bold text-stone-800">온수기 및 블렌더:</strong> 15L 이상 듀얼 콕 온수기, 방음 커버가 일체화된 상업용 고출력 블렌더</li>
+        <li><strong class="font-bold text-stone-800">정수/연수 필터:</strong> 머신 전용 연수 필터 1조, 제빙기 및 온수기 전용 카본 정수 필터 1조 체결</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 바웨어(Bar-ware) 및 소형 기물</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">스팀피처:</strong> 600ml 규격 2개(2잔 동시 스티밍용), 350ml 규격 3개(플랫화이트 및 단일 잔용)</li>
+        <li><strong class="font-bold text-stone-800">전자저울:</strong> 0.1g 단위 정밀 측정이 가능한 방수 저울 2개 (에스프레소 추출용 및 브루잉용)</li>
+        <li><strong class="font-bold text-stone-800">정밀 추출 툴:</strong> 18g/20g VST 또는 IMS 타공 바스켓, 58.5mm 규격 탬퍼 및 디스트리뷰터, 블라인드 바스켓</li>
+        <li><strong class="font-bold text-stone-800">운영 잡동사니:</strong> 실리콘 탬핑 매트, 매립형 넉박스, 바스푼 2개, 샷글라스 4개, 타이머, 온도계, 피처 린서, 그룹헤드 전용 청소 솔</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 매장 컵 및 패키징 자재 (초도 물량 기준)</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">매장용 도자기/유리잔:</strong> 데미타세 잔(3oz) 6조, 플랫화이트 잔(6oz) 10조, 카푸치노/라떼 잔(8oz) 12조, 아이스 유리잔(14oz/16oz) 30조</li>
+        <li><strong class="font-bold text-stone-800">서빙 부가 기물:</strong> 벨크리머(1oz/2oz) 10개, 실리콘 또는 원목 코스터 30개, 서빙 트레이 5개</li>
+        <li><strong class="font-bold text-stone-800">테이크아웃 컵:</strong> HOT 핫컵(12oz/16oz), ICE 투명 PET컵(14oz/16oz/20oz) 각 1박스</li>
+        <li><strong class="font-bold text-stone-800">패키징 부자재:</strong> 컵 사이즈별 호환 뚜껑(리드), 종이 슬리브(홀더), 개별 포장 빨대, 로고 인쇄 냅킨, 물티슈, 2구/4구 종이 캐리어, 포장용 비닐 및 종이봉투</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">4. 포스(POS) 및 홀 인프라 전자기기</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">결제 시스템:</strong> 메인 포스기 1대, 고객용 서명 패드, 카운터 영수증 프린터 1대, 주방/바 주문 확인용 프린터 1대 듀얼 연동</li>
+        <li><strong class="font-bold text-stone-800">통신 및 알림:</strong> 기가 와이파이 라우터, 진동벨 세트(10구 이상) 또는 카카오톡 알림톡 시스템 세팅</li>
+        <li><strong class="font-bold text-stone-800">보안 및 음향:</strong> 사각지대 없는 4채널 이상 CCTV(카운터 위 필수 배치), 앰프 1대 및 10평당 1대 기준 분산 배치용 스피커</li>
+      </ul>
+    </div>
+  </details>
+</div>`
+      },
+      {
+        sectionId: "9.3",
+        sectionTitle: "9.3 초도 식자재 및 일일 오퍼레이션 루틴",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">성공적인 오픈 당일을 위한 식자재 초도 물량 발주 리스트와, 바리스타들이 매일 준수해야 할 오픈/마감 규정임.</p>
+
+<div class="border-t border-stone-200 mt-6">
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 오픈 초도 식자재 발주 리스트</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">커피 원두:</strong> 메인 에스프레소 블렌드 10kg, 디카페인 원두 2kg (디개싱 일자 확인 필수)</li>
+        <li><strong class="font-bold text-stone-800">유제품 라인업:</strong> 일반 우유 1000ml 20팩, 오트 밀크 6팩 (냉장고 내 선입선출 라벨링)</li>
+        <li><strong class="font-bold text-stone-800">시럽 및 소스:</strong> 바닐라 시럽, 헤이즐넛 시럽, 카라멜 소스, 초코 소스 (각 1펌프 10g 토출용 계량펌프 체결)</li>
+        <li><strong class="font-bold text-stone-800">논커피 베이스:</strong> 밀크티 액상 베이스, 말차 파우더, 과일청(레몬/자몽 등), 탄산수</li>
+        <li><strong class="font-bold text-stone-800">티(Tea) 라인업:</strong> 얼그레이, 캐모마일, 페퍼민트, 루이보스 티백 (향 날아감 방지용 밀봉 용기 보관)</li>
+        <li><strong class="font-bold text-stone-800">위생 세정제:</strong> 에스프레소 머신 그룹헤드 전용 파우더, 그라인더 내부 버(Burr) 청소용 알약, 주방세제, 락스</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 오픈 조(Open) 데일리 루틴</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">장비 예열 및 워밍업:</strong> 머신 전원 인가 후 메인 보일러 압력이 1바에서 1.2바에 도달하는지 게이지 확인, 포터필터 체결 상태로 그룹헤드 물 흘려보내기(플러싱) 실시</li>
+        <li><strong class="font-bold text-stone-800">추출 캘리브레이션:</strong> 메인 및 서브 그라인더 영점 조절 (예: 18g 도징, 36g 추출, 수율 18%~22% 정상 범위 내 타겟팅 테이스팅)</li>
+        <li><strong class="font-bold text-stone-800">재고 및 인프라 점검:</strong> 제빙기 얼음 꽉 참 여부 확인, 디저트 쇼케이스 진열, 냉장고 우유 유통기한 교차 체크</li>
+        <li><strong class="font-bold text-stone-800">홀 세팅:</strong> 포스기 기동 및 잔돈(시재) 금액 확인, 매장 메인 조도 80% 세팅, 앰프 플레이리스트 가동, 냉난방기 온도 픽스</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="group border-b border-stone-200 overflow-hidden">
+    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
+      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 마감 조(Close) 데일리 루틴</span>
+      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </summary>
+    <div class="pb-6 pt-2">
+      <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
+        <li><strong class="font-bold text-stone-800">장비 심층 세척:</strong> 블라인드 바스켓과 전용 약품으로 그룹헤드 5회 백플러싱 및 약품 제거용 10회 강제 린싱 실시, 스팀 완드 팁 일자 드라이버로 분해 후 찌꺼기 청소</li>
+        <li><strong class="font-bold text-stone-800">그라인더 큐씨:</strong> 호퍼 내부 잔여 원두 밀폐 용기로 이동, 버(Burr) 주변 고착된 커피 미분 진공청소기 흡입</li>
+        <li><strong class="font-bold text-stone-800">배관 역류 통제:</strong> 싱크대 하부 그리스트랩 슬러지 비우기, 메인 배수구에 70도 이상 고온수 10L 한 번에 부어 내부 유분 뚫어주기(플러싱)</li>
+        <li><strong class="font-bold text-stone-800">위생 및 보안 마감:</strong> 개봉된 잔여 우유 폐기, 제빙기 스쿱 살균, 포스 정산 및 영수증 용지 잔량 체크, CCTV 녹화 점검 후 완전 차단</li>
+      </ul>
+    </div>
+  </details>
+</div>`
+      }
+    ]
   }
 ];
