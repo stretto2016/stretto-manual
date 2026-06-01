@@ -257,8 +257,6 @@ export const manualData = [
       }
     ]
   },
-// 시작: src/data/manualData.js 5~7장 정밀 교정 코드
-export const manualData = [
   {
     phaseId: 5,
     phaseTitle: "5 메뉴 기획 및 원가율(Cost) 설계",
@@ -802,8 +800,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      수천만 원이 깨지는 인테리어 대금과 에스프레소 머신 구매 시 부가세 10%를 환급받는 것이 초기 자금 방어의 핵심임. 영업신고증이 나오기 전이라도, 임대차계약서와 신분증을 지참해 관할 세무서에 가면 '오픈 예정'으로 사업자등록증 선발급이 가능함.<br><br>
-      이를 통해 장비 계약 및 공사 대금 송금 시 반드시 매장 사업자 번호로 세금계산서를 발급받아 두어야 추후 온전하게 부가세를 돌려받을 수 있음.
+      수천만 원이 깨지는 인테리어 대금과 에스프레소 머신 구매 시 부가세 10%를 환급받는 것이 초기 자금 방어의 핵심임. 영업신고증이 나오기 전이라도, 임대차계약서와 신분증을 지참해 관할 세무서에 가면 '오픈 예정'으로 사업자등록증 선발급이 가능함. 이를 통해 장비 계약 및 공사 대금 송금 시 반드시 매장 사업자 번호로 세금계산서를 발급받아 두어야 추후 온전하게 부가세를 돌려받을 수 있음.
     </div>
   </details>
 
@@ -813,8 +810,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨.<br><br>
-      오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.
+      영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨. 오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.
     </div>
   </details>
 </div>`
@@ -841,8 +837,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      마케팅 대행사에 돈을 주고 가짜 영수증 리뷰를 찍어내는 행위는 네이버 알고리즘에 의해 매장 검색 노출이 영구 누락되는 자살 행위임.<br><br>
-      정식 오픈 전 지인이나 동네 커뮤니티 기반의 소규모 체험단을 초대하여 실제 결제 트래픽을 일으키고, 텍스트가 아닌 '사진이 3장 이상 포함된 양질의 영수증 리뷰' 30개를 초기 데이터로 탄탄하게 쌓아 플레이스 순위를 안전하게 끌어올리는 것이 정석임.
+      마케팅 대행사에 돈을 주고 가짜 영수증 리뷰를 찍어내는 행위는 네이버 알고리즘에 의해 매장 검색 노출이 영구 누락되는 자살 행위임. 정식 오픈 전 지인이나 동네 커뮤니티 기반의 소규모 체험단을 초대하여 실제 결제 트래픽을 일으키고, 텍스트가 아닌 '사진이 3장 이상 포함된 양질의 영수증 리뷰' 30개를 초기 데이터로 탄탄하게 쌓아 플레이스 순위를 안전하게 끌어올리는 것이 정석임.
     </div>
   </details>
 
@@ -852,8 +847,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      인스타그램 피드에 원두의 산지와 철학을 설명하는 구구절절한 텍스트는 아무도 읽지 않음. 커피 맛이 좋다는 1,000마디 말보다, 에스프레소가 쫀득하게 떨어지는 하이엔드 머신의 릴스 영상이나 매장의 묵직한 조도가 담긴 공간 사진 1장이 훨씬 강력함.<br><br>
-      피드는 매장의 톤앤매너를 보여주는 룩북(Look-book)으로만 활용하고, 지저분해 보일 수 있는 휴무일이나 공지사항은 스토리 하이라이트로 따로 빼서 브랜드의 시각적 일관성을 유지해야 함.
+      인스타그램 피드에 원두의 산지와 철학을 설명하는 구구절절한 텍스트는 아무도 읽지 않음. 커피 맛이 좋다는 천 마디 말보다, 에스프레소가 쫀득하게 떨어지는 하이엔드 머신의 릴스 영상이나 매장의 묵직한 조도가 담긴 공간 사진 1장이 훨씬 강력함. 피드는 매장의 톤앤매너를 보여주는 룩북(Look-book)으로만 활용하고, 지저분해 보일 수 있는 휴무일이나 공지사항은 스토리 하이라이트로 따로 빼서 브랜드의 시각적 일관성을 유지해야 함.
     </div>
   </details>
 </div>`
@@ -861,7 +855,7 @@ export const manualData = [
       {
         sectionId: "7.3",
         sectionTitle: "7.3 스트레스 테스트 및 그랜드 오픈 전략",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">오픈 첫 1일 손님이 몰려 음료가 20분씩 지연되면 그 매장의 이미지는 회복 불가능함. 완벽한 대비태세를 갖추기 위한 실무 매뉴얼임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">오픈 첫날 손님이 몰려 음료가 20분씩 지연되면 그 매장의 이미지는 회복 불가능함. 완벽한 대비태세를 갖추기 위한 실무 매뉴얼임.</p>
 
 <div class="border-t border-stone-200 mt-6">
   <details class="group border-b border-stone-200 overflow-hidden">
@@ -870,8 +864,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      가오픈(Soft Opening)은 지인들을 불러 칭찬을 듣는 자리가 아님. 동시에 10팀이 몰려들었을 때 POS 영수증이 꼬이지 않는지, 연속 추출 시 머신의 보일러 스팀 압력이 버티는지, 피크 타임에 제빙기 얼음이 동나지 않는지 점검하는 '버그 리포트' 기간임.<br><br>
-      고의로 오퍼레이션의 한계치를 유발하여 바리스타 간의 동선 충돌 and 레시피의 병목 현상을 찾아내고, 정식 오픈 전까지 바 세팅을 전면 수정하는 데 목적을 둬야 함.
+      가오픈(Soft Opening)은 지인들을 불러 칭찬을 듣는 자리가 아님. 동시에 10팀이 몰려들었을 때 POS 영수증이 꼬이지 않는지, 연속 추출 시 머신의 보일러 스팀 압력이 버티는지, 피크 타임에 제빙기 얼음이 동나지 않는지 점검하는 '버그 리포트' 기간임. 고의로 오퍼레이션의 한계치를 유발하여 바리스타 간의 동선 충돌과 레시피의 병목 현상을 찾아내고, 정식 오픈 전까지 바 세팅을 전면 수정하는 데 목적을 둬야 함.
     </div>
   </details>
 
@@ -881,8 +874,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      그랜드 오픈 시 '전 메뉴 50% 할인'이나 '아메리카노 1,000원' 같은 단가 인하 행사는 절대 금물임. 이는 행사 기간이 끝나면 즉시 발길을 끊는 체리피커(Cherry Picker)들만 매장에 바글거리게 만듦.<br><br>
-      음료의 제값을 온전히 받되, 결제 고객에게 매장의 시그니처 블렌드 드립백을 무료로 제공하거나 로고가 각인된 고품질 리유저블 컵을 증정하여, 가격 훼손 없이 우리 브랜드의 퀄리티를 집까지 가져가게 만드는 전략이 압도적으로 유리함.
+      그랜드 오픈 시 '전 메뉴 50% 할인'이나 '아메리카노 1000원' 같은 단가 인하 행사는 절대 금물임. 이는 행사 기간이 끝나면 즉시 발길을 끊는 체리피커(Cherry Picker)들만 매장에 바글거리게 만듦. 음료의 제값을 온전히 받되, 결제 고객에게 매장의 시그니처 블렌드 드립백을 무료로 제공하거나 로고가 각인된 고품질 리유저블 컵을 증정하여, 가격 훼손 없이 우리 브랜드의 퀄리티를 집까지 가져가게 만드는 전략이 압도적으로 유리함.
     </div>
   </details>
 
@@ -892,18 +884,13 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      오픈발로 밀려든 첫 1회 방문 고객이 2주일 내에 다시 매장을 찾도록 강제하는 장치가 필요함. 구두로만 "또 오세요"라고 인사하는 것은 의미가 없음.<br><br>
-      첫 결제 고객에게 음료와 함께 '2주일 내 재방문 시 시그니처 구움과자 무료 증정' 등 확실하고 매력적인 베네핏이 적힌 실물 바우처 쿠폰을 건네주어, 단발성 호기심 방문을 정기적인 소비 습관으로 전환시키는 리텐션(Retention) 시스템을 가동해야 함.
+      오픈발로 밀려든 첫 방문 고객이 2주일 내에 다시 매장을 찾도록 강제하는 장치가 필요함. 구두로만 "또 오세요"라고 인사하는 것은 의미가 없음. 첫 결제 고객에게 음료와 함께 '2주일 내 재방문 시 시그니처 구움과자 무료 증정' 등 확실하고 매력적인 베네핏이 적힌 실물 바우처 쿠폰을 건네주어, 단발성 호기심 방문을 정기적인 소비 습관으로 전환시키는 리텐션(Retention) 시스템을 가동해야 함.
     </div>
   </details>
 </div>`
-      },
-    
-// =========================================================================
-// 붙여넣을 위치: src/data/manualData.js 파일 내 phaseId: 8, phaseId: 9 전체 구간
-// 삭제할 코드 처음:   { phaseId: 8, phaseTitle: "8 바리스타 스탠다드 및 오퍼레이션 규정", sections: [
-// 삭제할 코드 끝:     ] } ] (파일의 마지막 배열 닫는 괄호 앞까지)
-// =========================================================================
+      }
+    ]
+  },
   {
     phaseId: 8,
     phaseTitle: "8 바리스타 스탠다드 및 오퍼레이션 규정",
@@ -912,23 +899,23 @@ export const manualData = [
         sectionId: "8.1",
         sectionTitle: "8.1 고객 접객 및 MOT 행동 강령",
         content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 3초 룰과 에코(Echo) 인사 프로토콜</h4>
-<p class="text-stone-700 mb-6 leading-relaxed">고객이 문을 열고 들어온 직후 3초 이내에 바 내부의 전 직원이 고객을 인지해야 함. 입구를 최초로 발견한 직원이 작업 중이더라도 시선을 맞추며 "안녕하세요, 스트레토입니다"라고 차분하고 명확한 톤으로 선창함.<br><br>과도하게 높은 솔 톤의 기계적인 인사는 하이엔드 로스터리의 무게감을 떨어뜨리므로 지양함. 선창이 나오면 나머지 직원들은 즉각 하던 일을 멈추지 않더라도 "안녕하세요"라고 후창(Echo)하여, 전 직원이 고객을 환대하고 있다는 심리적 안정감을 제공함. 퇴점 시에도 동일하게 "감사합니다. 안녕히 가세요"로 에코 인사를 수행함.</p>
+<p class="text-stone-700 mb-6 leading-relaxed">고객이 문을 열고 들어온 직후 3초 이내에 바 내부의 전 직원이 고객을 인지해야 함. 입구를 최초로 발견한 직원이 작업 중이더라도 시선을 맞추며 "안녕하세요, 스트레토입니다"라고 차분하고 명확한 톤으로 선창함. 과도하게 높은 솔 톤의 기계적인 인사는 하이엔드 로스터리의 무게감을 떨어뜨리므로 지양함. 선창이 나오면 나머지 직원들은 즉각 하던 일을 멈추지 않더라도 "안녕하세요"라고 후창(Echo)하여, 전 직원이 고객을 환대하고 있다는 심리적 안정감을 제공함. 퇴점 시에도 동일하게 "감사합니다. 안녕히 가세요"로 에코 인사를 수행함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 스타벅스 LATTE 컴플레인 대응 시스템</h4>
 <p class="text-stone-700 mb-6 leading-relaxed">음료 지연이나 맛에 대한 컴플레인 발생 시 알바생의 자의적 판단과 변명을 금지하며, 다음 5단계 프로토콜을 기계적으로 수행해야 함.<br>
 1단계 Listen(경청): 고객의 말을 끊거나 변명하지 않고 끝까지 들음.<br>
 2단계 Apologize(사과): 상황의 시시비비를 가리지 않고 "불편을 드려 죄송합니다"라고 즉각 사과함.<br>
-3단계 Take action(해결): "새로 1잔 내려드리겠습니다" 등 즉각적인 보상 조치를 취함.<br>
+3단계 Take action(해결): "새로 한 잔 내려드리겠습니다" 등 즉각적인 보상 조치를 취함.<br>
 4단계 Thank(감사): "말씀해 주셔서 감사합니다"라며 피드백에 대한 예의를 갖춤.<br>
 5단계 Explain(설명): 핑계로 들리지 않도록 모든 조치가 끝난 후 사후에 간략히 원인을 설명함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 스페셜티 메뉴 도슨트 및 테이스팅 안내</h4>
-<p class="text-stone-700 mb-8 leading-relaxed">바리스타는 커피의 향미를 정확히 전달하는 도슨트 역할을 수행해야 함.<br><br>예를 들어 산미가 있는 원두를 주문받을 때 "산미가 강한데 괜찮으십니까?" 같은 부정적인 톤의 질문을 금지함. 대신 "과일의 기분 좋은 단맛과 산뜻함이 특징인 원두입니다"라는 긍정적인 테이스팅 노트 기반의 스크립트를 사용해 고객의 미식 경험을 리드해야 함.</p>`
+<p class="text-stone-700 mb-8 leading-relaxed">바리스타는 커피의 향미를 정확히 전달하는 도슨트 역할을 수행해야 함. 예를 들어 산미가 있는 원두를 주문받을 때 "산미가 강한데 괜찮으십니까?" 같은 부정적인 톤의 질문을 금지함. 대신 "과일의 기분 좋은 단맛과 산뜻함이 특징인 원두입니다"라는 긍정적인 테이스팅 노트 기반의 스크립트를 사용해 고객의 미식 경험을 리드해야 함.</p>`
       },
       {
         sectionId: "8.2",
         sectionTitle: "8.2 유니폼 및 복장 위생 규정",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">매장의 청결 상태와 직원의 통일된 외관은 커피 맛을 결정하는 1번째 시각적 지표임. 개인의 자율성을 제한하고 브랜드의 전문성을 우선함.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">매장의 청결 상태와 직원의 통일된 외관은 커피 맛을 결정하는 첫 번째 시각적 지표임. 개인의 자율성을 제한하고 브랜드의 전문성을 우선함.</p>
 
 <div class="border-t border-stone-200 mt-6">
   <details class="group border-b border-stone-200 overflow-hidden">
@@ -937,7 +924,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      자율 복장은 바리스타의 개성을 살릴 수 있으나, 개인의 패션 센스와 위생 관념 편차가 심해 매장의 통일된 전문성을 심각하게 저해함.<br><br>따라서 근무 시간 중에는 매장에서 지급하는 통일된 카라 셔츠와 스트레토 로고가 각인된 전용 바리스타 에이프런(앞치마)을 반드시 착용해야 함.
+      자율 복장은 바리스타의 개성을 살릴 수 있으나, 개인의 패션 센스와 위생 관념 편차가 심해 매장의 통일된 전문성을 심각하게 저해함. 따라서 근무 시간 중에는 매장에서 지급하는 통일된 카라 셔츠와 스트레토 로고가 각인된 전용 바리스타 에이프런(앞치마)을 반드시 착용해야 함.
     </div>
   </details>
 
@@ -947,7 +934,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      에이프런에는 눈에 보이지 않는 미세한 커피 찌꺼기와 우유 단백질이 지속적으로 튀어 세균 번식과 악취의 원인이 됨.<br><br>이를 알바생 개인의 자율 세탁에 맡기면 위생 기준을 통제할 수 없음. 에이프런은 퇴근 시 바 스테이션 전용 수거함에 반납하는 것을 원칙으로 하며, 매장 내 세탁기를 이용해 매일 고온 살균 세탁 및 건조된 앞치마를 다음 근무자가 입도록 시스템화함.
+      에이프런에는 눈에 보이지 않는 미세한 커피 찌꺼기와 우유 단백질이 지속적으로 튀어 세균 번식과 악취의 원인이 됨. 이를 알바생 개인의 자율 세탁에 맡기면 위생 기준을 통제할 수 없음. 에이프런은 퇴근 시 바 스테이션 전용 수거함에 반납하는 것을 원칙으로 하며, 매장 내 세탁기를 이용해 매일 고온 살균 세탁 및 건조된 앞치마를 다음 근무자가 입도록 시스템화함.
     </div>
   </details>
 
@@ -957,7 +944,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      향수 및 향이 강한 핸드크림 사용을 절대 금지함. 손톱은 항상 짧게 유지하고 네일아트나 매니큐어, 치렁치렁한 팔찌는 위생상 철저히 금지함.<br><br>근무 시작 전과 화장실 사용 후에는 전용 세정제로 팔꿈치 밑까지 20초 이상 세척함. 또한 바닥의 물기와 뜨거운 물(90도 이상)로부터 발을 보호하기 위해 발등이 막히고 미끄럼 방지 패드가 부착된 안전 조리화 착용을 의무화함.
+      향수 및 향이 강한 핸드크림 사용을 절대 금지함. 손톱은 항상 짧게 유지하고 네일아트나 매니큐어, 치렁치렁한 팔찌는 위생상 철저히 금지함. 근무 시작 전과 화장실 사용 후에는 전용 세정제로 팔꿈치 밑까지 20초 이상 세척함. 또한 바닥의 물기와 뜨거운 물(90도 이상)로부터 발을 보호하기 위해 발등이 막히고 미끄럼 방지 패드가 부착된 안전 조리화 착용을 의무화함.
     </div>
   </details>
 </div>`
@@ -974,7 +961,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      뒤에 대기 줄이 긴데 메뉴판 앞에서 고민하는 고객에게 손가락으로 포스기를 두드리거나 한숨을 쉬며 재촉하는 뉘앙스를 주는 것은 최악의 응대임.<br><br>이때는 "천천히 고르시고 말씀해 주시겠어요?"라고 안내한 뒤 1보 뒤로 물러서서 시선을 아래로 두어 부담을 덜어주어야 함. 혹은 "저희 시그니처 메뉴인 너티 카라멜 라떼나 산뜻한 브루잉 커피를 많이 찾으시는데 추천해 드릴까요?"라며 선택지를 2개로 압축해 결정을 리드함.
+      뒤에 대기 줄이 긴데 메뉴판 앞에서 고민하는 고객에게 손가락으로 포스기를 두드리거나 한숨을 쉬며 재촉하는 뉘앙스를 주는 것은 최악의 응대임. 이때는 "천천히 고르시고 말씀해 주시겠어요?"라고 안내한 뒤 1보 뒤로 물러서서 시선을 아래로 두어 부담을 덜어주어야 함. 혹은 "저희 시그니처 메뉴인 너티 카라멜 라떼나 산뜻한 브루잉 커피를 많이 찾으시는데 추천해 드릴까요?"라며 선택지를 2개로 압축해 결정을 리드함.
     </div>
   </details>
 
@@ -984,7 +971,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      고객이 웅얼거리거나 작게 말할 때 인상을 찌푸리며 "네? 뭐라고요?"라고 되묻는 행위를 엄격히 금지함.<br><br>바리스타가 상체를 카운터 쪽으로 살짝 기울이며 "고객님, 매장 음악 소리 때문에 잘 안 들리는데 아이스 카페 라떼 1잔 맞으실까요?"라며 정중하게 재확인해야 함. 소통 오류의 원인을 '매장 환경'으로 돌려 고객을 무안하지 않게 배려함.
+      고객이 웅얼거리거나 작게 말할 때 인상을 찌푸리며 "네? 뭐라고요?"라고 되묻는 행위를 엄격히 금지함. 바리스타가 상체를 카운터 쪽으로 살짝 기울이며 "고객님, 매장 음악 소리 때문에 잘 안 들리는데 아이스 카페 라떼 1잔 맞으실까요?"라며 정중하게 재확인해야 함. 소통 오류의 원인을 '매장 환경'으로 돌려 고객을 무안하지 않게 배려함.
     </div>
   </details>
 
@@ -994,7 +981,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      얼음 3알만 넣어달라거나, 우유를 아주 조금만 넣어달라는 디테일한 커스텀 요구 시 "그렇게는 안 됩니다"라는 단호한 거절은 감정싸움을 유발함.<br><br>"최대한 맞춰서 준비해 드리겠습니다만, 매장의 최적 레시피 비율이 변경되어 평소보다 커피 맛이 연해지거나 양이 적어 보일 수 있는 점 미리 양해 부탁드립니다"라고 부작용을 사전에 고지한 후 포스에 특이사항을 명확히 메모함.
+      얼음 3알만 넣어달라거나, 우유를 아주 조금만 넣어달라는 디테일한 커스텀 요구 시 "그렇게는 안 됩니다"라는 단호한 거절은 감정싸움을 유발함. "최대한 맞춰서 준비해 드리겠습니다만, 매장의 최적 레시피 비율이 변경되어 평소보다 커피 맛이 연해지거나 양이 적어 보일 수 있는 점 미리 양해 부탁드립니다"라고 부작용을 사전에 고지한 후 포스에 특이사항을 명확히 메모함.
     </div>
   </details>
 </div>`
@@ -1011,7 +998,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      "여기서 드시면 안 됩니다"라고 면박을 주면 안 됨.<br><br>"고객님, 정말 죄송하지만 매장 내 위생 관리상 외부 음식 취식은 제한하고 있습니다. 매장에 머무르시는 동안 저희가 냉장고에 신선하게 보관해 드릴까요?"라고 거절과 동시에 대안을 제시하여 반발 심리를 차단함.
+      "여기서 드시면 안 됩니다"라고 면박을 주면 안 됨. "고객님, 정말 죄송하지만 매장 내 위생 관리상 외부 음식 취식은 제한하고 있습니다. 매장에 머무르시는 동안 저희가 냉장고에 신선하게 보관해 드릴까요?"라고 거절과 동시에 대안을 제시하여 반발 심리를 차단함.
     </div>
   </details>
 
@@ -1021,7 +1008,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      2인이 4인석 테이블을 2개씩 붙이거나 통로로 의자를 끌어올 경우 즉각 개입함.<br><br>"고객님, 뜨거운 음료가 이동하는 통로라 동선 안전상의 이유로 가구 이동은 어렵습니다. 다치실 수 있으니 제자리로 부탁드리겠습니다"라며 '고객의 안전'을 명분으로 내세워 단호하게 제지함.
+      2인이 4인석 테이블을 2개씩 붙이거나 통로로 의자를 끌어올 경우 즉각 개입함. "고객님, 뜨거운 음료가 이동하는 통로라 동선 안전상의 이유로 가구 이동은 어렵습니다. 다치실 수 있으니 제자리로 부탁드리겠습니다"라며 '고객의 안전'을 명분으로 내세워 단호하게 제지함.
     </div>
   </details>
 
@@ -1031,7 +1018,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      오염된 개인 텀블러를 매장 싱크대에서 수세미로 닦는 것은 교차 오염을 유발함.<br><br>"위생 안전상 싱크대 세척은 어려우며, 원하시면 끓는 물로 가볍게 헹궈만 드리겠습니다"라고 선을 그음. 타 카페 쓰레기 처리 요구 역시 "상가 분리수거 규정 및 위생 문제로 외부 쓰레기는 버려드리기 어렵습니다"라고 단호히 거절함.
+      오염된 개인 텀블러를 매장 싱크대에서 수세미로 닦는 것은 교차 오염을 유발함. "위생 안전상 싱크대 세척은 어려우며, 원하시면 끓는 물로 가볍게 헹궈만 드리겠습니다"라고 선을 그음. 타 카페 쓰레기 처리 요구 역시 "상가 분리수거 규정 및 위생 문제로 외부 쓰레기는 버려드리기 어렵습니다"라고 단호히 거절함.
     </div>
   </details>
 
@@ -1041,7 +1028,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      피크 타임 진입 시 다가가 "점심시간에는 다인원 방문객이 많아 1인석으로 자리 이동을 부탁드립니다"라고 요구함.<br><br>또한 전력망 과부하 핑계를 대어 "안전상의 이유로 전자기기 충전은 2시간 이내로 제한하고 있습니다"라고 안내하여 장기 체류 명분을 차단함.
+      피크 타임 진입 시 다가가 "점심시간에는 다인원 방문객이 많아 1인석으로 자리 이동을 부탁드립니다"라고 요구함. 또한 전력망 과부하 핑계를 대어 "안전상의 이유로 전자기기 충전은 2시간 이내로 제한하고 있습니다"라고 안내하여 장기 체류 명분을 차단함.
     </div>
   </details>
 
@@ -1051,7 +1038,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      커피를 3분의 2 이상 마시고 맛이 이상하다며 리필을 요구할 경우 "고객님, 추출 이상은 1번째 모금에 확인 가능합니다. 이미 절반 이상 드신 상태에서는 정확한 원인 파악이 어려워 규정상 재제조나 환불은 불가합니다"라고 악의적 요구에 명확한 선을 그어야 함.
+      커피를 3분의 2 이상 마시고 맛이 이상하다며 리필을 요구할 경우 "고객님, 추출 이상은 첫 모금에 확인 가능합니다. 이미 절반 이상 드신 상태에서는 정확한 원인 파악이 어려워 규정상 재제조나 환불은 불가합니다"라고 악의적 요구에 명확한 선을 그어야 함.
     </div>
   </details>
 
@@ -1061,7 +1048,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      아동 방치 시 "바 주변에 뜨거운 물과 고가의 장비가 많아 아이가 다칠 위험이 큽니다. 안전을 위해 각별한 케어 부탁드립니다"라고 '안전'을 방패로 경고함.<br><br>목줄을 푼 반려동물의 경우 "다른 손님들도 함께 계시는 공간이라 리드줄을 짧게 잡아주시길 부탁드립니다"라며 펫티켓 룰을 주지시킴.
+      아동 방치 시 "바 주변에 뜨거운 물과 고가의 장비가 많아 아이가 다칠 위험이 큽니다. 안전을 위해 각별한 케어 부탁드립니다"라고 '안전'을 방패로 경고함. 목줄을 푼 반려동물의 경우 "다른 손님들도 함께 계시는 공간이라 리드줄을 짧게 잡아주시길 부탁드립니다"라며 펫티켓 룰을 주지시킴.
     </div>
   </details>
 
@@ -1071,7 +1058,7 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      매장 분위기를 망칠 정도로 소란스러울 경우 "다른 테이블에서 소음으로 인한 불편 접수가 들어오고 있습니다. 조금만 목소리를 낮춰주시길 부탁드립니다"라고 가상의 클레임을 방패 삼아 1차 경고함.<br><br>10분 후에도 개선되지 않을 시 "주변 항의로 영업에 심각한 지장이 발생하여 부득이 퇴점을 요청드립니다"라고 매뉴얼대로 실행함.
+      매장 분위기를 망칠 정도로 소란스러울 경우 "다른 테이블에서 소음으로 인한 불편 접수가 들어오고 있습니다. 조금만 목소리를 낮춰주시길 부탁드립니다"라고 가상의 클레임을 방패 삼아 1차 경고함. 10분 후에도 개선되지 않을 시 "주변 항의로 영업에 심각한 지장이 발생하여 부득이 퇴점을 요청드립니다"라고 매뉴얼대로 실행함.
     </div>
   </details>
 </div>`
@@ -1085,7 +1072,7 @@ export const manualData = [
       {
         sectionId: "9.1",
         sectionTitle: "9.1 행정, 부동산 및 인테리어 검증",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">카페 창업 시 단 1개의 항목이라도 누락될 경우 오픈 지연이나 심각한 오퍼레이션 마비가 발생할 수 있으므로 치밀한 교차 검증이 필수적임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">카페 창업 시 단 하나의 항목이라도 누락될 경우 오픈 지연이나 심각한 오퍼레이션 마비가 발생할 수 있으므로 치밀한 교차 검증이 필수적임.</p>
 
 <div class="border-t border-stone-200 mt-6">
   <details class="group border-b border-stone-200 overflow-hidden">
@@ -1095,12 +1082,12 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">보건증:</strong> 점주 및 알바생 전원 구비함 (검사 후 수령까지 최소 7일 소요됨).</li>
-        <li><strong class="font-bold text-stone-800">위생교육 수료증:</strong> 한국휴게음식업중앙회 온라인 교육 수료 완료 여부를 확인함.</li>
-        <li><strong class="font-bold text-stone-800">임대차계약서:</strong> 건축물대장상 1종 또는 2종 근린생활시설 휴게음식점 용도 확인이 필수임.</li>
-        <li><strong class="font-bold text-stone-800">영업신고증:</strong> 관할 구청 위생과 발급을 완료함 (위반건축물 실사 대비).</li>
-        <li><strong class="font-bold text-stone-800">사업자등록증:</strong> 세무서 발급 및 부가세 환급을 위한 홈택스 사업용 계좌 및 카드 등록을 완료함.</li>
-        <li><strong class="font-bold text-stone-800">인프라 검증:</strong> 전기 최소 15kW 3상 4선식 승압 여부, 50mm 이상 단독 배수관을 확인함.</li>
+        <li><strong class="font-bold text-stone-800">보건증:</strong> 점주 및 알바생 전원 구비 (검사 후 수령까지 최소 7일 소요됨)</li>
+        <li><strong class="font-bold text-stone-800">위생교육 수료증:</strong> 한국휴게음식업중앙회 온라인 교육 수료 완료 여부</li>
+        <li><strong class="font-bold text-stone-800">임대차계약서:</strong> 건축물대장상 1종 또는 2종 근린생활시설 휴게음식점 용도 확인 필수</li>
+        <li><strong class="font-bold text-stone-800">영업신고증:</strong> 관할 구청 위생과 발급 완료 (위반건축물 실사 대비)</li>
+        <li><strong class="font-bold text-stone-800">사업자등록증:</strong> 세무서 발급 및 부가세 환급을 위한 홈택스 사업용 계좌/카드 등록 완료</li>
+        <li><strong class="font-bold text-stone-800">인프라 검증:</strong> 전기 최소 15kW 3상 4선식 승압 여부, 50mm 이상 단독 배수관 확인</li>
       </ul>
     </div>
   </details>
@@ -1112,11 +1099,11 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">바 상판 높이:</strong> 900mm로 타설함 (바리스타 손목 관절 보호 및 탬핑 하중 최적화).</li>
-        <li><strong class="font-bold text-stone-800">바 통로 폭:</strong> 1인 근무 시 900mm, 2인 이상 교차 근무 시 1200mm 동선을 확보함.</li>
-        <li><strong class="font-bold text-stone-800">매립 하부장:</strong> 테이블 냉장고 및 제빙기 발열 공간을 고려해 깊이 최소 800mm를 확보함.</li>
-        <li><strong class="font-bold text-stone-800">타공 및 배선:</strong> 에스프레소 머신 하단 50mm 코어 타공, 장비별(머신, 온수기, 제빙기) 단독 2구 방수 콘센트를 개별 할당함.</li>
-        <li><strong class="font-bold text-stone-800">배수 구배:</strong> 메인 하수구로 향하는 가파른 기울기를 확보하고 70도 이상 고온수를 견디는 PVC 규격을 검증함.</li>
+        <li><strong class="font-bold text-stone-800">바 상판 높이:</strong> 900mm 타설 (바리스타 손목 관절 보호 및 탬핑 하중 최적화)</li>
+        <li><strong class="font-bold text-stone-800">바 통로 폭:</strong> 1인 근무 시 900mm, 2인 이상 교차 근무 시 1200mm 동선 확보</li>
+        <li><strong class="font-bold text-stone-800">매립 하부장:</strong> 테이블 냉장고 및 제빙기 발열 공간을 고려해 깊이 최소 800mm 확보</li>
+        <li><strong class="font-bold text-stone-800">타공 및 배선:</strong> 에스프레소 머신 하단 50mm 코어 타공, 장비별(머신, 온수기, 제빙기) 단독 2구 방수 콘센트 개별 할당</li>
+        <li><strong class="font-bold text-stone-800">배수 구배:</strong> 메인 하수구로 향하는 가파른 기울기 확보 및 70도 이상 고온수를 견디는 PVC 규격 검증</li>
       </ul>
     </div>
   </details>
@@ -1135,12 +1122,12 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">에스프레소 머신:</strong> 2그룹 이상, 14L 이상 열교환기 보일러 또는 독립 듀얼 보일러 모델을 구비함.</li>
-        <li><strong class="font-bold text-stone-800">정밀 그라인더:</strong> 에스프레소용 메인 1대(75mm 이상 버), 디카페인 및 싱글용 서브 1대를 세팅함.</li>
-        <li><strong class="font-bold text-stone-800">제빙기:</strong> 일일 생산량 50kg 이상 체급을 선택함 (매장 통풍 환경에 따라 수냉식 및 공냉식 선택).</li>
-        <li><strong class="font-bold text-stone-800">냉장 및 냉동 설비:</strong> 1500mm 이상 규격의 간냉식 테이블 냉장고, 디저트 쇼케이스를 도입함.</li>
-        <li><strong class="font-bold text-stone-800">온수기 및 블렌더:</strong> 15L 이상 듀얼 콕 온수기, 방음 커버가 일체화된 상업용 고출력 블렌더를 비치함.</li>
-        <li><strong class="font-bold text-stone-800">정수 및 연수 필터:</strong> 머신 전용 연수 필터 1조, 제빙기 및 온수기 전용 카본 정수 필터 1조를 체결함.</li>
+        <li><strong class="font-bold text-stone-800">에스프레소 머신:</strong> 2그룹 이상, 14L 이상 열교환기 보일러 또는 독립 듀얼 보일러 모델</li>
+        <li><strong class="font-bold text-stone-800">정밀 그라인더:</strong> 에스프레소용 메인 1대(75mm 이상 버), 디카페인 및 싱글용 서브 1대</li>
+        <li><strong class="font-bold text-stone-800">제빙기:</strong> 일일 생산량 50kg 이상 체급 (매장 통풍 환경에 따라 수냉식/공냉식 선택)</li>
+        <li><strong class="font-bold text-stone-800">냉장/냉동 설비:</strong> 1500mm 이상 규격의 간냉식 테이블 냉장고, 디저트 쇼케이스</li>
+        <li><strong class="font-bold text-stone-800">온수기 및 블렌더:</strong> 15L 이상 듀얼 콕 온수기, 방음 커버가 일체화된 상업용 고출력 블렌더</li>
+        <li><strong class="font-bold text-stone-800">정수/연수 필터:</strong> 머신 전용 연수 필터 1조, 제빙기 및 온수기 전용 카본 정수 필터 1조 체결</li>
       </ul>
     </div>
   </details>
@@ -1152,10 +1139,10 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">스팀피처:</strong> 600ml 규격 2개(2잔 동시 스티밍용), 350ml 규격 3개(플랫화이트 및 단일 잔용)를 구비함.</li>
-        <li><strong class="font-bold text-stone-800">전자저울:</strong> 0.1g 단위 정밀 측정이 가능한 방수 저울 2개를 비치함 (에스프레소 추출용 및 브루잉용).</li>
-        <li><strong class="font-bold text-stone-800">정밀 추출 툴:</strong> 18g 및 20g VST 또는 IMS 타공 바스켓, 58.5mm 규격 탬퍼 및 디스트리뷰터, 블라인드 바스켓을 준비함.</li>
-        <li><strong class="font-bold text-stone-800">운영 잡동사니:</strong> 실리콘 탬핑 매트, 매립형 넉박스, 바스푼 2개, 샷글라스 4개, 타이머, 온도계, 피처 린서, 그룹헤드 전용 청소 솔을 갖춤.</li>
+        <li><strong class="font-bold text-stone-800">스팀피처:</strong> 600ml 규격 2개(2잔 동시 스티밍용), 350ml 규격 3개(플랫화이트 및 단일 잔용)</li>
+        <li><strong class="font-bold text-stone-800">전자저울:</strong> 0.1g 단위 정밀 측정이 가능한 방수 저울 2개 (에스프레소 추출용 및 브루잉용)</li>
+        <li><strong class="font-bold text-stone-800">정밀 추출 툴:</strong> 18g/20g VST 또는 IMS 타공 바스켓, 58.5mm 규격 탬퍼 및 디스트리뷰터, 블라인드 바스켓</li>
+        <li><strong class="font-bold text-stone-800">운영 잡동사니:</strong> 실리콘 탬핑 매트, 매립형 넉박스, 바스푼 2개, 샷글라스 4개, 타이머, 온도계, 피처 린서, 그룹헤드 전용 청소 솔</li>
       </ul>
     </div>
   </details>
@@ -1167,10 +1154,10 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">매장용 도자기 및 유리잔:</strong> 데미타세 잔(3oz) 6조, 플랫화이트 잔(6oz) 10조, 카푸치노 및 라떼 잔(8oz) 12조, 아이스 유리잔(14oz 및 16oz) 30조를 준비함.</li>
-        <li><strong class="font-bold text-stone-800">서빙 부가 기물:</strong> 벨크리머(1oz 및 2oz) 10개, 실리콘 또는 원목 코스터 30개, 서빙 트레이 5개를 구비함.</li>
-        <li><strong class="font-bold text-stone-800">테이크아웃 컵:</strong> HOT 핫컵(12oz 및 16oz), ICE 투명 PET컵(14oz 및 16oz 및 20oz) 각 1박스를 발주함.</li>
-        <li><strong class="font-bold text-stone-800">패키징 부자재:</strong> 컵 사이즈별 호환 뚜껑(리드), 종이 슬리브(홀더), 개별 포장 빨대, 로고 인쇄 냅킨, 물티슈, 2구 및 4구 종이 캐리어, 포장용 비닐 및 종이봉투를 확보함.</li>
+        <li><strong class="font-bold text-stone-800">매장용 도자기/유리잔:</strong> 데미타세 잔(3oz) 6조, 플랫화이트 잔(6oz) 10조, 카푸치노/라떼 잔(8oz) 12조, 아이스 유리잔(14oz/16oz) 30조</li>
+        <li><strong class="font-bold text-stone-800">서빙 부가 기물:</strong> 벨크리머(1oz/2oz) 10개, 실리콘 또는 원목 코스터 30개, 서빙 트레이 5개</li>
+        <li><strong class="font-bold text-stone-800">테이크아웃 컵:</strong> HOT 핫컵(12oz/16oz), ICE 투명 PET컵(14oz/16oz/20oz) 각 1박스</li>
+        <li><strong class="font-bold text-stone-800">패키징 부자재:</strong> 컵 사이즈별 호환 뚜껑(리드), 종이 슬리브(홀더), 개별 포장 빨대, 로고 인쇄 냅킨, 물티슈, 2구/4구 종이 캐리어, 포장용 비닐 및 종이봉투</li>
       </ul>
     </div>
   </details>
@@ -1182,9 +1169,9 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">결제 시스템:</strong> 메인 포스기 1대, 고객용 서명 패드, 카운터 영수증 프린터 1대, 주방 및 바 주문 확인용 프린터 1대를 듀얼 연동함.</li>
-        <li><strong class="font-bold text-stone-800">통신 및 알림:</strong> 기가 와이파이 라우터, 진동벨 세트(10구 이상) 또는 카카오톡 알림톡 시스템을 세팅함.</li>
-        <li><strong class="font-bold text-stone-800">보안 및 음향:</strong> 사각지대 없는 4채널 이상 CCTV(카운터 위 필수 배치), 앰프 1대 및 10평당 1대 기준 분산 배치용 스피커를 설치함.</li>
+        <li><strong class="font-bold text-stone-800">결제 시스템:</strong> 메인 포스기 1대, 고객용 서명 패드, 카운터 영수증 프린터 1대, 주방/바 주문 확인용 프린터 1대 듀얼 연동</li>
+        <li><strong class="font-bold text-stone-800">통신 및 알림:</strong> 기가 와이파이 라우터, 진동벨 세트(10구 이상) 또는 카카오톡 알림톡 시스템 세팅</li>
+        <li><strong class="font-bold text-stone-800">보안 및 음향:</strong> 사각지대 없는 4채널 이상 CCTV(카운터 위 필수 배치), 앰프 1대 및 10평당 1대 기준 분산 배치용 스피커</li>
       </ul>
     </div>
   </details>
@@ -1203,12 +1190,12 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">커피 원두:</strong> 메인 에스프레소 블렌드 10kg, 디카페인 원두 2kg을 발주함 (디개싱 일자 확인 필수).</li>
-        <li><strong class="font-bold text-stone-800">유제품 라인업:</strong> 일반 우유 1000ml 20팩, 오트 밀크 6팩을 준비함 (냉장고 내 선입선출 라벨링).</li>
-        <li><strong class="font-bold text-stone-800">시럽 및 소스:</strong> 바닐라 시럽, 헤이즐넛 시럽, 카라멜 소스, 초코 소스를 비치함 (각 1펌프 10g 토출용 계량펌프 체결).</li>
-        <li><strong class="font-bold text-stone-800">논커피 베이스:</strong> 밀크티 액상 베이스, 말차 파우더, 과일청(레몬 및 자몽 등), 탄산수를 확보함.</li>
-        <li><strong class="font-bold text-stone-800">티(Tea) 라인업:</strong> 얼그레이, 캐모마일, 페퍼민트, 루이보스 티백을 구비함 (향 날아감 방지용 밀봉 용기 보관).</li>
-        <li><strong class="font-bold text-stone-800">위생 세정제:</strong> 에스프레소 머신 그룹헤드 전용 파우더, 그라인더 내부 버(Burr) 청소용 알약, 주방세제, 락스를 갖춤.</li>
+        <li><strong class="font-bold text-stone-800">커피 원두:</strong> 메인 에스프레소 블렌드 10kg, 디카페인 원두 2kg (디개싱 일자 확인 필수)</li>
+        <li><strong class="font-bold text-stone-800">유제품 라인업:</strong> 일반 우유 1000ml 20팩, 오트 밀크 6팩 (냉장고 내 선입선출 라벨링)</li>
+        <li><strong class="font-bold text-stone-800">시럽 및 소스:</strong> 바닐라 시럽, 헤이즐넛 시럽, 카라멜 소스, 초코 소스 (각 1펌프 10g 토출용 계량펌프 체결)</li>
+        <li><strong class="font-bold text-stone-800">논커피 베이스:</strong> 밀크티 액상 베이스, 말차 파우더, 과일청(레몬/자몽 등), 탄산수</li>
+        <li><strong class="font-bold text-stone-800">티(Tea) 라인업:</strong> 얼그레이, 캐모마일, 페퍼민트, 루이보스 티백 (향 날아감 방지용 밀봉 용기 보관)</li>
+        <li><strong class="font-bold text-stone-800">위생 세정제:</strong> 에스프레소 머신 그룹헤드 전용 파우더, 그라인더 내부 버(Burr) 청소용 알약, 주방세제, 락스</li>
       </ul>
     </div>
   </details>
@@ -1220,10 +1207,10 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">장비 예열 및 워밍업:</strong> 머신 전원 인가 후 메인 보일러 압력이 1바에서 1.2바에 도달하는지 게이지를 확인하고, 포터필터 체결 상태로 그룹헤드 물 흘려보내기(플러싱)를 실시함.</li>
-        <li><strong class="font-bold text-stone-800">추출 캘리브레이션:</strong> 메인 및 서브 그라인더 영점을 조절함 (예: 18g 도징, 36g 추출, 수율 18%에서 22% 정상 범위 내 타겟팅 테이스팅).</li>
-        <li><strong class="font-bold text-stone-800">재고 및 인프라 점검:</strong> 제빙기 얼음 꽉 참 여부를 확인하고, 디저트 쇼케이스 진열, 냉장고 우유 유통기한을 교차 체크함.</li>
-        <li><strong class="font-bold text-stone-800">홀 세팅:</strong> 포스기 기동 및 잔돈(시재) 금액을 확인하고, 매장 메인 조도를 80%로 세팅하며, 앰프 플레이리스트 가동, 냉난방기 온도를 픽스함.</li>
+        <li><strong class="font-bold text-stone-800">장비 예열 및 워밍업:</strong> 머신 전원 인가 후 메인 보일러 압력이 1바에서 1.2바에 도달하는지 게이지 확인, 포터필터 체결 상태로 그룹헤드 물 흘려보내기(플러싱) 실시</li>
+        <li><strong class="font-bold text-stone-800">추출 캘리브레이션:</strong> 메인 및 서브 그라인더 영점 조절 (예: 18g 도징, 36g 추출, 수율 18%~22% 정상 범위 내 타겟팅 테이스팅)</li>
+        <li><strong class="font-bold text-stone-800">재고 및 인프라 점검:</strong> 제빙기 얼음 꽉 참 여부 확인, 디저트 쇼케이스 진열, 냉장고 우유 유통기한 교차 체크</li>
+        <li><strong class="font-bold text-stone-800">홀 세팅:</strong> 포스기 기동 및 잔돈(시재) 금액 확인, 매장 메인 조도 80% 세팅, 앰프 플레이리스트 가동, 냉난방기 온도 픽스</li>
       </ul>
     </div>
   </details>
@@ -1235,10 +1222,10 @@ export const manualData = [
     </summary>
     <div class="pb-6 pt-2">
       <ul class="list-disc pl-5 space-y-3 text-stone-600 leading-relaxed marker:text-stone-400">
-        <li><strong class="font-bold text-stone-800">장비 심층 세척:</strong> 블라인드 바스켓과 전용 약품으로 그룹헤드 5회 백플러싱 및 약품 제거용 10회 강제 린싱을 실시하고, 스팀 완드 팁을 일자 드라이버로 분해 후 찌꺼기를 청소함.</li>
-        <li><strong class="font-bold text-stone-800">그라인더 큐씨:</strong> 호퍼 내부 잔여 원두를 밀폐 용기로 이동하고, 버(Burr) 주변에 고착된 커피 미분을 진공청소기로 흡입함.</li>
-        <li><strong class="font-bold text-stone-800">배관 역류 통제:</strong> 싱크대 하부 그리스트랩 슬러지를 비우고, 메인 배수구에 70도 이상 고온수 10L를 1번에 부어 내부 유분을 뚫어주는 플러싱 작업을 수행함.</li>
-        <li><strong class="font-bold text-stone-800">위생 및 보안 마감:</strong> 개봉된 잔여 우유를 폐기하고, 제빙기 스쿱을 살균하며, 포스 정산 및 영수증 용지 잔량을 체크한 후 CCTV 녹화 점검 후 전원을 차단함.</li>
+        <li><strong class="font-bold text-stone-800">장비 심층 세척:</strong> 블라인드 바스켓과 전용 약품으로 그룹헤드 5회 백플러싱 및 약품 제거용 10회 강제 린싱 실시, 스팀 완드 팁 일자 드라이버로 분해 후 찌꺼기 청소</li>
+        <li><strong class="font-bold text-stone-800">그라인더 큐씨:</strong> 호퍼 내부 잔여 원두 밀폐 용기로 이동, 버(Burr) 주변 고착된 커피 미분 진공청소기 흡입</li>
+        <li><strong class="font-bold text-stone-800">배관 역류 통제:</strong> 싱크대 하부 그리스트랩 슬러지 비우기, 메인 배수구에 70도 이상 고온수 10L 한 번에 부어 내부 유분 뚫어주기(플러싱)</li>
+        <li><strong class="font-bold text-stone-800">위생 및 보안 마감:</strong> 개봉된 잔여 우유 폐기, 제빙기 스쿱 살균, 포스 정산 및 영수증 용지 잔량 체크, CCTV 녹화 점검 후 완전 차단</li>
       </ul>
     </div>
   </details>
