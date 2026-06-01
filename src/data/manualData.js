@@ -257,7 +257,8 @@ export const manualData = [
       }
     ]
   },
-// 1~4장 교정 완료 (대기)
+// 시작: src/data/manualData.js 5~7장 정밀 교정 코드
+export const manualData = [
   {
     phaseId: 5,
     phaseTitle: "5 메뉴 기획 및 원가율(Cost) 설계",
@@ -267,13 +268,14 @@ export const manualData = [
         sectionTitle: "5.1 시그니처 메뉴 기획과 메뉴판 슬림화",
         content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">선택과 집중을 통한 메뉴판 슬림화</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">재고 폐기율(Loss)을 줄이는 백엔드 기획</strong>
-메뉴가 많다고 매출이 오르지 않음. 오히려 안 팔리는 재료가 유통기한을 넘겨 버려지는 폐기율만 높아질 뿐임. 아메리카노와 라떼 같은 필수 커피 메뉴를 제외한 논커피 베리에이션은 최대 5개에서 7개 이하로 제한하는 것이 좋음. 특히 과일 스무디나 생과일주스처럼 손이 많이 가고 재료 보관이 까다로운 메뉴는 과감히 덜어내고, 제조 속도가 빠르며 마진이 좋은 에이드류와 시그니처 밀크티 등으로 라인업을 슬림화해야 바리스타의 노동 피로도를 낮추고 피크 타임 회전율을 높일 수 있음.</p>
+메뉴가 많다고 매출이 오르지 않음. 오히려 안 팔리는 재료가 유통기한을 넘겨 버려지는 폐기율만 높아질 뿐임.<br><br>
+아메리카노와 라떼 같은 필수 커피 메뉴를 제외한 논커피 베리에이션은 최대 5개에서 7개 이하로 제한하는 것이 좋음. 특히 과일 스무디나 생과일주스처럼 손이 많이 가고 재료 보관이 까다로운 메뉴는 과감히 덜어내고, 제조 속도가 빠르며 마진이 좋은 에이드류와 시그니처 밀크티 등으로 라인업을 슬림화해야 바리스타의 노동 피로도를 낮추고 피크 타임 회전율을 높일 수 있음.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">매장의 정체성을 담은 시그니처 베버리지</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">시각적 차별화와 원두 캐릭터의 결합</strong>
-다른 카페에는 없는 우리 매장만의 시그니처 메뉴 1개에서 2개는 필수적으로 기획해야 함. 단순히 달콤한 크림을 올리는 것을 넘어, 납품받는 원두의 향미를 극대화하는 레시피가 필요함. 예를 들어 초콜릿, 아몬드, 자스민, 건포도, 카라멜 향미가 특징인 중강배전 스트레토 블렌드를 사용할 경우, 이 원두로 추출한 진하고 묵직한 에스프레소 베이스에 아몬드 우유와 수제 카라멜 크림을 얹어 견과류의 고소함과 단맛을 배가시키는 '너티 카라멜 크림 라떼'를 시그니처로 내세울 수 있음. 이는 시각적으로 화려할 뿐만 아니라 원두의 캐릭터를 완벽히 활용하는 훌륭한 브랜딩 전략임.</p>`
+다른 카페에는 없는 우리 매장만의 시그니처 메뉴 1개에서 2개는 필수적으로 기획해야 함. 단순히 달콤한 크림을 올리는 것을 넘어, 납품받는 원두의 향미를 극대화하는 레시피가 필요함.<br><br>
+예를 들어 초콜릿, 아몬드, 자스민, 건포도, 카라멜 향미가 특징인 중강배전 스트레토 블렌드를 사용할 경우, 이 원두로 추출한 진하고 묵직한 에스프레소 베이스에 아몬드 우유와 수제 카라멜 크림을 얹어 견과류의 고소함과 단맛을 배가시키는 '너티 카라멜 크림 라떼'를 시그니처로 내세울 수 있음. 이는 시각적으로 화려할 뿐만 아니라 원두의 캐릭터를 완벽히 활용하는 훌륭한 브랜딩 전략임.</p>`
       },
-      // 시작: src/data/manualData.js 5.2 섹션 회계 기준 원가율 및 판매가 책정 보강
       {
         sectionId: "5.2",
         sectionTitle: "5.2 부가세와 로스율을 반영한 실원가 책정법",
@@ -282,18 +284,18 @@ export const manualData = [
 모든 식자재 원가는 부가세(VAT) 10%를 제외한 '공급가액' 기준으로 계산해야 함. 매입 시 지불한 부가세는 종합소득세 및 부가세 신고 시 환급받거나 공제되기 때문임. 또한 매일 아침 영점 조절을 위해 버려지는 원두, 스티밍 후 남는 우유 등 필연적으로 발생하는 5% 내외의 로스율을 반드시 원가에 얹어야 함.
 <br><br>
 아이스 바닐라 라떼 1잔의 원가 역산 예시 (공급가액 기준):<br>
-1. 원두: 1kg 30000원 기준 20g 사용 = 600원<br>
-2. 우유: 1L 2500원 기준 200ml 사용 = 500원<br>
-3. 포장재: 테이크아웃 컵 80원, 뚜껑 30원, 홀더 40원, 빨대 10원 = 160원<br>
-4. 기타: 시럽 1펌프 50원, 얼음 및 정수 필터 감가상각 10원<br>
-순수 원가 합계는 1320원이며, 여기에 로스율 5%(66원)를 더한 1386원이 1잔의 정확한 실원가임.</p>
+1. 원두: 1kg 30,000원 기준 20g 사용 = 600원.<br>
+2. 우유: 1L 2,500원 기준 200ml 사용 = 500원.<br>
+3. 포장재: 테이크아웃 컵 80원, 뚜껑 30원, 홀더 40원, 빨대 10원 = 160원.<br>
+4. 기타: 시럽 1펌프 50원, 얼음 및 정수 필터 감가상각 10원.<br><br>
+순수 원가 합계는 1,320원이며, 여기에 로스율 5%(66원)를 더한 1,386원이 1잔의 정확한 실원가임.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">실매출 기반의 원가율 계산과 교차 마진 전략</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">부가세 포함 판매가의 함정 피하기</strong>
-위 라떼를 메뉴판에 4500원으로 책정했다면, 이 판매가에는 부가세 10%가 포함되어 있음. 즉, 매장 통장에 꽂히는 진짜 내 돈(실매출)은 4091원이고 나머지 409원은 세무서에 낼 세금임.
-실매출 4091원 대비 실원가 1386원을 나누면 이 음료의 실제 원가율은 약 33.8%임. 이상적인 카페 식자재 원가율인 30%를 초과하는 수치임. 이처럼 스페셜티 원두나 프리미엄 시럽 사용으로 특정 메뉴의 원가율이 치솟을 경우, 무작정 가격을 5000원으로 올리기보다 원가율이 15% 미만인 아이스티나 티백 차 종류의 판매 비중을 늘려 매장 전체의 '통합 원가율'을 25%에서 30% 사이로 방어하는 교차 마진(Cross Margin) 설계가 외식업 생존의 핵심임.</p>`
+위 라떼를 메뉴판에 4,500원으로 책정했다면, 이 판매가에는 부가세 10%가 포함되어 있음. 즉, 매장 통장에 꽂히는 진짜 내 돈(실매출)은 4,091원이고 나머지 409원은 세무서에 낼 세금임.<br><br>
+실매출 4,091원 대비 실원가 1,386원을 나누면 이 음료의 실제 원가율은 약 33.8%임. 이상적인 카페 식자재 원가율인 30%를 초과하는 수치임. 이처럼 스페셜티 원두나 프리미엄 시럽 사용으로 특정 메뉴의 원가율이 치솟을 경우, 무작정 가격을 5,000원으로 올리기보다 원가율이 15% 미만인 아이스티나 티백 차 종류의 판매 비중을 늘려 매장 전체의 '통합 원가율'을 25%에서 30% 사이로 방어하는 교차 마진(Cross Margin) 설계가 외식업 생존의 핵심임.</p>`
       },
-{
+      {
         sectionId: "5.3",
         sectionTitle: "5.3 카테고리별 메뉴 레시피",
         content: `<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-bold text-stone-900 block mb-1">메뉴 레시피 노트</strong>제시된 레시피는 메뉴 기획을 위한 기본적인 뼈대임. 이를 토대로 각 매장의 상권과 타겟 고객에 맞춰 재료의 배합량을 가감하여, 오너가 만족하는 최상의 시그니처 음료를 완성하는 데 필요한 메뉴 개발 가이드라인으로 활용해야 함.</p>
@@ -307,35 +309,35 @@ export const manualData = [
     <div class="pb-6 pt-2">
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">에스프레소 (Espresso)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">투샷 기준 18g도징, 1:2 ratio 추출시 36g 서브.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">2샷 기준 18g 도징, 1:2 비율 추출 시 36g 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">리스트레토 (Ristretto)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">투샷 기준 20~25g으로 짧게 추출하여 산미와 임팩트를 극대화함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">2샷 기준 20~25g으로 짧게 추출하여 산미와 임팩트를 극대화함.</div>
       </div>
-      <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 전md:gap-6">
+      <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">룽고 (Lungo)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">투샷 기준 50~60g으로 길게 추출함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">2샷 기준 50~60g으로 길게 추출함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">에스프레소 마키아토</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 투샷 위에 고운 스팀 폼 30g을 정중앙에 얹음.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 2샷 위에 고운 스팀 폼 30g을 정중앙에 얹음.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">에스프레소 콘파냐</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 투샷 위에 단단하게 휘핑된 동물성 생크림 30g을 올림.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 2샷 위에 단단하게 휘핑된 동물성 생크림 30g을 올림.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">에스프레소 로마노</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">잔 테두리에 레몬즙을 림 코팅하고, 에스프레소 투샷에 레몬 슬라이스 1조각을 곁들여 서브함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">잔 테두리에 레몬즙을 림 코팅하고, 에스프레소 2샷에 레몬 슬라이스 1조각을 곁들여 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">아메리카노 (Americano)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 물 200g + 얼음 150g + 에스프레소 투샷 <br>[Hot] 뜨거운 물 250g + 에스프레소 투샷.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 물 200g + 얼음 150g + 에스프레소 2샷.<br>[Hot] 뜨거운 물 250g + 에스프레소 2샷.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">롱 블랙 (Long Black)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 얼음 150g + 물 150g + 에스프레소 투샷 (크레마 보존) <br>[Hot] 뜨거운 물 200g + 에스프레소 투샷.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 얼음 150g + 물 150g + 에스프레소 2샷(크레마 보존).<br>[Hot] 뜨거운 물 200g + 에스프레소 2샷.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">헤이즐넛 아메리카노</div>
@@ -343,15 +345,15 @@ export const manualData = [
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">배치 브루 / 오늘의 커피</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">모카마스터나 마르코 등 브루어 사용 (원두 60g : 물 1000g 비율). 브루잉 후 케그에 보관하며 주문 시 250g을 즉각 서브함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">모카마스터나 마르코 등 브루어 사용(원두 60g : 물 1,000g 비율)임. 브루잉 후 케그에 보관하며 주문 시 250g을 즉각 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">커피 테이스팅 플라이트</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">에어로프레스로 각각 다른 원두 2종 추출(원두 15g : 물 200g). 작은 글라스(4oz)에 100g씩 소분하여 서브함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">에어로프레스로 각각 다른 원두 2종 추출(원두 15g : 물 200g)임. 작은 글라스(4oz)에 100g씩 소분하여 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">콜드브루 오리지널</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">원두 1 : 물 10 비율로 12시간 침출식 추출. 서브 시 콜드브루 원액 80g + 물 120g + 얼음 150g으로 세팅함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">원두 1 : 물 10 비율로 12시간 침출식 추출임. 서브 시 콜드브루 원액 80g + 물 120g + 얼음 150g으로 세팅함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">니트로 콜드브루</div>
@@ -368,43 +370,43 @@ export const manualData = [
     <div class="pb-6 pt-2">
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">코르타도 / 지브롤터</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 전용 4~5oz 글라스] 에스프레소 투샷 + 얇은 스팀 밀크 60g (1:1 비율).</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 전용 4~5oz 글라스] 에스프레소 2샷 + 얇은 스팀 밀크 60g(1:1 비율)임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">피콜로 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 전용 4oz 글라스] 리스트레토 샷 + 스팀 밀크 80g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 전용 4oz 글라스] 리스트레토 샷 + 스팀 밀크 80g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">플랫 화이트 (Flat White)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 8oz 잔] 에스프레소 투샷 + 마이크로 스팀 밀크 150g (폼 두께 0.5cm 이하).</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 8oz 잔] 에스프레소 2샷 + 마이크로 스팀 밀크 150g(폼 두께 0.5cm 이하)임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">전통 카푸치노</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 8oz 잔] 에스프레소 투샷 + 스팀 밀크 150g (거품 두께 1.5cm 이상 둥글게).</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Hot 8oz 잔] 에스프레소 2샷 + 스팀 밀크 150g(거품 두께 1.5cm 이상 둥글게)임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">알 프레도</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">셰이커에 에스프레소 투샷 + 우유 100g + 얼음 5알을 넣고 강하게 셰이킹 후 거품까지 글라스에 푸어링함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">셰이커에 에스프레소 2샷 + 우유 100g + 얼음 5알을 넣고 강하게 셰이킹 후 거품까지 글라스에 푸어링함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 라떼 (Caffè Latte)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 우유 200g + 얼음 150g + 에스프레소 투샷 <br>[Hot] 에스프레소 투샷 + 스팀 밀크 250g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 우유 200g + 얼음 150g + 에스프레소 2샷.<br>[Hot] 에스프레소 2샷 + 스팀 밀크 250g.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">바닐라 / 헤이즐넛 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">아이스 라떼 레시피 + 시럽 25g (에스프레소 샷에 먼저 완벽히 녹임).</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">아이스 라떼 레시피 + 시럽 25g(에스프레소 샷에 먼저 완벽히 녹임)임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">바닐라 페이스트 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">아이스 라떼 레시피 + 천연 바닐라 빈 페이스트 20g 추가.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">아이스 라떼 레시피 + 천연 바닐라 빈 페이스트 20g 추가임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">스윗 라떼 / 카라멜 마키아토</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[스윗 라떼] 아이스 라떼 레시피 + 머스코바도 시럽 20g 추가.<br>[마키아토] 아이스 바닐라 라떼 위에 카라멜 소스 15g 드리즐.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[스윗 라떼] 아이스 라떼 레시피 + 머스코바도 시럽 20g 추가임.<br>[마키아토] 아이스 바닐라 라떼 위에 카라멜 소스 15g 드리즐함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 모카 / 화이트 모카</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 초코/화이트초코 소스 30g (샷에 완벽히 녹임) + 우유 180g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[Iced] 초코/화이트초코 소스 30g(샷에 완벽히 녹임) + 우유 180g + 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">오트 / 소이 / 아몬드 라떼</div>
@@ -425,31 +427,31 @@ export const manualData = [
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">아인슈페너 / 크림 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아인슈페너] 물 100g + 얼음 100g + 샷 위에 크림 60g 얹기.<br>[크림 라떼] 우유 150g + 얼음 100g + 샷 위에 크림 60g 얹기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아인슈페너] 물 100g + 얼음 100g + 샷 위에 크림 60g을 얹음.<br>[크림 라떼] 우유 150g + 얼음 100g + 샷 위에 크림 60g을 얹음.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">브라운 버터 미소 카라멜 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 투샷 + 수제 미소 카라멜 소스 25g(태운 버터, 백된장, 카라멜 1:1:3) 녹임 + 우유 180g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 2샷 + 수제 미소 카라멜 소스 25g(태운 버터, 백된장, 카라멜 1:1:3)을 녹인 후 우유 180g + 얼음 150g을 추가함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">쿠키 버터 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 투샷 + 로투스 스프레드 20g 녹임 + 넛맥 가루 1톡 + 우유 180g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">에스프레소 2샷 + 로투스 스프레드 20g을 녹인 후 넛맥 가루 1톡 + 우유 180g + 얼음 150g을 추가함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">아이스 놀라 / 놀라 콜드폼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">치커리&커피 혼합 콜드브루 원액 100g + 우유 100g + 사탕수수 시럽 15g + 얼음 150g. (놀라 콜드폼은 위에 바닐라 폼 50g 추가)</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">치커리&커피 혼합 콜드브루 원액 100g + 우유 100g + 사탕수수 시럽 15g + 얼음 150g임(놀라 콜드폼은 위에 바닐라 폼 50g을 추가함).</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">아니세타 / 에스프레소 토닉</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아니세타] 셰이커에 투샷 + 감초/팔각 시럽 10g + 얼음 넣고 하드 셰이킹 후 마티니 글라스 서브.<br>[토닉] 얼음 150g + 토닉워터 150g + 투샷 살살 붓기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아니세타] 셰이커에 2샷 + 감초/팔각 시럽 10g + 얼음을 넣고 하드 셰이킹 후 마티니 글라스에 서브함.<br>[토닉] 얼음 150g + 토닉워터 150g + 2샷을 살살 부어줌.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">흑임자 / 쑥 크림 샷 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">우유 150g + 얼음 150g + 에스프레소 투샷 위에 흑임자/쑥 페이스트를 섞은 크림 60g 얹기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">우유 150g + 얼음 150g + 에스프레소 2샷 위에 흑임자/쑥 페이스트를 섞은 크림 60g을 얹음.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">아포가토 / 썸머 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아포가토] 아이스크림 2스쿱 + 투샷 서브. <br>[썸머] 아이스 라떼 레시피(얼음 소량) + 아이스크림 1스쿱 얹기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아포가토] 아이스크림 2스쿱 + 2샷을 서브함.<br>[썸머] 아이스 라떼 레시피(얼음 소량) + 아이스크림 1스쿱을 얹음.</div>
       </div>
     </div>
   </details>
@@ -462,27 +464,27 @@ export const manualData = [
     <div class="pb-6 pt-2">
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">리얼 딸기 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">딸기청 70g + 얼음 150g + 우유 200g (섞이지 않게 층 내어 푸어링) + 생딸기 다이스 20g 토핑.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">딸기청 70g + 얼음 150g + 우유 200g(섞이지 않게 층 내어 푸어링) + 생딸기 다이스 20g을 토핑함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">말차 / 녹차 라떼 계열</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">말차 파우더 35g을 뜨거운 물 30ml에 완벽히 녹인 후 얼음 150g + 우유 180g 추가. (응용: 우베 클라우드 마차, 스트로베리 마차 등)</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">말차 파우더 35g을 뜨거운 물 30ml에 완벽히 녹인 후 얼음 150g + 우유 180g을 추가함(응용: 우베 클라우드 마차, 스트로베리 마차 등임).</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">딥 초콜릿 라떼 / 핫 초콜릿</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">초코 파우더 25g + 초코 소스 15g을 뜨거운 물 30g에 녹인 후 얼음 150g + 우유 180g 추가.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">초코 파우더 25g + 초코 소스 15g을 뜨거운 물 30g에 녹인 후 얼음 150g + 우유 180g을 추가함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">밀크티 및 티 라떼 류</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[로얄/얼그레이] 밀크티 액상 베이스 40g + 우유 180g + 얼음 150g.<br>[로즈 카다멈] 장미/카다멈 농축 시럽 25g + 블랙티 베이스 50g + 우유 150g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[로얄/얼그레이] 밀크티 액상 베이스 40g + 우유 180g + 얼음 150g임.<br>[로즈 카다멈] 장미/카다멈 농축 시럽 25g + 블랙티 베이스 50g + 우유 150g + 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">스파클링 에이드 류</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">과일청(레몬/자몽 등) 65g + 얼음 150g + 차가운 탄산수 150g (로즈마리 및 건조 과일칩 가니쉬).</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">과일청(레몬/자몽 등) 65g + 얼음 150g + 차가운 탄산수 150g임(로즈마리 및 건조 과일칩 가니쉬를 곁들임).</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">요거트 스무디 / 프라페</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">블렌더에 우유 120g + 파우더/베이스 50g + 얼음 200g 넣고 20초간 블렌딩함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">블렌더에 우유 120g + 파우더/베이스 50g + 얼음 200g을 넣고 20초간 블렌딩함.</div>
       </div>
     </div>
   </details>
@@ -495,15 +497,15 @@ export const manualData = [
     <div class="pb-6 pt-2">
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">민트 모히토 아이스 커피</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[필즈 커피] 민트 잎 10장과 설탕 시럽 20g을 가볍게 찧고 얼음 채움 + 드립 커피 150g + 헤비 크림 50g 토핑.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[필즈 커피] 민트 잎 10장과 설탕 시럽 20g을 가볍게 찧고 얼음을 채운 후 드립 커피 150g + 헤비 크림 50g을 토핑함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">스패니쉬 라떼 / 교토 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[% 아라비카] 잔 바닥 가당 연유 30g + 우유 180g + 얼음 150g + 에스프레소 투샷 층 분리.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[% 아라비카] 잔 바닥에 가당 연유 30g + 우유 180g + 얼음 150g + 에스프레소 2샷을 부어 층을 분리함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">안젤리노 (The Angeleno)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[인텔리젠시아] 에스프레소 포샷(약 70g) + 우유 120g + 아가베 시럽 20g + 얼음을 넣고 하드 셰이킹.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[인텔리젠시아] 에스프레소 4샷(약 70g) + 우유 120g + 아가베 시럽 20g + 얼음을 넣고 하드 셰이킹함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">블랙 앤 탄 (Black and Tan)</div>
@@ -511,67 +513,67 @@ export const manualData = [
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">마카다미아 아몬드 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[GGET] 수제 마카다미아 아몬드 밀크 200g + 얼음 150g + 에스프레소 투샷.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[GGET] 수제 마카다미아 아몬드 밀크 200g + 얼음 150g + 에스프레소 2샷임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">아히 모카 / 스파이시 모카</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[오닉스 커피 랩] 에스프레소 투샷에 다크 초콜릿 소스 25g과 카이엔 페퍼 1꼬집을 녹인 뒤 스팀 밀크 250g 붓기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[오닉스 커피 랩] 에스프레소 2샷에 다크 초콜릿 소스 25g과 카이엔 페퍼 1꼬집을 녹인 뒤 스팀 밀크 250g을 부어줌.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">메이플 라떼 (Maple Latte)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[버브 커피 로스터스] 에스프레소 투샷 + 퓨어 메이플 시럽 20g + 우유 180g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[버브 커피 로스터스] 에스프레소 2샷 + 퓨어 메이플 시럽 20g + 우유 180g + 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">비체린 (Bicerin)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 알 비체린] 뜨겁고 묵직한 핫초콜릿 50g + 에스프레소 원샷 + 무가당 생크림 30g을 층지게 쌓아 서브.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 알 비체린] 뜨겁고 묵직한 핫초콜릿 50g + 에스프레소 1샷 + 무가당 생크림 30g을 층지게 쌓아 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 마로키노</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[오르소 라보라토리오] 미니 글라스 벽면에 초콜릿 파우더 더스팅 + 에스프레소 원샷 + 벨벳 밀크폼 30g + 파우더 다시 더스팅.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[오르소 라보라토리오] 미니 글라스 벽면에 초콜릿 파우더 더스팅 + 에스프레소 1샷 + 벨벳 밀크폼 30g + 파우더를 다시 더스팅함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">더티 차이 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[토비스 에스테이트] 마살라 차이 농축액 30g + 우유 180g + 얼음 150g + 에스프레소 투샷.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[토비스 에스테이트] 마살라 차이 농축액 30g + 우유 180g + 얼음 150g + 에스프레소 2샷임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">코코넛 콜드브루</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[버브 커피 로스터스] 얼음 150g + 무가당 코코넛 워터 100g + 콜드브루 원액 80g 부어 층 내기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[버브 커피 로스터스] 얼음 150g + 무가당 코코넛 워터 100g + 콜드브루 원액 80g을 부어 층을 냄.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">판단 라떼 (Pandan Latte)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[PPP 커피] 동남아식 판단 시럽 20g + 우유 180g + 얼음 150g + 에스프레소 투샷.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[PPP 커피] 동남아식 판단 시럽 20g + 우유 180g + 얼음 150g + 에스프레소 2샷임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">프레도 에스프레소</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[타프 커피] 에스프레소 투샷 + 설탕 10g + 얼음 2알 넣고 고속 믹싱하여 크레마 폼 생성 후 새 얼음 잔에 푸어링.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[타프 커피] 에스프레소 2샷 + 설탕 10g + 얼음 2알을 넣고 고속 믹싱하여 크레마 폼을 생성한 후 새 얼음 잔에 푸어링함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">지브랄타 (Gibraltar)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[리추얼 커피 로스터스] 에스프레소 투샷(더블 리스트레토) + 약 55도의 마이크로 스팀 밀크 60g 붓기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[리추얼 커피 로스터스] 에스프레소 2샷(더블 리스트레토) + 약 55도의 마이크로 스팀 밀크 60g을 부어줌.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 미엘 (Caffè Miel)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[매드캡 커피] 천연 꿀 20g과 시나몬 1톡에 에스프레소 투샷을 부어 녹인 뒤 스팀 밀크 250g 붓기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[매드캡 커피] 천연 꿀 20g과 시나몬 1톡에 에스프레소 2샷을 부어 녹인 뒤 스팀 밀크 250g을 부어줌.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">브라운 슈가 오트 셰이큰 에스프레소</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[스타벅스 리저브] 에스프레소 투샷 + 흑당 시럽 20g + 시나몬 1톡을 얼음과 하드 셰이킹 후 오트밀크 60g 띄움.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[스타벅스 리저브] 에스프레소 2샷 + 흑당 시럽 20g + 시나몬 1톡을 얼음과 하드 셰이킹한 후 오트밀크 60g을 띄움.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카다멈 라떼 (Cardamom Latte)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[데이글로우] 이국적인 향이 강한 카다멈 농축 시럽 20g + 우유 180g + 얼음 150g + 에스프레소 투샷.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[데이글로우] 이국적인 향이 강한 카다멈 농축 시럽 20g + 우유 180g + 얼음 150g + 에스프레소 2샷임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">스모크드 버터스카치 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[스타벅스 로스터리] 훈연 버터스카치 소스 30g 베이스 + 에스프레소 투샷 + 스팀 밀크 250g + 스모크드 슈가 토핑.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[스타벅스 로스터리] 훈연 버터스카치 소스 30g 베이스 + 에스프레소 2샷 + 스팀 밀크 250g + 스모크드 슈가를 토핑함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">커피 콤부차 (Coffee Kombucha)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[커피 콜렉티브] 발효된 커피 콤부차 원액 50g + 탄산수 120g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[커피 콜렉티브] 발효된 커피 콤부차 원액 50g + 탄산수 120g + 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">에스프레소 올드 패션드</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[커피 바 공통] 에스프레소 투샷 + 심플 시럽 10g + 앙고스투라 비터스 2대시를 30초간 스터링 후 큐브 얼음에 푸어링 (오렌지 껍질 가니쉬).</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[커피 바 공통] 에스프레소 2샷 + 심플 시럽 10g + 앙고스투라 비터스 2대시를 30초간 스터링한 후 큐브 얼음에 푸어링함(오렌지 껍질 가니쉬를 곁들임).</div>
       </div>
     </div>
   </details>
@@ -584,83 +586,83 @@ export const manualData = [
     <div class="pb-6 pt-2">
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">매직 (Magic)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[호주 멜버른 전역] 더블 리스트레토 샷 + 약 60도의 실키한 마이크로 스팀 밀크 110g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[호주 멜버른 전역] 더블 리스트레토 샷 + 약 60도의 실키한 마이크로 스팀 밀크 110g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 니코 (Caffè Nico)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[에스프레소 비바체] 에스프레소 투샷 + 오렌지 시럽 10g + 하프앤하프 스팀 60g + 시나몬 1톡 + 신선한 오렌지 제스트.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[에스프레소 비바체] 에스프레소 2샷 + 오렌지 시럽 10g + 하프앤하프 스팀 60g + 시나몬 1톡 + 신선한 오렌지 제스트임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">드래프트 라떼 (Draft Latte)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[라 콜롬브] 콜드브루와 우유 배합액을 질소 케그에 보관 후 얼음 없는 잔에 350g 추출함.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[라 콜롬브] 콜드브루와 우유 배합액을 질소 케그에 보관 후 얼음 없는 잔에 350g을 추출함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">범블 커피 (Bumble Coffee)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[동유럽 스페셜티 씬] 얼음 150g + 카라멜 시럽 15g + 100% 착즙 오렌지 주스 150g + 에스프레소 투샷을 선명하게 층 분리.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[동유럽 스페셜티 씬] 얼음 150g + 카라멜 시럽 15g + 100% 착즙 오렌지 주스 150g + 에스프레소 2샷을 선명하게 층 분리함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">더티 라떼 (Dirty Latte)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[베어 폰드 에스프레소] 아주 차가운 우유 120g 표면에 쫀득한 더블 리스트레토 샷을 부어 섞지 않고 서브.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[베어 폰드 에스프레소] 아주 차가운 우유 120g 표면에 쫀득한 더블 리스트레토 샷을 부어 섞지 않고 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 스트라파짜토</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[나폴리 정통 에스프레소 바] 데미타세 잔 안쪽 카카오 파우더 더스팅 + 설탕 1티스푼 + 에스프레소 원샷 + 10회 강하게 젓기 후 표면 재더스팅.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[나폴리 정통 에스프레소 바] 데미타세 잔 안쪽 카카오 파우더 더스팅 + 설탕 1티스푼 + 에스프레소 1샷 + 10회 강하게 젓기 후 표면을 재더스팅함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">로즈 페탈 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[팜 걸 카페] 에스프레소 투샷 + 로즈 워터 15g + 비트 파우더 1g 섞기 + 스팀 밀크 250g + 건조 장미꽃잎 가니쉬.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[팜 걸 카페] 에스프레소 2샷 + 로즈 워터 15g + 비트 파우더 1g을 섞은 후 스팀 밀크 250g + 건조 장미꽃잎 가니쉬를 올림.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 피에노 (Caffè Pieno)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 나폴리] 에스프레소 원샷 + 크레미나(수제 설탕 크림) 1스푼 + 잔 테두리를 덮을 정도로 카카오 파우더 듬뿍 뿌려 서브.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 나폴리] 에스프레소 1샷 + 크레미나(수제 설탕 크림) 1스푼 + 잔 테두리를 덮을 정도로 카카오 파우더를 듬뿍 뿌려 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">마자그란 (Mazagran)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[오스트리아 빈 카페 씬] 얼음 150g + 레몬즙 20g + 심플 시럽 15g + 찬물 100g + 룽고 에스프레소 더블샷 + 레몬 휠.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[오스트리아 빈 카페 씬] 얼음 150g + 레몬즙 20g + 심플 시럽 15g + 찬물 100g + 룽고 에스프레소 2샷 + 레몬 휠임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">비엔나 멜랑쥬 (Wiener Melange)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 센트럴] 에스프레소 룽고 원샷 + 뜨거운 물 30g + 스팀 밀크 70g + 거친 드라이 밀크폼 듬뿍 얹기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 센트럴] 에스프레소 룽고 1샷 + 뜨거운 물 30g + 스팀 밀크 70g + 거친 드라이 밀크폼을 듬뿍 얹음.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">라벤더 허니 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[고 겟 엠 타이거] 천연 꿀 15g + 라벤더 시럽 10g을 에스프레소 열기에 완전히 녹임 + 우유 180g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[고 겟 엠 타이거] 천연 꿀 15g + 라벤더 시럽 10g을 에스프레소 열기에 완전히 녹임 + 우유 180g + 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">코르타디토 (Cortadito)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[베르사유 레스토랑] 원두와 백설탕을 함께 탬핑해 내린 쿠반 풀 에스프레소 투샷 + 스팀한 무가당 연유 60g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[베르사유 레스토랑] 원두와 백설탕을 함께 탬핑해 내린 쿠반 풀 에스프레소 2샷 + 스팀한 무가당 연유 60g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">피스타치오 로즈 워터 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[% 아라비카] 피스타치오 페이스트 20g + 로즈 워터 5g + 우유 180g + 얼음 150g + 에스프레소 투샷 + 다진 피스타치오 분태 토핑.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[% 아라비카] 피스타치오 페이스트 20g + 로즈 워터 5g + 우유 180g + 얼음 150g + 에스프레소 2샷 + 다진 피스타치오 분태를 토핑함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 수아 다 (Ca Phe Sua Da)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[쯩응우옌 레전드] 가당 연유 40g + 핀 필터로 내린 로부스타 다크 로스팅 원액 80g + 잘게 부순 크러시드 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[쯩응우옌 레전드] 가당 연유 40g + 핀 필터로 내린 로부스타 다크 로스팅 원액 80g + 잘게 부순 크러시드 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">베트남 에그 커피 (Cà Phê Trứng)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 장] 계란 노른자 2개, 연유 30g, 꿀 10g을 5분간 고속 휘핑한 에그 크림을 뜨거운 에스프레소 60g 위에 듬뿍 얹기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[카페 장] 계란 노른자 2개, 연유 30g, 꿀 10g을 5분간 고속 휘핑한 에그 크림을 뜨거운 에스프레소 60g 위에 듬뿍 얹음.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">위엔양 / 동윤영 (Yuenyeung)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[란퐁유엔] 실론티 블랙티 원액 100g + 무가당 연유 30g + 심플 시럽 15g + 콜드브루 원액 80g + 얼음 150g.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[란퐁유엔] 실론티 블랙티 원액 100g + 무가당 연유 30g + 심플 시럽 15g + 콜드브루 원액 80g + 얼음 150g임.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">점적식 오지 드립 / 더치 커피</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[쿠루스] 대형 점적식 기구로 12시간 이상 추출 후 디캔팅. 와인 글라스에 커다란 둥근 얼음 1개와 원액 100g 서브.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[쿠루스] 대형 점적식 기구로 12시간 이상 추출 후 디캔팅함. 와인 글라스에 커다란 둥근 얼음 1개와 원액 100g을 서브함.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">시그니처 티라미수 라떼</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[하이엔드 베이커리 공통] 바닐라 라떼 베이스 위에 마스카포네 치즈 폼 60g 얹기 + 카카오 파우더 더스팅 + 레이디핑거 쿠키 1개 꽂기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[하이엔드 베이커리 공통] 바닐라 라떼 베이스 위에 마스카포네 치즈 폼 60g을 얹고 카카오 파우더 더스팅 후 레이디핑거 쿠키 1개를 꽂아줌.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">씨 솔트 카라멜 폼 콜드브루</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아시아권 트렌드] 얼음 150g + 콜드브루 원액 80g + 물 100g + 시럽 10g 베이스 위에 핑크 솔트가 들어간 카라멜 폼 60g 얹기.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[아시아권 트렌드] 얼음 150g + 콜드브루 원액 80g + 물 100g + 시럽 10g 베이스 위에 핑크 솔트가 들어간 카라멜 폼 60g을 얹음.</div>
       </div>
       <div class="py-3 border-b border-stone-100/50 last:border-0 flex flex-col md:flex-row md:items-start gap-2 md:gap-6">
         <div class="md:w-1/3 font-bold text-stone-800 shrink-0">카페 투바 (Café Touba)</div>
-        <div class="md:w-2/3 text-stone-600 leading-relaxed">[세네갈 로컬] 기니 후추와 클로브를 배합해 로스팅한 향신료 원두 20g을 V60으로 200g 푸어오버 추출한 뒤 설탕 10g 녹여 서브.</div>
+        <div class="md:w-2/3 text-stone-600 leading-relaxed">[세네갈 로컬] 기니 후추와 클로브를 배합해 로스팅한 향신료 원두 20g을 V60으로 200g 푸어오버 추출한 뒤 설탕 10g을 녹여 서브함.</div>
       </div>
     </div>
   </details>
@@ -668,12 +670,6 @@ export const manualData = [
       }
     ]
   },
-// =========================================================================
-// 붙여넣을 위치: src/data/manualData.js 파일 내 phaseId: 6 전체 
-// 삭제할 코드 처음:   { phaseId: 6, phaseTitle: "6 오퍼레이션 및 품질 관리", sections: [
-// 삭제할 코드 끝:     ] }, (7장 시작 전까지의 6장 전체 블록)
-// =========================================================================
-
   {
     phaseId: 6,
     phaseTitle: "6 오퍼레이션 및 실무 매니지먼트",
@@ -683,22 +679,25 @@ export const manualData = [
         sectionTitle: "6.1 아르바이트 노무 관리 및 인건비 방어 실무",
         content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">근로계약서 작성 및 주휴수당의 실체</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">고용노동부 표준 양식 사용 및 벌금 방어</strong>
-알바생이 단 1일을 일하더라도 출근 첫날 근무 시작 전에 근로계약서를 무조건 작성하고 교부해야 함. 미작성 시 최대 500만 원의 벌금이 부과됨. 양식은 고용노동부 홈페이지 정책자료실에서 '표준근로계약서'를 무료로 다운로드하여 사용하면 됨.<br>
-<strong class="font-semibold text-stone-900 block mt-2 mb-1">주휴수당 지급 기준과 스케줄링 쪼개기</strong>
-주휴수당은 1주일에 15시간 이상 근무하는 모든 근로자(알바 포함)에게 '하루치 일당'을 더 주는 법적 의무임. 시급으로 환산하면 약 20%의 인건비가 폭등하는 치명적인 요소임. 이를 합법적으로 방어하려면 파트타이머의 근무 시간을 주 14시간 이하(예: 주 2일, 하루 7시간 근무)로 쪼개어 여러 명을 채용하는 스케줄링 전략이 필수적임.</p>
+알바생이 단 1일을 일하더라도 출근 첫 1일 근무 시작 전에 근로계약서를 무조건 작성하고 교부해야 함. 미작성 시 최대 500만 원의 벌금이 부과됨. 양식은 고용노동부 홈페이지 정책자료실에서 '표준근로계약서'를 무료로 다운로드하여 사용하면 됨.</p>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mt-2 mb-1">주휴수당 지급 기준과 스케줄링 쪼개기</strong>
+주휴수당은 1주일에 15시간 이상 근무하는 모든 근로자(알바 포함)에게 '1일치 일당'을 더 주는 법적 의무임. 시급으로 환산하면 약 20%의 인건비가 폭등하는 치명적인 요소임.<br><br>
+이를 합법적으로 방어하려면 파트타이머의 근무 시간을 주 14시간 이하(예: 주 2일, 하루 7시간 근무)로 쪼개어 여러 명을 채용하는 스케줄링 전략이 필수적임.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4대 보험 가입 의무와 3.3% 프리랜서 신고 리스크</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">탈세의 덫과 노동청 고발 원천 차단</strong>
-카페 알바생을 세금 덜 내겠다고 3.3% 사업소득자(프리랜서)로 신고하는 관행은 명백한 불법임. 직원이 퇴사 후 노동청에 실근로자임을 주장하며 고발하면, 그동안 미납된 4대 보험료와 과태료 수백만 원을 오너가 독박 쓰게 됨. 월 60시간 이상 근무자는 무조건 4대 보험에 가입시키고, 월 60시간 미만 초단시간 근로자는 산재보험만 가입시키는 것이 가장 안전한 원칙임.</p>
+카페 알바생을 세금 덜 내겠다고 3.3% 사업소득자(프리랜서)로 신고하는 관행은 명백한 불법임. 직원이 퇴사 후 노동청에 실근로자임을 주장하며 고발하면, 그동안 미납된 4대 보험료와 과태료 수백만 원을 오너가 독박 쓰게 됨.<br><br>
+월 60시간 이상 근무자는 무조건 4대 보험에 가입시키고, 월 60시간 미만 초단시간 근로자는 산재보험만 가입시키는 것이 가장 안전한 원칙임.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">노무사 기장 대행의 비용과 선택 기준</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">감정 노동의 외주화 및 피드백 속도</strong>
-직원이 3명 이상 넘어가면 급여 명세서 의무 교부, 4대 보험 취득 및 상실 신고, 일자리 안정자금 등 정부 지원금 신청을 오너가 직접 챙기기 불가능함. 매월 10만 원에서 15만 원의 기장료를 내고 노무법인에 아웃소싱하는 것이 정신 건강과 매장 운영에 압도적으로 이로움. 노무사를 선택할 때는 화려한 이력의 대형 법인보다, 실시간 카카오톡 소통이 가능하고 내 질문에 30분 이내로 명확한 가이드를 찍어주는 실무형 노무사를 고르는 것이 핵심임.</p>`
+직원이 3명 이상 넘어가면 급여 명세서 의무 교부, 4대 보험 취득 및 상실 신고, 일자리 안정자금 등 정부 지원금 신청을 오너가 직접 챙기기 불가능함.<br><br>
+매월 10만 원에서 15만 원의 기장료를 내고 노무법인에 아웃소싱하는 것이 정신 건강과 매장 운영에 압도적으로 이로움. 노무사를 선택할 때는 화려한 이력의 대형 법인보다, 실시간 카카오톡 소통이 가능하고 내 질문에 30분 이내로 명확한 가이드를 찍어주는 실무형 노무사를 고르는 것이 핵심임.</p>`
       },
       {
         sectionId: "6.2",
         sectionTitle: "6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">매출이 높아도 통장에 남는 돈이 없다면 백이면 백 식자재 로스 관리에 구멍이 뚫린 것임. 바리스타의 손끝에서 새어나가는 10원의 손실을 막는 실무 시스템임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">매출이 높아도 통장에 남는 돈이 없다면 100이면 100 식자재 로스 관리에 구멍이 뚫린 것임. 바리스타의 손끝에서 새어나가는 10원의 손실을 막는 실무 시스템임.</p>
 
 <div class="border-t border-stone-200 mt-6">
   <details class="group border-b border-stone-200 overflow-hidden">
@@ -707,7 +706,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      바닐라 라떼를 만들 때 '시럽 2펌프'라는 레시피는 쓰레기임. 제조사마다 1펌프의 토출량이 7g, 10g, 15g으로 전부 다름. 알바생이 펌프를 끝까지 누르지 않고 반만 누르는 습관이 있다면 음료 맛은 매번 달라지고 원가 계산은 붕괴됨. 모든 시럽과 소스 병 앞에는 '1펌프 = 10g'이라는 라벨을 붙이고, 전자저울에 올려 정확히 타겟 무게가 들어가는지 매일 확인하는 훈련을 시켜야 함. 파우더 역시 밥숟가락이 아닌 계량스푼을 깎아내어(Leveling) 15g을 정확히 맞추도록 통제해야 함.
+      바닐라 라떼를 만들 때 '시럽 2펌프'라는 레시피는 쓰레기임. 제조사마다 1펌프의 토출량이 7g, 10g, 15g으로 전부 다름. 알바생이 펌프를 끝까지 누르지 않고 반만 누르는 습관이 있다면 음료 맛은 매번 달라지고 원가 계산은 붕괴됨.<br><br>
+      모든 시럽 및 소스 병 앞에는 '1펌프 = 10g'이라는 라벨을 붙이고, 전자저울에 올려 정확히 타겟 무게가 들어가는지 매일 확인하는 훈련을 시켜야 함. 파우더 역시 밥숟가락이 아닌 계량스푼을 깎아내어(Leveling) 15g을 정확히 맞추도록 통제해야 함.
     </div>
   </details>
 
@@ -717,7 +717,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      우유는 유통기한이 짧아 폐기율 1순위 품목임. 대리점을 통해 매일 배송받는 것이 가장 이상적이나, 최소 물량 제한(예: 하루 10팩 이상)이 있다면 주 3회(월, 수, 금) 분산 발주로 전환하여 냉장고 공간을 확보하고 폐기를 막아야 함. 입고된 우유와 생과일은 무조건 매직으로 입고 날짜를 크게 적고 냉장고 안쪽에 배치하여 완벽한 선입선출(FIFO)이 이루어지도록 매장 룰을 세팅함.
+      우유는 유통기한이 짧아 폐기율 1순위 품목임. 대리점을 통해 매일 배송받는 것이 가장 이상적이나, 최소 물량 제한(예: 1일 10팩 이상)이 있다면 주 3회(월, 수, 금) 분산 발주로 전환하여 냉장고 공간을 확보하고 폐기를 막아야 함.<br><br>
+      입고된 우유와 생과일은 무조건 매직으로 입고 날짜를 크게 적고 냉장고 안쪽에 배치하여 완벽한 선입선출(FIFO)이 이루어지도록 매장 룰을 세팅함.
     </div>
   </details>
 
@@ -727,15 +728,12 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      라떼 1잔(10oz 잔 기준)을 만들기 위해 우유를 200g 스티밍하고 150g만 부은 뒤 50g을 개수대에 버리는 직원이 있다면 당장 교정해야 함. 하루 100잔이면 5L의 우유(약 13,000원)가 하수구로 버려지는 꼴이며 한 달이면 40만 원의 손실임. 각 사이즈별 밀크 피처 내부에 타겟 용량 선(Line)을 긋고, 버려지는 우유가 10g을 넘지 않도록 스티밍 용량을 극한으로 타겟팅하는 연습을 시켜야 함.
+      라떼 1잔(10oz 잔 기준)을 만들기 위해 우유를 200g 스티밍하고 150g만 부은 뒤 50g을 개수대에 버리는 직원이 있다면 당장 교정해야 함. 하루 100잔이면 5L의 우유(약 13,000원)가 하수구로 버려지는 꼴이며 1개월이면 40만 원의 손실임.<br><br>
+      각 사이즈별 밀크 피처 내부에 타겟 용량 선(Line)을 긋고, 버려지는 우유가 10g을 넘지 않도록 스티밍 용량을 극한으로 타겟팅하는 연습을 시켜야 함.
     </div>
   </details>
 </div>`
       },
-      // =========================================================================
-// 붙여넣을 위치: src/data/manualData.js 파일 내 phaseId: 6 -> sections 배열 안의 6.3 섹션 전체 교체
-// 삭제할 코드: 기존 { sectionId: "6.3", sectionTitle: "6.3 매장 셧다운을 막는 시설 유지보수 실무", content: `...` } 객체 전체
-// =========================================================================
       {
         sectionId: "6.3",
         sectionTitle: "6.3 매장 셧다운을 막는 시설 유지보수 실무",
@@ -748,7 +746,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      싱크대에서 버려지는 우유 찌꺼기와 커피 유분은 배관 내부에 고착되어 단단한 슬러지를 형성함. 애초에 75mm 이상의 넓은 배관 규격과 시원한 구배(기울기)를 확보한 완벽한 설비 환경이라면 큰 문제가 없으나, 배관 설계가 부실하거나 50mm 이하의 얇은 관을 사용하는 노후 상가의 경우 역류 방지를 위해 싱크대 하부에 유지망(그리스트랩) 설치를 고려해야 함. 설비의 완벽함과 무관하게, 영업 마감 시 70도 이상의 뜨거운 물 10L를 메인 배수구에 한 번에 부어 배관 내부에 쌓인 유분을 강제로 밀어내는(플러싱) 작업을 매일 수행하는 것만으로도 배관 막힘을 예방하는 가장 확실하고 경제적인 통제 수단이 됨.
+      싱크대에서 버려지는 우유 찌꺼기와 커피 유분은 배관 내부에 고착되어 단단한 슬러지를 형성함. 애초에 75mm 이상의 넓은 배관 규격과 시원한 구배(기울기)를 확보한 완벽한 설비 환경이라면 큰 문제가 없으나, 배관 설계가 부실하거나 50mm 이하의 얇은 관을 사용하는 노후 상가의 경우 역류 방지를 위해 싱크대 하부에 유지망(그리스트랩) 설치를 고려해야 함.<br><br>
+      설비의 완벽함과 무관하게, 영업 마감 시 70도 이상의 뜨거운 물 10L를 메인 배수구에 1번에 부어 배관 내부에 쌓인 유분을 강제로 밀어내는(플러싱) 작업을 매일 수행하는 것만으로도 배관 막힘을 예방하는 가장 확실하고 경제적인 통제 수단이 됨.
     </div>
   </details>
 
@@ -758,7 +757,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      상업용 정수 필터의 교체 주기는 렌털 정수기처럼 개월 수로 정해진 것이 아님. 매장의 물 사용량과 수질에 따라 3개월이 될 수도 6개월이 될 수도 있음. 커피 머신 펌프 압력 게이지가 평소 9바에서 7바 이하로 떨어지거나, 제빙기 얼음 생성 속도가 현저히 느려졌다면 수압이 약해진 것이며 이는 필터가 이물질로 막혔다는 가장 확실한 신호임. 이때 즉시 메인 밸브를 잠그고 스페어 필터로 교체할 수 있도록 항상 여분의 카트리지를 매장에 비치해 두어야 함.
+      상업용 정수 필터의 교체 주기는 렌털 정수기처럼 개월 수로 정해진 것이 아님. 매장의 물 사용량과 수질에 따라 3개월이 될 수도 6개월이 될 수도 있음. 커피 머신 펌프 압력 게이지가 평소 9바에서 7바 이하로 떨어지거나, 제빙기 얼음 생성 속도가 현저히 느려졌다면 수압이 약해진 것이며 이는 필터가 이물질로 막혔다는 가장 확실한 신호임.<br><br>
+      이때 즉시 메인 밸브를 잠그고 스페어 필터로 교체할 수 있도록 항상 여분의 카트리지를 매장에 비치해 두어야 함.
     </div>
   </details>
 
@@ -768,19 +768,14 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      커피 찌꺼기와 시럽의 단내는 바퀴벌레와 초파리를 끌어들이는 완벽한 환경임. 매장에 한 번 해충이 번식하면 자체 방역으로는 완벽히 해결하기 어려움. 오픈 첫 달부터 전문 방역 업체와 계약하여 정기적인 관리를 받는 것이 유리함. 이는 단순한 위생을 넘어, 배달 앱 리뷰나 고객 컴플레인으로 인한 치명적인 브랜드 이미지 타격을 막는 가장 저렴한 보험임.
+      커피 찌꺼기와 시럽의 단내는 바퀴벌레와 초파리를 끌어들이는 완벽한 환경임. 매장에 1번 해충이 번식하면 자체 방역으로는 완벽히 해결하기 어려움.<br><br>
+      오픈 첫 1달부터 전문 방역 업체와 계약하여 정기적인 관리를 받는 것이 유리함. 이는 단순한 위생을 넘어, 배달 앱 리뷰나 고객 컴플레인으로 인한 치명적인 브랜드 이미지 타격을 막는 가장 저렴한 보험임.
     </div>
   </details>
 </div>`
       }
     ]
   },
-  // =========================================================================
-// 붙여넣을 위치: src/data/manualData.js 파일 내 phaseId: 7 전체 
-// 삭제할 코드 처음:   { phaseId: 7, phaseTitle: "7 인허가 행정 및 마케팅 오픈", sections: [
-// 삭제할 코드 끝:     ] } (파일의 마지막 배열 요소 전체)
-// =========================================================================
-
   {
     phaseId: 7,
     phaseTitle: "7 인허가 행정 및 마케팅 오픈",
@@ -807,7 +802,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      수천만 원이 깨지는 인테리어 대금과 에스프레소 머신 구매 시 부가세 10%를 환급받는 것이 초기 자금 방어의 핵심임. 영업신고증이 나오기 전이라도, 임대차계약서와 신분증을 지참해 관할 세무서에 가면 '오픈 예정'으로 사업자등록증 선발급이 가능함. 이를 통해 장비 계약 및 공사 대금 송금 시 반드시 매장 사업자 번호로 세금계산서를 발급받아 두어야 추후 온전하게 부가세를 돌려받을 수 있음.
+      수천만 원이 깨지는 인테리어 대금과 에스프레소 머신 구매 시 부가세 10%를 환급받는 것이 초기 자금 방어의 핵심임. 영업신고증이 나오기 전이라도, 임대차계약서와 신분증을 지참해 관할 세무서에 가면 '오픈 예정'으로 사업자등록증 선발급이 가능함.<br><br>
+      이를 통해 장비 계약 및 공사 대금 송금 시 반드시 매장 사업자 번호로 세금계산서를 발급받아 두어야 추후 온전하게 부가세를 돌려받을 수 있음.
     </div>
   </details>
 
@@ -817,7 +813,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨. 오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.
+      영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨.<br><br>
+      오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.
     </div>
   </details>
 </div>`
@@ -844,7 +841,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      마케팅 대행사에 돈을 주고 가짜 영수증 리뷰를 찍어내는 행위는 네이버 알고리즘에 의해 매장 검색 노출이 영구 누락되는 자살 행위임. 정식 오픈 전 지인이나 동네 커뮤니티 기반의 소규모 체험단을 초대하여 실제 결제 트래픽을 일으키고, 텍스트가 아닌 '사진이 3장 이상 포함된 양질의 영수증 리뷰' 30개를 초기 데이터로 탄탄하게 쌓아 플레이스 순위를 안전하게 끌어올리는 것이 정석임.
+      마케팅 대행사에 돈을 주고 가짜 영수증 리뷰를 찍어내는 행위는 네이버 알고리즘에 의해 매장 검색 노출이 영구 누락되는 자살 행위임.<br><br>
+      정식 오픈 전 지인이나 동네 커뮤니티 기반의 소규모 체험단을 초대하여 실제 결제 트래픽을 일으키고, 텍스트가 아닌 '사진이 3장 이상 포함된 양질의 영수증 리뷰' 30개를 초기 데이터로 탄탄하게 쌓아 플레이스 순위를 안전하게 끌어올리는 것이 정석임.
     </div>
   </details>
 
@@ -854,7 +852,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      인스타그램 피드에 원두의 산지와 철학을 설명하는 구구절절한 텍스트는 아무도 읽지 않음. 커피 맛이 좋다는 천 마디 말보다, 에스프레소가 쫀득하게 떨어지는 하이엔드 머신의 릴스 영상이나 매장의 묵직한 조도가 담긴 공간 사진 1장이 훨씬 강력함. 피드는 매장의 톤앤매너를 보여주는 룩북(Look-book)으로만 활용하고, 지저분해 보일 수 있는 휴무일이나 공지사항은 스토리 하이라이트로 따로 빼서 브랜드의 시각적 일관성을 유지해야 함.
+      인스타그램 피드에 원두의 산지와 철학을 설명하는 구구절절한 텍스트는 아무도 읽지 않음. 커피 맛이 좋다는 1,000마디 말보다, 에스프레소가 쫀득하게 떨어지는 하이엔드 머신의 릴스 영상이나 매장의 묵직한 조도가 담긴 공간 사진 1장이 훨씬 강력함.<br><br>
+      피드는 매장의 톤앤매너를 보여주는 룩북(Look-book)으로만 활용하고, 지저분해 보일 수 있는 휴무일이나 공지사항은 스토리 하이라이트로 따로 빼서 브랜드의 시각적 일관성을 유지해야 함.
     </div>
   </details>
 </div>`
@@ -862,7 +861,7 @@ export const manualData = [
       {
         sectionId: "7.3",
         sectionTitle: "7.3 스트레스 테스트 및 그랜드 오픈 전략",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">오픈 첫날 손님이 몰려 음료가 20분씩 지연되면 그 매장의 이미지는 회복 불가능함. 완벽한 대비태세를 갖추기 위한 실무 매뉴얼임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">오픈 첫 1일 손님이 몰려 음료가 20분씩 지연되면 그 매장의 이미지는 회복 불가능함. 완벽한 대비태세를 갖추기 위한 실무 매뉴얼임.</p>
 
 <div class="border-t border-stone-200 mt-6">
   <details class="group border-b border-stone-200 overflow-hidden">
@@ -871,7 +870,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      가오픈(Soft Opening)은 지인들을 불러 칭찬을 듣는 자리가 아님. 동시에 10팀이 몰려들었을 때 POS 영수증이 꼬이지 않는지, 연속 추출 시 머신의 보일러 스팀 압력이 버티는지, 피크 타임에 제빙기 얼음이 동나지 않는지 점검하는 '버그 리포트' 기간임. 고의로 오퍼레이션의 한계치를 유발하여 바리스타 간의 동선 충돌과 레시피의 병목 현상을 찾아내고, 정식 오픈 전까지 바 세팅을 전면 수정하는 데 목적을 둬야 함.
+      가오픈(Soft Opening)은 지인들을 불러 칭찬을 듣는 자리가 아님. 동시에 10팀이 몰려들었을 때 POS 영수증이 꼬이지 않는지, 연속 추출 시 머신의 보일러 스팀 압력이 버티는지, 피크 타임에 제빙기 얼음이 동나지 않는지 점검하는 '버그 리포트' 기간임.<br><br>
+      고의로 오퍼레이션의 한계치를 유발하여 바리스타 간의 동선 충돌 and 레시피의 병목 현상을 찾아내고, 정식 오픈 전까지 바 세팅을 전면 수정하는 데 목적을 둬야 함.
     </div>
   </details>
 
@@ -881,7 +881,8 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      그랜드 오픈 시 '전 메뉴 50% 할인'이나 '아메리카노 1000원' 같은 단가 인하 행사는 절대 금물임. 이는 행사 기간이 끝나면 즉시 발길을 끊는 체리피커(Cherry Picker)들만 매장에 바글거리게 만듦. 음료의 제값을 온전히 받되, 결제 고객에게 매장의 시그니처 블렌드 드립백을 무료로 제공하거나 로고가 각인된 고품질 리유저블 컵을 증정하여, 가격 훼손 없이 우리 브랜드의 퀄리티를 집까지 가져가게 만드는 전략이 압도적으로 유리함.
+      그랜드 오픈 시 '전 메뉴 50% 할인'이나 '아메리카노 1,000원' 같은 단가 인하 행사는 절대 금물임. 이는 행사 기간이 끝나면 즉시 발길을 끊는 체리피커(Cherry Picker)들만 매장에 바글거리게 만듦.<br><br>
+      음료의 제값을 온전히 받되, 결제 고객에게 매장의 시그니처 블렌드 드립백을 무료로 제공하거나 로고가 각인된 고품질 리유저블 컵을 증정하여, 가격 훼손 없이 우리 브랜드의 퀄리티를 집까지 가져가게 만드는 전략이 압도적으로 유리함.
     </div>
   </details>
 
@@ -891,13 +892,13 @@ export const manualData = [
       <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
     </summary>
     <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      오픈발로 밀려든 첫 방문 고객이 2주일 내에 다시 매장을 찾도록 강제하는 장치가 필요함. 구두로만 "또 오세요"라고 인사하는 것은 의미가 없음. 첫 결제 고객에게 음료와 함께 '2주일 내 재방문 시 시그니처 구움과자 무료 증정' 등 확실하고 매력적인 베네핏이 적힌 실물 바우처 쿠폰을 건네주어, 단발성 호기심 방문을 정기적인 소비 습관으로 전환시키는 리텐션(Retention) 시스템을 가동해야 함.
+      오픈발로 밀려든 첫 1회 방문 고객이 2주일 내에 다시 매장을 찾도록 강제하는 장치가 필요함. 구두로만 "또 오세요"라고 인사하는 것은 의미가 없음.<br><br>
+      첫 결제 고객에게 음료와 함께 '2주일 내 재방문 시 시그니처 구움과자 무료 증정' 등 확실하고 매력적인 베네핏이 적힌 실물 바우처 쿠폰을 건네주어, 단발성 호기심 방문을 정기적인 소비 습관으로 전환시키는 리텐션(Retention) 시스템을 가동해야 함.
     </div>
   </details>
 </div>`
-      }
-    ]
-  },
+      },
+    
 {
     phaseId: 8,
     phaseTitle: "8 바리스타 스탠다드 및 오퍼레이션 규정",
