@@ -52,32 +52,49 @@ function App() {
     setIsMobileMenuOpen(false);
   };
 
-  // [추가된 로직] 해시(#) 링크 클릭 시 부드럽게 스크롤 이동시키는 이벤트 가로채기
+  // 붙여넣을 코드 처음
+  // [수정된 로직] 해시(#) 링크 클릭 시 해당 섹션으로 화면을 전환한 뒤 스크롤 이동 가로채기
   useEffect(() => {
     const handleHashClick = (e) => {
-      // 클릭된 요소가 <a> 태그인지, 그리고 href 속성이 '#'으로 시작하는지 확인
       const target = e.target.closest('a');
       if (!target) return;
       
       const href = target.getAttribute('href');
       if (!href || !href.startsWith('#')) return;
 
-      // '#'을 제외한 id 값 추출
+      e.preventDefault(); // 주소창 URL 변경 방지
       const id = href.substring(1);
-      const element = document.getElementById(id);
+      
+      // 1. manualData에서 이동할 대상 섹션 찾기
+      let targetSection = null;
+      for (const phase of manualData) {
+        const sec = phase.sections.find(s => s.sectionId === id);
+        if (sec) {
+          targetSection = sec;
+          break;
+        }
+      }
 
-      if (element) {
-        e.preventDefault(); // 주소창 URL 변경 방지
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // 2. 대상 섹션이 존재하면 화면을 전환하고 스크롤 이동
+      if (targetSection) {
+        setActiveSection(targetSection); // 해당 섹션으로 화면 전환
+        
+        // DOM 렌더링이 완료될 시간을 살짝 벌어준 후 부드럽게 스크롤
+        setTimeout(() => {
+          const element = document.getElementById(id);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // 엘리먼트가 없으면 최상단으로
+          }
+        }, 50);
       }
     };
 
-    // 전역 클릭 이벤트 등록
     document.addEventListener('click', handleHashClick);
-    
-    // 컴포넌트가 언마운트될 때 이벤트 제거
     return () => document.removeEventListener('click', handleHashClick);
   }, []);
+// 붙여넣을 코드 끝
 
   // 인증되지 않은 경우 잠금 화면 렌더링
   if (!isAuthorized) {
