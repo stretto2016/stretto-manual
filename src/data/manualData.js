@@ -324,7 +324,7 @@ export const manualData = [
 · 라이트 로스팅된 약배전 싱글 오리진에 필수적임.</p>
 
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「대구경(Large Burr) 사이즈의 압도적 이점」</strong>
-· 71mm를 넘어 80mm 이상의 대구경 칼날을 채택하면 원두가 분쇄되는 면적이 획기적으로 넓어짐. <br>
+· 80mm 이상의 대구경 칼날을 채택하면 원두가 분쇄되는 면적이 획기적으로 넓어짐. <br>
 · 이는 모터의 회전수(RPM)를 낮춰도 분쇄 속도를 유지할 수 있다는 뜻이며, 결과적으로 칼날의 마찰열(Friction Heat)을 최소화함. <br>
 · 연속 그라인딩 시 원두의 향미 성분이 열에 의해 훼손되는 현상을 방어하는 가장 확실한 물리적 스펙임.</p>
 
