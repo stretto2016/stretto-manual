@@ -288,7 +288,7 @@ function App() {
               </div>
             )}
 
-            <article>
+            <article className="select-none">
               <header className="mb-10 md:mb-16">
                 <span className="text-stone-500 font-mono text-xs md:text-sm tracking-widest block mb-3 md:mb-4">SECTION {activeSection.sectionId}</span>
                 <h2 className="text-2xl md:text-4xl font-black tracking-tight text-stone-900 leading-snug md:leading-tight break-keep">
@@ -302,6 +302,11 @@ function App() {
                   dangerouslySetInnerHTML={{ __html: activeSection.content }} 
                 />
               </div>
+
+              {/* 하단 공통 카피라이트 영역 추가 */}
+              <footer className="mt-20 pt-8 border-t border-stone-200 text-center text-[11px] text-stone-400 font-mono tracking-widest">
+                © 2026 STRETTO COFFEE FACTORY. All Rights Reserved.
+              </footer>
             </article>
           </div>
         )}
