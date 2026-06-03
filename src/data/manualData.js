@@ -286,109 +286,166 @@ export const manualData = [
       {
         sectionId: "4.1",
         sectionTitle: "4.1 에스프레소 머신 스펙 및 엔지니어링 큐레이션",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">보급형 열교환기 및 중급 듀얼 보일러 머신</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">일일 추출량 기반 보일러 스펙 타겟팅</strong>
-일일 추출량 300잔 미만 소규모 매장에는 11L 이상 14L 이하 메인 보일러를 탑재한 열교환기 방식 2그룹 머신 세팅이 합리적임.<br><br>독립 보일러 시스템이 아니더라도 14L 체급의 스펙을 갖추면 시간당 50잔 이상의 순간 러시 타임을 안정적으로 방어할 수 있음. 반면 일일 500잔 이상 트래픽이 발생하는 중대형 매장부터는 그룹헤드별 1L 이상의 독립 보일러와 PID 온도 제어 시스템이 장착된 듀얼 보일러 머신을 필수적으로 도입하여 연속 추출에 따른 그룹헤드 온도 저하 현상을 원천 차단해야 함.</p>
+        content: `<h4 id="4.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 보급형 열교환기 및 중급 듀얼 보일러 머신</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「일일 추출량 기반 보일러 스펙 타겟팅」</strong>
+<strong class="font-semibold text-stone-900 block mb-1">a. 1일 추출량 300잔 미만</strong>
+· 소규모 매장에는 11L 이상 14L 이하 메인 보일러를 탑재한 열교환기 방식 2그룹 머신 세팅이 합리적임.<br>
+· 독립 보일러 시스템이 아니더라도 14L 체급의 스펙을 갖추면 시간당 50잔 이상의 순간 러시 타임을 안정적으로 방어할 수 있음. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 1일 추출량 500잔 이상</strong>
+· 중대형 매장부터는 그룹헤드별 1L 이상의 독립 보일러와 PID 온도 제어 시스템이 장착된 듀얼 보일러 머신 도입이 필수.<br>
+· 연속 추출에 따른 그룹헤드 온도 저하 현상을 원천 차단해야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">하이엔드 스페셜티 및 무게 제어 자동화 머신</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">가변압 시스템 및 Gravimetric 머신 도입</strong>
-약배전 싱글 오리진의 복합적인 향미를 한계치까지 발현시키기 위해 포화 그룹헤드 방식과 펌프 압력 프로파일링이 가능한 하이엔드 가변압 머신을 운용함. 3그룹 이상 하이엔드 머신은 최대 소비 전력이 7kW를 초과하므로 인테리어 설계 단계에서 3상 4선식 380V 전력 인입을 최우선으로 확정해야 함.<br><br>특히 일일 1,000잔 이상을 소화하는 메가 트래픽 매장의 경우 기존 플로우 미터 방식의 유량 제어 한계를 극복하기 위해 드립 트레이 하단에 정밀 로드셀을 장착한 Gravimetric 시스템 머신을 도입함. 바리스타의 별도 개입 없이 머신 자체가 실시간으로 추출되는 에스프레소의 무게를 측정하고 타겟 브루 레이시오에 도달하면 펌프를 차단하므로 극한의 러시 타임에도 0.1g 단위의 추출 오차를 완벽하게 통제함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 하이엔드 스페셜티 및 무게 제어 자동화 머신</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「가변압 시스템 및 Gravimetric 머신 도입」</strong>
+<strong class="font-semibold text-stone-900 block mb-1">a. 하이엔드 가변압 머신</strong>
+· 약배전 싱글 오리진의 복합적인 향미를 한계치까지 발현시키기 위해 포화 그룹헤드 방식과 펌프 압력 프로파일링이 가능한 하이엔드 가변압 머신을 운용함.<br>
+· 3그룹 이상 하이엔드 머신은 최대 소비 전력이 7kW를 초과하므로 인테리어 설계 단계에서 3상 4선식 380V 전력 인입을 최우선으로 확정해야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. Gravimetric 시스템 머신</strong>
+· 일일 1,000잔 이상을 소화하는 메가 트래픽 매장의 경우 기존 플로우 미터 방식의 유량 제어 한계를 극복하기 위해 드립 트레이 하단에 정밀 로드셀을 장착한 Gravimetric 시스템 머신을 도입함. <br>
+· 바리스타의 별도 개입 없이 머신 자체가 실시간으로 추출되는 에스프레소의 무게를 측정하고 타겟 브루 레이시오에 도달하면 펌프를 차단하므로 극한의 러시 타임에도 0.1g 단위의 추출 오차를 완벽하게 통제함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#3.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 3.3 설비 인프라 세부 가이드</a>
+  <a href="#4.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 4.2 정밀 그라인딩 및 브루잉 하드웨어 &rarr;</a>
+</div>`
       },
       {
         sectionId: "4.2",
         sectionTitle: "4.2 정밀 그라인딩 및 브루잉 하드웨어",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">버(Burr) 형태와 사이즈가 추출 수율에 미치는 역학</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">코니컬 버(Conical Burr) vs 플랫 버(Flat Burr)</strong>
-원두의 타겟 향미에 따라 그라인더의 칼날(Burr)을 정확히 매칭해야 함. <strong>코니컬 버</strong>는 분쇄 분포도가 상대적으로 넓어 미분(Fines)이 발생하며, 이로 인해 묵직한 바디감과 복합적인 단맛을 끌어내는 데 유리함. 클래식 에스프레소 블렌드나 밀크 베리에이션에 적합함. 반면 <strong>플랫 버</strong>는 입자 균일도가 뛰어나 타겟 수율을 정확히 뽑아낼 수 있으며, 산미의 선명도(Clarity)와 클린컵을 극대화함. 라이트 로스팅된 약배전 싱글 오리진에 필수적임.
-<br><br>
-<strong class="font-semibold text-stone-900 block mb-1">대구경(Large Burr) 사이즈의 압도적 이점</strong>
-71mm를 넘어 80mm 이상의 대구경 칼날을 채택하면 원두가 분쇄되는 면적이 획기적으로 넓어짐. 이는 모터의 회전수(RPM)를 낮춰도 분쇄 속도를 유지할 수 있다는 뜻이며, 결과적으로 칼날의 마찰열(Friction Heat)을 최소화함. 연속 그라인딩 시 원두의 향미 성분이 열에 의해 훼손되는 현상을 방어하는 가장 확실한 물리적 스펙임.</p>
+        content: `<h4 id="4.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 버(Burr) 형태와 사이즈가 추출 수율에 미치는 역학</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「코니컬 버(Conical Burr) vs 플랫 버(Flat Burr)」</strong>
+· 원두의 타겟 향미에 따라 그라인더의 칼날(Burr)을 정확히 매칭해야 함. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 코니컬 버</strong>
+· 분쇄 분포도가 상대적으로 넓어 미분이 발생하며, 이로 인해 묵직한 바디감과 복합적인 단맛을 끌어내는 데 유리함. <br>
+· 클래식 에스프레소 블렌드나 밀크 베리에이션에 적합함. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 플랫 버</strong>
+· 입자 균일도가 뛰어나 타겟 수율을 정확히 뽑아낼 수 있으며, 산미의 선명도(Clarity)와 클린컵을 극대화함. <br>
+· 라이트 로스팅된 약배전 싱글 오리진에 필수적임.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">무게 기반 도징(GbW)과 추출(Gravimetric) 시스템</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">인적 오류 제로: Grind by Weight (GbW) 그라인더</strong>
-기존 타이머 방식 그라인더는 호퍼에 담긴 원두의 하중에 따라 초당 토출량이 매번 달라지는 치명적인 단점이 있음. 이를 해결하기 위해 포터필터 거치대 쪽에 고정밀 로드셀(Load Cell)을 내장하여 0.1g 단위로 무게를 실시간 측정하는 GbW 그라인더(예: Mahlkönig E65S GbW, Victoria Arduino Mythos MYG85)를 메인 바에 도입해야 함. 바쁜 피크 타임에 바리스타가 포터필터를 저울에 올려 영점을 잡고 원두를 덜어내는 5초의 병목(Bottleneck)을 완벽히 차단함.
-<br><br>
-<strong class="font-semibold text-stone-900 block mb-1">수율 매니지먼트의 끝판왕: Gravimetric 에스프레소 머신</strong>
-플로우 미터(유량계)에 의존하는 일반 머신의 한계를 극복하기 위해, 드립 트레이 자체에 저울이 내장된 무게 제어 기반(Gravimetric) 머신(예: La Marzocco Linea PB ABR, Victoria Arduino Black Eagle Gravitech)을 세팅함. 바리스타가 개입하지 않아도 머신이 실시간으로 추출되는 에스프레소의 질량을 측정하고, 타겟 브루 레이시오(Brew Ratio)에 도달하면 즉각 펌프를 컷오프함. 극한의 러시 타임에도 모든 컵의 추출 오차를 0.5g 미만으로 통제함.</p>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「대구경(Large Burr) 사이즈의 압도적 이점」</strong>
+· 71mm를 넘어 80mm 이상의 대구경 칼날을 채택하면 원두가 분쇄되는 면적이 획기적으로 넓어짐. <br>
+· 이는 모터의 회전수(RPM)를 낮춰도 분쇄 속도를 유지할 수 있다는 뜻이며, 결과적으로 칼날의 마찰열(Friction Heat)을 최소화함. <br>
+· 연속 그라인딩 시 원두의 향미 성분이 열에 의해 훼손되는 현상을 방어하는 가장 확실한 물리적 스펙임.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">인건비 방어와 일관성을 위한 오토 브루잉(Auto Brewing)</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">핸드드립의 자동화 및 장비별 포지셔닝</strong>
-브루잉(필터 커피) 바의 인건비 절감과 추출 일관성을 위해 매장 타겟 고객에 맞는 오토 브루잉 장비를 도입해야 함.
-<br><br>
-<strong>1. 싱글 컵 브루어 (예: Marco SP9, Poursteady)</strong><br>
-장점: 정교한 펄스 브루잉(Pulse Brewing) 횟수와 물줄기 제어가 가능하며, 바리스타의 섬세한 핸드드립 레시피를 완벽히 복제함. 화려한 시각적 퍼포먼스로 하이엔드 스페셜티 매장에 적합함.<br>
-단점: 필터 린싱과 원두 도징은 여전히 수동으로 해야 하며, 장비 단가가 에스프레소 머신급으로 매우 고가임.
-<br><br>
-<strong>2. 배치 브루어 (예: Fetco, Bunn, Moccamaster)</strong><br>
-장점: 한 번의 세팅으로 1L에서 3L 이상 대량 추출이 가능함. 추출된 커피를 보온 케그에 담아두면 주문 즉시 탭에서 바로 서브할 수 있어 제조 시간이 1초로 단축됨. 테이크아웃이나 오피스 상권의 '오늘의 커피' 라인업으로 압도적인 효율을 발휘함.<br>
-단점: 단일 메뉴 대량 추출 방식이므로 고객이 다양한 싱글 오리진을 선택하는 컵 단위 주문에는 대응하기 어려움.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 무게 기반 도징(GbW)과 추출(Gravimetric) 시스템</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「인적 오류 제로: Grind by Weight (GbW) 그라인더」</strong>
+· 기존 타이머 방식 그라인더는 호퍼에 담긴 원두의 하중에 따라 초당 토출량이 매번 달라지는 치명적인 단점이 있음. <br>
+· 이를 해결하기 위해 포터필터 거치대 쪽에 고정밀 로드셀(Load Cell)을 내장하여 0.1g 단위로 무게를 실시간 측정하는 GbW 그라인더(예: Mahlkönig E65S GbW, Victoria Arduino Mythos MYG85)를 메인 바에 도입해야 함. <br>
+· 바쁜 피크 타임에 바리스타가 포터필터를 저울에 올려 영점을 잡고 원두를 덜어내는 5초의 병목(Bottleneck)을 완벽히 차단함.</p>
+
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「수율 매니지먼트의 끝판왕: Gravimetric 에스프레소 머신」</strong>
+· 플로우 미터(유량계)에 의존하는 일반 머신의 한계를 극복하기 위해, 드립 트레이 자체에 저울이 내장된 무게 제어 기반(Gravimetric) 머신(예: La Marzocco Linea PB ABR, Victoria Arduino Black Eagle Gravitech)을 세팅함. <br>
+· 바리스타가 개입하지 않아도 머신이 실시간으로 추출되는 에스프레소의 질량을 측정하고, 타겟 브루 레이시오(Brew Ratio)에 도달하면 즉각 펌프를 컷오프함. <br>
+· 극한의 러시 타임에도 모든 컵의 추출 오차를 0.5g 미만으로 통제함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 인건비 방어와 일관성을 위한 오토 브루잉(Auto Brewing)</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「핸드드립의 자동화 및 장비별 포지셔닝」</strong>
+· 브루잉(필터 커피) 바의 인건비 절감과 추출 일관성을 위해 매장 타겟 고객에 맞는 오토 브루잉 장비를 도입해야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 싱글 컵 브루어 (예: Marco SP9, Poursteady)</strong>
+· 장점: 정교한 펄스 브루잉(Pulse Brewing) 횟수와 물줄기 제어가 가능하며, 바리스타의 섬세한 핸드드립 레시피를 완벽히 복제함. 화려한 시각적 퍼포먼스로 하이엔드 스페셜티 매장에 적합함.<br>
+· 단점: 필터 린싱과 원두 도징은 여전히 수동으로 해야 하며, 장비 단가가 에스프레소 머신급으로 매우 고가임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 배치 브루어 (예: Fetco, Bunn, Moccamaster)</strong>
+· 장점: 한 번의 세팅으로 1L에서 3L 이상 대량 추출이 가능함. 추출된 커피를 보온 케그에 담아두면 주문 즉시 탭에서 바로 서브할 수 있어 제조 시간이 1초로 단축됨. 테이크아웃이나 오피스 상권의 '오늘의 커피' 라인업으로 압도적인 효율을 발휘함.<br>
+· 단점: 단일 메뉴 대량 추출 방식이므로 고객이 다양한 싱글 오리진을 선택하는 컵 단위 주문에는 대응하기 어려움.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#4.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 4.1 에스프레소 머신 스펙 및 엔지니어링 큐레이션</a>
+  <a href="#4.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 4.3 냉장 및 제빙 설비의 장단점 비교와 정수 시스템 &rarr;</a>
+</div>`
       },
       {
         sectionId: "4.3",
         sectionTitle: "4.3 냉장 및 제빙 설비의 장단점 비교와 정수 시스템",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">제빙기 냉각 방식 비교: 공냉식 vs 수냉식</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">매장 통풍 환경과 유지비에 따른 선택</strong>
-제빙기는 기계가 얼음을 만들 때 발생하는 뜨거운 열을 어떻게 식히느냐에 따라 두 가지로 나뉨.
-<br><br>
-<strong>1. 공냉식 제빙기</strong><br>
-선풍기처럼 주변 공기로 열을 식히는 방식임. 수도 요금이 적게 들고 설치가 간단하다는 장점이 있음. 하지만 열기를 기계 밖으로 뿜어내기 때문에 좁은 바 카운터 아래에 넣으면 열이 빠져나가지 못해 주변이 매우 더워짐. 특히 한여름에는 기계가 과열되어 얼음이 만들어지는 속도가 느려지거나 기계가 멈출 수 있다는 단점이 있음.
-<br><br>
-<strong>2. 수냉식 제빙기</strong><br>
-수도관을 추가로 연결해 흐르는 물로 열을 식히는 방식임. 주변으로 뜨거운 열기를 내뿜지 않아 작업 환경이 쾌적하고, 밀폐된 공간이나 더운 여름철에도 얼음 생산량이 매우 안정적이라는 것이 가장 큰 장점임. 다만 기계를 식히는 데 물이 계속 소비되므로 공냉식에 비해 수도 요금이 더 많이 나온다는 단점이 있음.</p>
+        content: `<h4 id="4.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 제빙기 냉각 방식 비교: 공냉식 vs 수냉식</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「매장 통풍 환경과 유지비에 따른 선택」</strong>
+· 제빙기는 기계가 얼음을 만들 때 발생하는 뜨거운 열을 어떻게 식히느냐에 따라 두 가지로 분류.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 공냉식 제빙기</strong>
+· 선풍기처럼 주변 공기로 열을 식히는 방식. <br>
+· 장점: 수도 요금이 적게 들고 설치가 간단함. <br>
+· 단점: 열기를 기계 밖으로 뿜어내기 때문에 좁은 바 카운터 아래에 넣으면 열이 빠져나가지 못해 주변이 매우 더워짐. 특히 한여름에는 기계가 과열되어 얼음이 만들어지는 속도가 느려지거나 기계가 멈출 수 있음.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 수냉식 제빙기</strong>
+· 수도관을 추가로 연결해 흐르는 물로 열을 식히는 방식임. <br>
+· 장점: 주변으로 뜨거운 열기를 내뿜지 않아 작업 환경이 쾌적하고, 밀폐된 공간이나 더운 여름철에도 얼음 생산량이 매우 안정적. <br>
+· 단점: 기계를 식히는 데 물이 계속 소비되므로 공냉식에 비해 수도 요금이 높은 편.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">상업용 냉장고 냉각 방식 비교: 직냉식 vs 간냉식</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">식자재 종류와 관리 편의성에 따른 선택</strong>
-<br>
-<strong>1. 직냉식 냉장고</strong><br>
-냉장고 벽면 안쪽에 깔린 파이프가 차가워지는 방식임. 바람이 불지 않아 수분 유지가 잘 되므로 생과일이나 채소를 보관할 때 신선도가 오래 유지되며, 기계값이 상대적으로 저렴한 편임. 하지만 벽면에 얼음(성에)이 두껍게 생기기 때문에 주기적으로 전원을 끄고 성에를 녹이거나 깨서 청소해야 하는 치명적인 번거로움이 있음.
-<br><br>
-<strong>2. 간냉식 냉장고</strong><br>
-내부의 팬이 차가운 바람을 불어 순환시키는 방식임. 성에가 전혀 생기지 않아 청소와 관리가 매우 편하고, 냉장고 구석구석 온도가 일정하게 유지된다는 장점이 있음. 반면 찬 바람이 계속 불기 때문에 포장하지 않은 식자재는 수분이 날아가 쉽게 마를 수 있다는 단점이 있음. 우유, 시럽, 밀폐 용기에 담긴 디저트 등 카페에서 주로 쓰는 식자재 보관에 유리함.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 상업용 냉장고 냉각 방식 비교: 직냉식 vs 간냉식</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「식자재 종류와 관리 편의성에 따른 선택」</strong>
+<strong class="font-semibold text-stone-900 block mb-1">a. 직냉식 냉장고</strong>
+· 냉장고 벽면 안쪽에 깔린 파이프가 차가워지는 방식. <br>
+· 장점: 바람이 불지 않아 수분 유지가 잘 되므로 생과일이나 채소를 보관할 때 신선도가 오래 유지되며, 기계값이 상대적으로 저렴한 편임. <br>
+· 단점: 벽면에 얼음(성에)이 두껍게 생기기 때문에 주기적으로 전원을 끄고 성에를 녹이거나 깨서 청소해야 하는 치명적인 번거로움이 있음.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 간냉식 냉장고</strong>
+· 내부의 팬이 차가운 바람을 불어 순환시키는 방식. <br>
+· 장점: 성에가 전혀 생기지 않아 청소와 관리가 매우 편하고, 냉장고 구석구석 온도가 일정하게 유지됨.<br>
+· 단점: 찬 바람이 계속 불기 때문에 포장하지 않은 식자재는 수분이 날아가 쉽게 마를 수 있음. 우유, 시럽, 밀폐 용기에 담긴 디저트 등 카페에서 주로 쓰는 식자재 보관에 유리함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">맛과 기계 수명을 결정하는 정수 시스템 장단점</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">수질에 맞춘 필터 조합의 중요성</strong>
-아무리 비싼 장비와 원두를 써도 매장의 물이 맞지 않으면 맛을 낼 수 없음. 무조건 가장 비싼 필터를 사는 것이 아니라, 매장 수돗물의 미네랄 수치를 측정한 뒤 장단점을 고려해 선택해야 함.<br><br>일반적인 정수(카본) 필터는 물맛을 깔끔하게 해 주고 가격이 합리적이지만, 물을 끓일 때 발생하는 딱딱한 석회질을 막지 못해 커피 머신 고장의 원인이 될 수 있음. 반면 연수 필터는 석회질을 걸러내어 수천만 원대 에스프레소 머신의 수명을 늘려주는 확실한 장점이 있지만, 너무 과하게 걸러내면 커피의 기분 좋은 산미와 단맛까지 밋밋해지는 단점이 있음. 따라서 이 두 가지 필터의 특성을 이해하고 매장 수질에 맞게 조합해서 쓰는 것이 가장 정확한 방법임.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 맛과 기계 수명을 결정하는 정수 시스템 장단점</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「수질에 맞춘 필터 조합의 중요성」</strong>
+· 아무리 비싼 장비와 원두를 써도 매장의 물이 맞지 않으면 맛을 낼 수 없음. <br>
+· 무조건 고가의 필터를 선택하는 것이 아니라, 매장 수돗물의 미네랄 수치를 측정한 뒤 장단점을 고려해 필터의 특성을 이해하고 매장 수질에 맞게 조합해서 쓰는 것이 가장 정확한 방법임.<br>
+· 일반적인 정수(카본) 필터는 물맛을 깔끔하게 해 주고 가격이 합리적이지만, 물을 끓일 때 발생하는 딱딱한 석회질을 막지 못해 커피 머신 고장의 원인이 될 수 있음. <br>
+· 반면 연수 필터는 석회질을 걸러내어 수천만 원대 에스프레소 머신의 수명을 늘려주는 확실한 장점이 있지만, 너무 과하게 걸러내면 커피의 기분 좋은 산미와 단맛까지 밋밋해지는 단점이 있음. 따라서 이 두 가지 필터의 특성을 이해하고 매장 수질에 맞게 조합해서 쓰는 것이 가장 정확한 방법임.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#4.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 4.2 정밀 그라인딩 및 브루잉 하드웨어</a>
+  <a href="#4.4" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 4.4 장비 자가 진단 및 트러블슈팅 가이드 &rarr;</a>
+</div>`
       },
       {
         sectionId: "4.4",
         sectionTitle: "4.4 장비 자가 진단 및 트러블슈팅 가이드",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">장비에 문제가 생겼을 때 무작정 엔지니어를 부르면 시간과 비용이 크게 낭비됨. 현장에서 자주 발생하는 주요 고장 증상과 원인, 그리고 바리스타가 직접 시도해 볼 수 있는 해결 방법을 정리한 트러블슈팅 가이드임. 작업 난이도와 증상을 보고 직접 해결할지 부품 교체 및 수리를 의뢰할지 판단할 수 있도록 구성함.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">· 현장에서 자주 발생하는 주요 고장 증상과 원인, 그리고 바리스타가 직접 시도해 볼 수 있는 해결 방법을 정리한 트러블슈팅 가이드. <br>
+· 장비에 문제가 생겼을 때 무작정 엔지니어를 부르면 시간과 비용이 크게 낭비됨. <br>
+· 작업 난이도와 증상을 보고 직접 해결할지 부품 교체 및 수리를 의뢰할지 판단할 수 있도록 구성함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 포터필터 장착 부위에서 물이 샐 때</h4>
+<h4 id="4.4" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 포터필터 장착 부위에서 물이 샐 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-그룹헤드 안쪽의 고무 가스켓이 뜨거운 열에 의해 딱딱하게 경화되어 밀착력이 떨어짐.<br>
+· 그룹헤드 안쪽의 고무 가스켓이 뜨거운 열에 의해 딱딱하게 경화되어 밀착력이 떨어짐.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-전원을 끄고 송곳이나 뾰족한 도구로 기존 가스켓을 찔러서 빼냄. 새 실리콘 가스켓에 식용 윤활제를 살짝 바른 뒤 포터필터를 이용해 꽉 끼워 넣음. 부품만 구비되어 있다면 누구나 5분 안에 교체 가능하며 통상 3개월에서 6개월 주기로 교체해야 함.</p>
+· 전원을 끄고 송곳이나 뾰족한 도구로 기존 가스켓을 찔러서 빼냄. &gt; 새 실리콘 가스켓에 식용 윤활제를 살짝 바른 뒤 포터필터를 이용해 꽉 끼워 넣음. <br>
+· 부품만 구비되어 있다면 누구나 5분 안에 교체 가능함.<br>
+· 통상 3개월에서 6개월 주기로 교체해야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 추출을 멈춰도 그룹헤드에서 물이 계속 떨어질 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-물길을 열고 닫는 3웨이 솔레노이드 밸브(전자변)에 커피 찌꺼기가 끼어 꽉 닫히지 않거나 밸브 수명이 다함.<br>
+· 물길을 열고 닫는 3웨이 솔레노이드 밸브(전자변)에 커피 찌꺼기가 끼어 꽉 닫히지 않거나 밸브 수명이 다함.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-블라인드 바스켓을 끼우고 전용 세정제를 넣어 백플러싱 청소를 5회 이상 반복해 내부 찌꺼기를 강제로 빼냄. 청소 후에도 계속 물이 샌다면 스패너로 밸브 부품을 분해해 내부 스케일을 제거하거나 새 부품으로 교체해야 함.</p>
+· 블라인드 바스켓을 끼우고 전용 세정제를 넣어 백플러싱 청소를 5회 이상 반복해 내부 찌꺼기를 강제로 빼냄. <br>
+· 청소 후에도 계속 물이 샌다면 스패너로 밸브 부품을 분해해 내부 스케일을 제거하거나 새 부품으로 교체해야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 추출 압력이 9바까지 안 올라가고 바늘이 떨릴 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-매장 단수나 정수 필터 막힘에 의한 물 공급 부족, 혹은 머신 내부 로터리 펌프의 수명 저하가 원인임.<br>
+· 매장 단수나 정수 필터 막힘에 의한 물 공급 부족, 혹은 머신 내부 로터리 펌프의 수명 저하가 원인임.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-가장 먼저 싱크대 물을 틀어 매장 자체의 단수 여부와 정수 필터 밸브가 잠겨 있는지 확인함. 물 공급이 정상이라면 머신 하부 패널을 열고 펌프의 바이패스 나사를 일자 드라이버로 돌려 압력을 조절해 봄. 그래도 압력이 7바 이하에서 머물거나 이상 소음이 난다면 펌프나 콘덴서 고장이므로 모터 펌프 어셈블리를 통째로 교체해야 함.</p>
+· 가장 먼저 싱크대 물을 틀어 매장 자체의 단수 여부와 정수 필터 밸브가 잠겨 있는지 확인할 것.<br>
+· 물 공급이 정상이라면 머신 하부 패널을 열고 펌프의 바이패스 나사를 일자 드라이버로 돌려 압력을 조절하기.<br>
+· 그래도 압력이 7바 이하에서 머물거나 이상 소음이 난다면 펌프나 콘덴서 고장이므로 모터 펌프 어셈블리를 통째로 교체해야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4. 스팀 압력이 약하거나 우유가 짝짝이로 나올 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-스팀 팁 끝부분의 미세한 구멍에 우유 찌꺼기가 굳어서 막힘, 또는 메인 보일러 히터 고장.<br>
+· 스팀 팁 끝부분의 미세한 구멍에 우유 찌꺼기가 굳어서 막힘, 또는 메인 보일러 히터 고장.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-몽키스패너로 스팀 팁을 분리하여 뜨거운 물과 세정제에 10분간 불림. 핀이나 얇은 철사로 막힌 구멍을 뚫고 헹구어 다시 조립함. 만약 머신 전면의 메인 보일러 압력 게이지 자체가 정상 수치인 1바에서 1.2바를 채우지 못하고 0을 가리킨다면 온도 센서나 히터 코일 고장이므로 부품 수리가 필요함.</p>
+· 몽키스패너로 스팀 팁을 분리하여 뜨거운 물과 세정제에 10분간 불림. &gt; 핀이나 얇은 철사로 막힌 구멍을 뚫고 헹구어 다시 조립함. <br>
+· 만약 머신 전면의 메인 보일러 압력 게이지 자체가 정상 수치인 1바에서 1.2바를 채우지 못하고 0을 가리킨다면 온도 센서나 히터 코일 고장이므로 부품 수리가 필요함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">5. 추출 시 물줄기가 고르게 떨어지지 않고 사방으로 튈 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-샤워 스크린 망 사이사이에 미세한 커피 찌꺼기와 유분이 고착되어 물길이 막히거나 스크린이 휘어짐.<br>
+· 샤워 스크린 망 사이사이에 미세한 커피 찌꺼기와 유분이 고착되어 물길이 막히거나 스크린이 휘어짐.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-일자 드라이버로 나사를 풀어 샤워 스크린을 분리함. 세정제를 푼 뜨거운 물에 15분간 담가둔 뒤 전용 칫솔로 부드럽게 문질러 유분을 제거함. 청소 후에도 물줄기가 갈라지거나 철망 자체가 찢어지고 변형되었다면 정상적인 추출 수율을 맞출 수 없으므로 즉시 새 샤워 스크린으로 교체해야 함.</p>
+· 일자 드라이버로 나사를 풀어 샤워 스크린을 분리. &gt; 세정제를 푼 뜨거운 물에 15분간 담가둔 뒤 전용 칫솔로 부드럽게 문질러 유분을 제거함. <br>
+· 청소 후에도 물줄기가 갈라지거나 철망 자체가 찢어지고 변형되었다면 정상적인 추출 수율을 맞출 수 없으므로 즉시 새 샤워 스크린으로 교체해야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">6. 그라인더 원두가 뭉쳐서 나오거나 토출량이 들쭉날쭉할 때</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-원두가 나오는 토출구 쪽에 커피 가루가 쌓여 정전기 방지용 플래퍼가 막혔거나 버(칼날) 마모가 심함.<br>
+· 원두가 나오는 토출구 쪽에 커피 가루가 쌓여 정전기 방지용 플래퍼가 막혔거나 버(칼날) 마모가 심함.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-그라인더 전원을 완전히 차단하고 청소기 흡입구와 브러시를 이용해 토출구 안쪽의 뭉친 커피 가루를 파내어 긁어냄. 꼼꼼한 청소 후에도 뭉침 현상이 심하고 미분이 많이 발생하여 추출 시간이 매번 달라진다면 버 교체 주기가 지난 것이므로 새 칼날로 교체해야 함.</p>`
+· 그라인더 전원을 완전히 차단하고 청소기 흡입구와 브러시를 이용해 토출구 안쪽의 뭉친 커피 가루를 파내어 긁어냄. <br>
+· 꼼꼼한 청소 후에도 뭉침 현상이 심하고 미분이 많이 발생하여 추출 시간이 매번 달라진다면 버 교체 주기가 지난 것이므로 새 칼날로 교체해야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#4.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 4.3 냉장 및 제빙 설비의 장단점 비교와 정수 시스템</a>
+  <a href="#5.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 5.1 시그니처 메뉴 기획과 메뉴판 슬림화 &rarr;</a>
+</div>`
       }
     ]
   },
