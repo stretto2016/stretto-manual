@@ -299,7 +299,8 @@ export const manualData = [
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「가변압 시스템 및 Gravimetric 머신 도입」</strong>
 <strong class="font-semibold text-stone-900 block mb-1">a. 하이엔드 가변압 머신</strong>
 · 약배전 싱글 오리진의 복합적인 향미를 한계치까지 발현시키기 위해 포화 그룹헤드 방식과 펌프 압력 프로파일링이 가능한 하이엔드 가변압 머신을 운용함.<br>
-· 3그룹 이상 하이엔드 머신은 최대 소비 전력이 7kW를 초과하므로 인테리어 설계 단계에서 3상 4선식 380V 전력 인입을 최우선으로 확정해야 함.<br><br>
+· 3그룹 이상 하이엔드 머신은 최대 소비 전력이 7kW를 초과하므로 인테리어 설계 단계에서 3상 4선식 380V 전력 인입을 최우선으로 확정해야 함.
+* 3그룹 이상의 하이엔드 머신을 구매할 계획이라면, 전기 공사 전 최대 소비 전력을 확인하여 인테리어 책임자나 전기 공사 담당자에게 반드시 사전에 전달해야 함.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">b. Gravimetric 시스템 머신</strong>
 · 일일 1,000잔 이상을 소화하는 메가 트래픽 매장의 경우 기존 플로우 미터 방식의 유량 제어 한계를 극복하기 위해 드립 트레이 하단에 정밀 로드셀을 장착한 Gravimetric 시스템 머신을 도입함. <br>
 · 바리스타의 별도 개입 없이 머신 자체가 실시간으로 추출되는 에스프레소의 무게를 측정하고 타겟 브루 레이시오에 도달하면 펌프를 차단하므로 극한의 러시 타임에도 0.1g 단위의 추출 오차를 완벽하게 통제함.</p>
