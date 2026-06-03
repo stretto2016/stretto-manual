@@ -415,7 +415,7 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 맛과 기계 수명을 결정하는 정수 시스템 장단점</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「수질에 맞춘 필터 조합의 중요성」</strong>
 · 아무리 비싼 장비와 원두를 써도 매장의 물이 맞지 않으면 맛을 낼 수 없음. <br>
-· 무조건 고가의 필터를 선택하는 것이 아니라, 매장 수돗물의 미네랄 수치를 측정한 뒤 장단점을 고려해 필터의 특성을 이해하고 매장 수질에 맞게 조합해서 쓰는 것이 가장 정확한 방법임.<br>
+· 무조건 고가의 필터를 선택하는 것이 아니라, 매장 수돗물의 미네랄 수치를 측정한 뒤 장단점을 고려해 필터의 특성을 이해하고 매장이 위치한 지역의 수질에 맞게 조합해서 쓰는 것이 가장 정확한 방법임.<br>
 · 일반적인 정수(카본) 필터는 물맛을 깔끔하게 해 주고 가격이 합리적이지만, 물을 끓일 때 발생하는 딱딱한 석회질을 막지 못해 커피 머신 고장의 원인이 될 수 있음. <br>
 · 반면 연수 필터는 석회질을 걸러내어 수천만 원대 에스프레소 머신의 수명을 늘려주는 확실한 장점이 있지만, 너무 과하게 걸러내면 커피의 기분 좋은 산미와 단맛까지 밋밋해지는 단점이 있음. 따라서 이 두 가지 필터의 특성을 이해하고 매장 수질에 맞게 조합해서 쓰는 것이 가장 정확한 방법임.</p>
 
@@ -435,13 +435,13 @@ export const manualData = [
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
 · 그룹헤드 안쪽의 고무 가스켓이 뜨거운 열에 의해 딱딱하게 경화되어 밀착력이 떨어짐.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
-· 전원을 끄고 송곳이나 뾰족한 도구로 기존 가스켓을 찔러서 빼냄. &gt; 새 실리콘 가스켓에 식용 윤활제를 살짝 바른 뒤 포터필터를 이용해 꽉 끼워 넣음. <br>
+· 전원을 끄고 송곳이나 뾰족한 도구로 기존 가스켓을 찔러서 빼냄. &gt; 새 가스켓을 포터필터 바스켓 위에 올린 후 꽉 끼워 넣음. <br>
 · 부품만 구비되어 있다면 누구나 5분 안에 교체 가능함.<br>
 · 통상 3개월에서 6개월 주기로 교체해야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 추출을 멈춰도 그룹헤드에서 물이 계속 떨어질 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
-· 물길을 열고 닫는 3웨이 솔레노이드 밸브(전자변)에 커피 찌꺼기가 끼어 꽉 닫히지 않거나 밸브 수명이 다함.<br>
+· 물길을 열고 닫는 3웨이 솔레노이드 밸브(전자변)에 스케일이나 커피 찌꺼기가 끼어 꽉 닫히지 않거나 밸브 수명이 다함.<br>
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
 · 블라인드 바스켓을 끼우고 전용 세정제를 넣어 백플러싱 청소를 5회 이상 반복해 내부 찌꺼기를 강제로 빼냄. <br>
 · 청소 후에도 계속 물이 샌다면 스패너로 밸브 부품을 분해해 내부 스케일을 제거하거나 새 부품으로 교체해야 함.</p>
@@ -452,7 +452,7 @@ export const manualData = [
 <strong class="font-semibold text-stone-900 block mt-2 mb-1">해결 방법</strong>
 · 가장 먼저 싱크대 물을 틀어 매장 자체의 단수 여부와 정수 필터 밸브가 잠겨 있는지 확인할 것.<br>
 · 물 공급이 정상이라면 머신 하부 패널을 열고 펌프의 바이패스 나사를 일자 드라이버로 돌려 압력을 조절하기.<br>
-· 그래도 압력이 7바 이하에서 머물거나 이상 소음이 난다면 펌프나 콘덴서 고장이므로 모터 펌프 어셈블리를 통째로 교체해야 함.</p>
+· 그래도 압력이 7바 이하에서 머물거나 이상 소음이 난다면 펌프나 콘덴서 고장이므로 모터 펌프 어셈블리를 통째로 교체하거나 콘덴서를 교체해야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4. 스팀 압력이 약하거나 우유가 짝짝이로 나올 때</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">원인</strong>
