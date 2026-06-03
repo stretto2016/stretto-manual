@@ -53,7 +53,15 @@ function App() {
   };
 
   // 붙여넣을 코드 처음
-  // [수정된 로직] 해시(#) 링크 클릭 시 해당 섹션으로 화면을 전환한 뒤 스크롤 이동 가로채기
+  // [추가된 로직] 어떤 경로로든 섹션(activeSection)이 바뀔 때마다 본문 스크롤 컨테이너(main)를 최상단으로 리셋
+  useEffect(() => {
+    const mainContainer = document.querySelector('main');
+    if (mainContainer) {
+      mainContainer.scrollTop = 0;
+    }
+  }, [activeSection]);
+
+  // [수정된 로직] 해시(#) 링크 클릭 시 해당 섹션으로 화면을 전환한 뒤 최상단 스크롤 안전하게 처리
   useEffect(() => {
     const handleHashClick = (e) => {
       const target = e.target.closest('a');
@@ -65,7 +73,6 @@ function App() {
       e.preventDefault(); // 주소창 URL 변경 방지
       const id = href.substring(1);
       
-      // 1. manualData에서 이동할 대상 섹션 찾기
       let targetSection = null;
       for (const phase of manualData) {
         const sec = phase.sections.find(s => s.sectionId === id);
@@ -75,17 +82,14 @@ function App() {
         }
       }
 
-      // 2. 대상 섹션이 존재하면 화면을 전환하고 스크롤 이동
       if (targetSection) {
         setActiveSection(targetSection); // 해당 섹션으로 화면 전환
         
-        // DOM 렌더링이 완료될 시간을 살짝 벌어준 후 부드럽게 스크롤
+        // 화면이 바뀌고 새로운 데이터가 렌더링된 후 확실하게 main 스크롤을 맨 위로 고정
         setTimeout(() => {
-          const element = document.getElementById(id);
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          } else {
-            window.scrollTo({ top: 0, behavior: 'smooth' }); // 엘리먼트가 없으면 최상단으로
+          const mainContainer = document.querySelector('main');
+          if (mainContainer) {
+            mainContainer.scrollTop = 0;
           }
         }, 50);
       }
