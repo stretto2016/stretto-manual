@@ -55,7 +55,7 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 운영 고정비 및 손익분기점 설계</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「생존을 위한 한계이익 역산 모델」</strong>
 · 월 임대료는 장마철이나 비수기에도 감당할 수 있도록 예상 월 매출의 10%에서 최대 15% 선으로 강력하게 억제해야 함.<br>
-· 대부분 카페의 경우 3~6월, 9~11월이 성수기.  <br><br>
+· 대부분 카페의 경우 6~8월 성수기, 1~2월 비수기, 6월말~7월초 장마철 비수기. (출처: 외식업 상권 분석 리포트)<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
 · 월 임대료가 300만 원이라면 해당 매장의 생존을 위한 목표 매출은 최소 2,000만 원에서 3,000만 원이 되어야 함.<br>
 · 아메리카노 1잔의 객단가가 4,000원이고 원두 및 컵 리드 등 변동비가 1,000원이라면 1잔 판매 시 한계이익은 3,000원임.<br>
