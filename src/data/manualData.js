@@ -202,7 +202,7 @@ export const manualData = [
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「기록의 의무화 및 엔지니어 다이렉트 매칭」</strong>
 · 시공 중 발생하는 모든 변수와 설계 변경은 구두가 아닌 텍스트와 현장 사진 기록으로 남겨 책임 소재를 명확히 함. <br>
 (모든 시공 현장을 전체적인 사진, 클로즈업 사진, 사람들 사진 등 습관적으로 기록해두면 카페 완공 후에도 유지보수 공사, 카페 SNS등에서 유용하게 활용할 수 있음.)<br>
-· 장비가 반입되는 최종 세팅 단계에서는 클라이언트가 중간에 말을 전하는 대신, 커피 머신 납품 엔지니어와 인테리어 현장 소장 간의 다이렉트 소통 채널을 개설해 주는 것이 매우 중요함. 상판 타공 규격 오류나 전기 결선 실수로 인해 오픈이 지연될 수 있음.</p>
+· 장비가 반입되는 최종 세팅 단계에서는 클라이언트가 중간에 말을 전하는 대신, 커피 머신 설치 엔지니어와 인테리어 현장 소장 간의 다이렉트 소통 채널을 개설해 주는 것이 매우 중요함. 상판 타공 규격 오류나 전기 결선 실수로 인해 오픈이 지연될 수 있음.</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#2.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 2.3 권리금 협상 및 임대차 계약 주의사항</a>
@@ -216,7 +216,7 @@ export const manualData = [
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「근무 인원에 따른 필수 교차 동선 폭」</strong>
 · 바 내부의 통로 너비는 근무자의 피로도와 직결되는 가장 중요한 수치임.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">a. 콤팩트바 (1인 단독 근무)</strong>
-· 800mm ~ 900mm의 통로 폭을 확보하여 깊이 600mm의 언더카운터 냉장고 문을 열고 닫는 데 간섭이 없도록 설계함. <br><br>
+· 800mm ~ 900mm의 통로 폭을 확보하여 450mm ~ 600mm의 언더카운터 냉장고 문을 열고 닫는 데 간섭이 없도록 설계함. <br><br>
 <strong class="font-semibold text-stone-900 block mb-1">b. 중대형바 (2인 이상 동시 근무)</strong>
 · 여럿이 동시에 근무하며 수시로 교차해야 하는 중대형 바는 최소 1200mm를 확보해야 작업자 간의 물리적 충돌을 막고 뜨거운 음료나 워터 보일러로 인한 화상 사고를 예방할 수 있음.</p>
 
@@ -226,7 +226,10 @@ export const manualData = [
 · 탬핑 시 15kg에서 20kg의 압력을 가할 때 어깨와 손목 관절에 무리가 가지 않는 인체공학적 최적 높이, 에스프레소 머신이 올라가는 메인 바의 상판 높이는 900mm가 표준. <br>
 · 상업용 테이블 냉장고와 제빙기의 높이가 보통 800mm ~ 850mm이므로 이들을 매립하기 위한 필수 공간임. <br><br>
 <strong class="font-semibold text-stone-900 block mb-1">b. 깊이</strong>
-· 하이엔드 상업용 머신의 깊이 600mm를 수용하고 전면부 여유 공간을 확보하기 위해 최소 750mm에서 800mm로 타설해야 함.</p>
+· 하이엔드 상업용 머신의 깊이 600mm를 수용하고 전면부 여유 공간을 확보하기 위해 최소 750mm에서 800mm로 타설해야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">c. 두께 및 하중 보강</strong>
+· 상업용 에스프레소 머신은 보일러에 물이 채워지면 70kg에서 100kg 이상의 무게가 발생하므로, 상판이 지속적인 하중을 버틸 수 있도록 설계되어야 함.<br>
+· 두께가 얇은 인조대리석이나 원목, 얇은 스테인리스 상판을 단독으로 사용할 경우 시간이 지나면서 중앙부가 휘거나 크랙이 발생할 수 있으므로, 머신이 안착되는 하부 장 내부에는 반드시 철제 각관이나 두꺼운 보강목을 덧대는 구조적 하중 보강 공사가 필수적으로 수반되어야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 1인 및 2인 소형 바 기기 배치</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「동선 효율화를 위한 트라이앵글 세팅」</strong>
