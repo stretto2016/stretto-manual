@@ -97,43 +97,85 @@ export const manualData = [
       {
         sectionId: "2.1",
         sectionTitle: "2.1 상권 유형별 타겟 고객 분석",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">오피스 상권</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">초압축 트래픽 대응 및 객단가 방어 전략</strong>
-아침 출근 시간과 점심시간 2~3시간 동안 하루 매출의 80%가 집중되는 트래픽 구조를 가짐. 속도가 곧 매출이므로 바리스타의 동선과 패키징 프로세스를 극단적으로 단축하는 바 설계가 관건임.<br><br>예를 들어 메가커피나 컴포즈커피 같은 저가 브랜드의 물량 공세에 밀리지 않기 위해 스페셜티 원두의 가치를 강조하고, 프리미엄 오트 밀크 변경이나 고품질 디카페인 라인업을 전면에 배치하여 잔당 한계이익을 방어하는 정밀한 메뉴 설계가 요구됨.</p>
+        content: `<h4 id="2.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 오피스 상권</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「초압축 트래픽 대응 및 객단가 방어 전략」</strong>
+· 아침 출근 시간 / 점심시간 2~3시간 동안 하루 매출의 80%가 집중되는 트래픽 구조.<br>
+· 속도가 곧 매출이므로 바리스타의 동선과 패키징 프로세스를 극단적으로 단축하는 바 설계가 관건임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">&lt;전략&gt;</strong>
+· 저가 브랜드(메가커피, 컴포즈커피 등)의 물량 공세에 밀리지 않기 위해 스페셜티 원두의 가치를 강조.<br>
+· 프리미엄 오트 밀크 변경이나 고품질 디카페인 라인업을 전면에 배치하여 잔당 한계이익을 방어하는 정밀한 메뉴 설계가 요구됨.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">주거 및 학원가 상권</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">지역 밀착형 커뮤니티 및 체류 시간 통제</strong>
-특정 시간대의 폭발적인 트래픽보다는 하루 전반에 걸쳐 고른 매출이 발생함. 오전 시간대 학부모 모임과 저녁 시간대 학원 하원 수요를 모두 흡수해야 하는 상권임.<br><br>예를 들어 에스프레소 베이스 음료 외에도 시즌별 과일 에이드나 상하목장 아이스크림 등 가족 단위 고객을 겨냥한 논커피 메뉴가 강력한 무기가 됨. 거주민의 반복적인 방문을 유도하기 위해 카카오톡 기반의 포인트 적립 제도를 도입하고 편안한 좌석을 배치하되, 카공족으로 인한 회전율 저하를 막기 위해 콘센트 위치를 전략적으로 제한하는 공간 기획이 수반되어야 함.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 주거 및 학원가 상권</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「지역 밀착형 커뮤니티 및 체류 시간 통제」</strong>
+· 특정 시간대의 폭발적인 트래픽보다는 하루 전반에 걸쳐 고른 매출이 발생. <br>
+· 오전 시간대 학부모 모임과 저녁 시간대 학원 하원 수요를 모두 흡수해야 하는 상권임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">&lt;전략&gt;</strong>
+· 에스프레소 베이스 음료 외에도 시즌별 과일 에이드나 상하목장 아이스크림 등 가족 단위 고객을 겨냥한 논커피 메뉴가 강력한 무기가 됨. <br>
+· 거주민의 반복적인 방문을 유도하기 위해 카카오톡 기반의 포인트 적립 제도를 도입하고 편안한 좌석을 배치하되, 카공족으로 인한 회전율 저하를 막기 위해 콘센트 위치를 전략적으로 제한하는 공간 기획이 수반되어야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">대학가 및 번화가 상권</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">트렌드 선점 및 수익 다각화 유연성</strong>
-유행에 가장 민감하고 시각적 자극을 중시하는 20대 소비층이 주를 이룸. 커피 본연의 맛을 넘어 인스타그래머블한 시그니처 디저트나 화려한 베버리지 라인업이 매장의 흥망을 결정함.<br><br>예를 들어 상권 특성상 늦은 밤과 새벽까지 유동 인구가 발생하므로, 주간에는 스페셜티 카페로 야간에는 하이볼이나 가벼운 주류를 판매하는 에스프레소 바 형태로 영업시간을 연장하여 임대료 대비 수익을 극대화하는 유연한 전략을 검토해야 함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 대학가 및 번화가 상권</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「트렌드 선점 및 수익 다각화 유연성」</strong>
+· 유행에 가장 민감하고 시각적 자극을 중시하는 20대 소비층이 주를 이룸. <br>
+· 커피 본연의 맛을 넘어 인스타그래머블한 시그니처 디저트나 화려한 베버리지 라인업이 매장의 흥망을 결정함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">&lt;전략&gt;</strong>
+· 상권 특성상 늦은 밤과 새벽까지 유동 인구가 발생하므로, 주간에는 스페셜티 카페로 야간에는 하이볼이나 가벼운 주류를 판매하는 에스프레소 바 형태로 영업시간을 연장하여 임대료 대비 수익을 극대화하는 유연한 전략을 검토해야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 1.3 브랜드 정체성 구축</a>
+  <a href="#2.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 2.2 부동산 계약 전 필수 체크리스트 &rarr;</a>
+</div>`
       },
       {
         sectionId: "2.2",
         sectionTitle: "2.2 부동산 계약 전 필수 체크리스트",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">건축물대장 열람 및 위반건축물 점검</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">치명적인 행정 리스크 원천 차단</strong>
-상가 임대차 계약 전 건축물대장 발급은 선택이 아닌 필수임. 해당 호실의 용도가 제1종 또는 제2종 근린생활시설 휴게음식점으로 명시되어 있는지 최우선으로 점검해야 함.<br><br>예를 들어 이전 세입자가 테라스를 불법으로 증축했거나 매장 내부를 복층으로 개조하여 위반건축물 표기가 노란색 딱지로 붙어 있다면 관할 구청에서 영업신고증 자체가 발급되지 않음. 건물주가 원상복구를 약속하더라도 이행되기 전까지는 절대 계약금을 입금해서는 안 됨.</p>
+        content: `<h4 id="2.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 건축물대장 열람 및 위반건축물 점검</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「치명적인 행정 리스크 원천 차단」</strong>
+· 상가 임대차 계약 전 건축물대장 발급 필수. <br>
+· 해당 호실의 용도가 제1종 또는 제2종 근린생활시설 휴게음식점으로 명시되어 있는지 최우선으로 점검해야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">&lt;체크사항&gt;</strong>
+· 이전 세입자가 테라스를 불법으로 증축했거나 매장 내부를 복층으로 개조하여 위반건축물 표기가 노란색 딱지로 붙어 있다면 관할 구청에서 영업신고증 자체가 발급되지 않음. <br>
+· 건물주가 원상복구를 약속하더라도 이행되기 전까지는 절대 계약금을 입금해서는 안 됨.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">상업용 전력 승압 및 배전반 실사</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">피크 타임 셧다운 방지를 위한 인프라 계산</strong>
-하이엔드 에스프레소 머신, 대형 온수기, 상업용 제빙기, 천장형 냉난방기를 동시에 가동하려면 최소 15kW에서 20kW의 전력이 요구됨.<br><br>예를 들어 기존 상가의 인입 전력이 5kW 수준에 불과하다면 한국전력을 통한 승압 공사가 필수적임. 이에 따른 불입금과 내부 메인 배전선로 교체 비용을 인테리어 예산에 수백만 원 단위로 반드시 반영해야 함. 또한 3상 4선식 전력 인입 여부를 사전에 파악하여 설치할 머신의 스펙과 대조하는 엔지니어링 검토가 선행되어야 함.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 상업용 전력 승압 및 배전반 실사</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「피크 타임 셧다운 방지를 위한 인프라 계산」</strong>
+· 하이엔드 에스프레소 머신, 대형 온수기, 상업용 제빙기, 천장형 냉난방기를 동시에 가동하려면 최소 15kW에서 20kW의 전력이 요구됨.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">&lt;체크사항&gt;</strong>
+· 기존 상가의 인입 전력이 5kW 수준에 불과하다면 한국전력을 통한 승압 공사가 필수. <br>
+· 이에 따른 불입금과 내부 메인 배전선로 교체 비용을 인테리어 예산에 수백만 원 단위로 반드시 반영해야 함. <br>
+· 3상 4선식 전력 인입 여부를 사전에 파악하여 설치할 머신의 스펙과 대조하는 엔지니어링 검토가 선행되어야 함. </p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">급배수 관로 및 공조 설비 현장 실사</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">동선 제약을 결정짓는 설비 구조 파악</strong>
-에스프레소 바가 위치할 메인 스테이션까지 수도관을 끌어오고 배수관을 연결할 수 있는지 상가 바닥의 코어 타공 가능 여부를 점검함.<br><br>예를 들어 배수관은 원활한 배출을 위해 최소 50mm 이상의 규격을 확보해야 커피 찌꺼기로 인한 역류를 방지할 수 있음. 또한 로스터기나 대형 베이커리 오븐을 운용할 경우 제연기 및 닥트 배기관을 이웃 건물이나 윗층 주거지에 피해 없이 외부로 뽑아낼 수 있는지 건물의 구조적 한계를 현장에서 면밀히 따져야 함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 급배수 관로 및 공조 설비 현장 실사</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「동선 제약을 결정짓는 설비 구조 파악」</strong>
+· 에스프레소 바가 위치할 메인 스테이션까지 수도관을 끌어오고 배수관을 연결할 수 있는지 상가 바닥의 코어 타공 가능 여부 점검 필수.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">&lt;체크사항&gt;</strong>
+· 배수관은 원활한 배출을 위해 최소 75mm 이상, 권장 100mm 규격을 확보해야 커피 찌꺼기로 인한 역류를 방지할 수 있음. <br>
+· 로스터기나 대형 베이커리 오븐을 운용할 경우 제연기 및 닥트 배기관을 이웃 건물이나 윗층 주거지에 피해 없이 외부로 뽑아낼 수 있는지 건물의 구조적 한계를 현장에서 면밀히 따져야 함. (민원 방지)</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#2.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 2.1 상권 유형별 타겟 고객 분석</a>
+  <a href="#2.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 2.3 권리금 협상 및 임대차 계약 주의사항 &rarr;</a>
+</div>`
       },
       {
         sectionId: "2.3",
         sectionTitle: "2.3 권리금 협상 및 임대차 계약 주의사항",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">장비 엔지니어 관점의 시설 권리금 실사</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">권리금 거품 제거 및 감가상각 평가</strong>
-기존 카페 자리를 인수할 경우 영업 권리금과 시설 권리금을 철저히 분리하여 타당성을 검증해야 함. 시설 권리금의 핵심은 에스프레소 머신과 그라인더의 상태임.<br><br>예를 들어 겉보기엔 멀쩡한 머신이라도 전문 엔지니어의 시각으로 내부를 열어보면 보일러에 스케일이 가득 누적되어 있거나 로터리 펌프의 추출 압력이 정상 수치에 미치지 못하는 경우가 허다함. 정수 필터 교체 이력조차 불분명하여 전면 오버홀이나 핵심 부품 교체가 필요한 상태라면, 해당 수리 견적만큼 시설 권리금을 과감히 삭감하는 협상 카드로 활용해야 함.</p>
+        content: `<h4 id="2.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 장비 엔지니어 관점의 시설 권리금 실사</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「권리금 거품 제거 및 감가상각 평가」</strong>
+· 기존 카페 자리를 인수할 경우 영업 권리금과 시설 권리금을 철저히 분리하여 타당성을 검증해야 함. <br>
+· 카페 시설 권리금의 핵심은 에스프레소 머신과 그라인더의 상태.<br>
+· 겉보기엔 멀쩡한 머신이라도 전문 엔지니어의 시각으로 내부를 열어보면 보일러에 스케일이 가득 누적되어 있거나 로터리 펌프의 추출 압력이 정상 수치에 미치지 못하는 경우가 많음.<br>
+· 정수 필터 교체 이력조차 불분명하여 전면 오버홀이나 핵심 부품 교체가 필요한 상태라면, 해당 수리 견적만큼 시설 권리금을 과감히 삭감하는 것을 협상 카드로 활용해야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">임대차 계약 시 필수 특약 사항 방어</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">예기치 못한 설비 리스크의 책임 소재 명확화</strong>
-인테리어 공사에 소요되는 기간을 영업 손실로 떠안지 않기 위해 최소 2주에서 1달 이상의 렌트프리, 즉 무상 임대 기간을 계약서 특약에 명시적으로 확보해야 함.<br><br>예를 들어 건물 자체의 노후화로 인한 메인 배수관 막힘이나 천장 누수 등 임차인의 과실이 아닌 중대 하자가 발생할 경우 임대인이 전적으로 수선 의무를 부담한다는 조항을 반드시 삽입해야 함. 이 조항이 누락되면 천장 누수로 인해 에스프레소 머신 메인보드가 침수되는 치명적인 피해를 입고도 전액 자비로 수리해야 하는 최악의 상황을 맞이할 수 있음.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 임대차 계약 시 필수 특약 사항 방어</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「예기치 못한 설비 리스크의 책임 소재 명확화」</strong>
+· 인테리어 공사에 소요되는 기간을 영업 손실로 떠안지 않기 위해 최소 2주에서 1달 이상의 렌트프리, 즉 무상 임대 기간을 계약서 특약에 명시적으로 확보해야 함.<br>
+· 건물 자체의 노후화로 인한 메인 배수관 막힘이나 천장 누수 등 임차인의 과실이 아닌 중대 하자가 발생할 경우 임대인이 전적으로 수선 의무를 부담한다는 조항을 반드시 삽입해야 함. <br>
+· 이 조항이 누락되면 천장 누수로 인해 에스프레소 머신 메인보드가 침수되는 치명적인 피해를 입고도 전액 자비로 수리해야 하는 최악의 상황을 맞이할 수 있음.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#2.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 2.2 부동산 계약 전 필수 체크리스트</a>
+  <a href="#3.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 3.1 인테리어 시공 프로세스와 업체 소통법 &rarr;</a>
+</div>`
       }
     ]
   },
