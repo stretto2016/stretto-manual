@@ -230,7 +230,8 @@ function App() {
 
       <main className="flex-1 overflow-y-auto bg-stone-50 relative w-full">
         {!activeSection ? (
-          <div className="min-h-full flex flex-col px-6 py-12 md:px-16 md:py-24 max-w-6xl mx-auto">
+          /* select-none 추가로 메인 화면 드래그/복사 차단 */
+          <div className="min-h-full flex flex-col px-6 py-12 md:px-16 md:py-24 max-w-6xl mx-auto select-none">
             <div className="mb-16 md:mb-24">
               <span className="text-stone-400 font-medium tracking-[0.2em] text-[10px] md:text-xs mb-4 md:mb-6 block">B2B PARTNERSHIP MANUAL</span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter mb-6 md:mb-8 text-stone-900 leading-[1.2] md:leading-[1.1]">
@@ -246,9 +247,7 @@ function App() {
               {manualData.map((phase) => (
                 <div key={phase.phaseId} className="group cursor-pointer" onClick={() => handleSectionClick(phase.sections[0])}>
                   <div className="flex items-baseline gap-3 md:gap-4 mb-4 md:mb-5">
-                    <span className="text-stone-300 font-black text-3xl md:text-4xl">
-                    {String(phase.phaseId).padStart(2, '0')}
-                  </span>
+                    <span className="text-stone-300 font-black text-3xl md:text-4xl">{String(phase.phaseId).padStart(2, '0')}</span>
                     <h4 className="text-lg md:text-xl font-bold text-stone-900 tracking-tight break-keep">{phase.phaseTitle.replace(`${phase.phaseId} `, '')}</h4>
                   </div>
                   <div className="pl-10 md:pl-14 space-y-2 md:space-y-3 border-l border-stone-200 ml-3 md:ml-4 py-1 md:py-2">
@@ -261,6 +260,11 @@ function App() {
                 </div>
               ))}
             </div>
+
+            {/* 메인 화면 하단 카피라이트 영역 추가 */}
+            <footer className="mt-auto pt-20 pb-8 text-center text-[11px] text-stone-400 font-mono tracking-widest">
+              © 2026 STRETTO COFFEE FACTORY. All Rights Reserved.
+            </footer>
           </div>
         ) : (
           <div className="min-h-full flex flex-col max-w-4xl mx-auto px-6 py-10 md:px-12 md:py-24">
