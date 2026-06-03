@@ -263,7 +263,7 @@ function App() {
 
             {/* 메인 화면 하단 카피라이트 영역 추가 */}
             <footer className="mt-auto pt-20 pb-8 text-center text-[9px] text-stone-400 font-mono tracking-widest">
-              © 2026 STRETTO COFFEE FACTORY. All Rights Reserved.
+              © 2026 STRETTO COFFEE FACTORY. <br></br>All Rights Reserved.
             </footer>
           </div>
         ) : (
@@ -309,7 +309,7 @@ function App() {
 
               {/* 하단 공통 카피라이트 영역 추가 */}
               <footer className="mt-20 pt-8 border-t border-stone-200 text-center text-[9px] text-stone-400 font-mono tracking-widest">
-                © 2026 STRETTO COFFEE FACTORY. All Rights Reserved.
+                © 2026 STRETTO COFFEE FACTORY. <br></br>All Rights Reserved.
               </footer>
             </article>
           </div>
