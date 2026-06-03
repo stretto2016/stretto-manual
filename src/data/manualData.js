@@ -1254,7 +1254,28 @@ export const manualData = [
 <div class="mt-12 flex justify-start text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#9.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 9.2 장비, 바웨어 및 홀 인프라 검증</a>
 </div>`
+      },
+      {
+        sectionId: "9.4",
+        sectionTitle: "9.4 고객 접점(MOT) 패키징 및 인쇄물 제작",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 고객이 매장에서 경험하고 외부로 가져가는 모든 물품은 브랜드 정체성을 각인시키는 가장 강력하고 저렴한 마케팅 수단임. <br>· 커스텀 제작물은 동판 제작 등 초기 세팅이 필요하며, 최소 발주 수량(MOQ)이 크고 제작 기간이 평균 2~4주 이상 소요되므로 인테리어 착공과 동시에 디자인 및 발주를 진행해야 함.</p>
+
+<h4 id="9.4" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 테이크아웃 및 식음료 소비재 패키징</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">음료 컵 및 홀더:</strong> 종이컵(HOT), PET 투명 컵(ICE) 및 종이 슬리브(홀더). 초기 자본 방어를 위해 무지 컵에 브랜드 로고가 새겨진 맞춤형 스탬프나 스티커를 활용하는 방법도 효율적임.<br>· <strong class="font-semibold text-stone-900">위생 소모품:</strong> 로고 인쇄 냅킨, 물티슈. 특히 냅킨은 매장 내 소비가 빠르므로 1박스(대용량) 단위의 단가를 꼼꼼히 비교해야 함.<br>· <strong class="font-semibold text-stone-900">포장(To-Go) 부자재:</strong> 디저트 포장용 종이 상자, 유산지, 종이 캐리어(2구/4구), 브랜드 컬러가 반영된 마스킹 테이프 및 포장용 비닐/종이봉투.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. B2C 및 B2B 원두납품용 패키징</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">원두 봉투:</strong> B2C 판매 및 B2B 납품 채널 확장의 핵심 포트폴리오. 200g, 500g, 1kg 규격별로 M방형, 지퍼스탠드형, 틴타이형 중 선택하며 가스 배출을 위한 아로마 밸브 부착이 필수임.<br>· <strong class="font-semibold text-stone-900">드립백 패키징:</strong> 개별 드립백 필터 내지 및 이를 포장할 아웃박스(세트 박스). 패키지 리뉴얼 시 재질(무광 코팅, 크라프트, 친환경 소재 등)과 후가공(형압, 박)에 공을 들여야 브랜드 가치가 상승함.<br>· <strong class="font-semibold text-stone-900">부착형 라벨:</strong> 봉투 전체를 인쇄하기 부담스러운 초기 단계나 다양한 싱글 오리진 라인업을 유연하게 운영할 때는 무지 봉투에 품목별 커스텀 라벨 스티커를 부착하는 방식이 유리함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 브랜드 전문성 전달을 위한 지류 인쇄물</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">원두 카드(테이스팅 노트):</strong> 커피와 함께 제공되는 정보 카드. 카라멜, 밀크 초콜릿, 자스민 등 산지별 직관적인 향미와 가공 방식을 시각적으로 풀어내어 고객의 미식 경험을 돕는 도슨트 역할을 함.<br>· <strong class="font-semibold text-stone-900">영업 및 마케팅 지류:</strong> 명함, B2B 도매 납품 제안을 위한 카탈로그(브로슈어), 리텐션 확보를 위한 종이 쿠폰 및 재방문 바우처.<br>· <strong class="font-semibold text-stone-900">메뉴판 및 안내문:</strong> 카운터 메인 메뉴판, 와이파이 안내, 화장실 안내, 셀프바 이용 안내 텐트 카드 등.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4. 매장 내외부 사인물(Signage) 및 VMD</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· <strong class="font-semibold text-stone-900">외부 시각물:</strong> 워크인 고객의 시선을 끄는 옥외 A보드(입간판), 영업시간과 로고가 각인된 출입문 시트지(데칼 스티커), 어닝(천막) 인쇄.<br>· <strong class="font-semibold text-stone-900">내부 디스플레이:</strong> 시그니처 메뉴의 퀄리티를 직관적으로 보여주는 벽면 포스터, 원두 진열대(매대)의 네임택 및 아크릴 POP 테이블 텐트.</p>
+
+<div class="mt-12 flex justify-start text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#9.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 9.3 초도 식자재 및 일일 오퍼레이션 루틴</a>
+</div>`
       }
     ]
-  }
+  },
 ];
