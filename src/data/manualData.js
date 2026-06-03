@@ -490,7 +490,7 @@ export const manualData = [
         sectionId: "5.1",
         sectionTitle: "5.1 시그니처 메뉴 기획과 메뉴판 슬림화",
         content: `<h4 id="5.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 선택과 집중을 통한 메뉴판 슬림화</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「재고 폐기율(Loss)을 줄이는 백엔드 기획」</strong>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「재고 폐기율(Loss) 최소화를 위한 실전 메뉴 최적화」</strong>
 · 메뉴가 많다고 매출이 오르지 않음. <br>
 · 오히려 안 팔리는 재료가 유통기한을 넘겨 버려지는 폐기율만 높아질 뿐.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(적용)</strong>
