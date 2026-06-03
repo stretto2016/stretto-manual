@@ -928,101 +928,103 @@ export const manualData = [
       {
         sectionId: "6.1",
         sectionTitle: "6.1 아르바이트 노무 관리 및 인건비 방어 실무",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">근로계약서 작성 및 주휴수당의 실체</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">고용노동부 표준 양식 사용 및 벌금 방어</strong>
-알바생이 단 1일을 일하더라도 출근 첫 1일 근무 시작 전에 근로계약서를 무조건 작성하고 교부해야 함. 미작성 시 최대 500만 원의 벌금이 부과됨. 양식은 고용노동부 홈페이지 정책자료실에서 '표준근로계약서'를 무료로 다운로드하여 사용하면 됨.</p>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mt-2 mb-1">주휴수당 지급 기준과 스케줄링 쪼개기</strong>
-주휴수당은 1주일에 15시간 이상 근무하는 모든 근로자(알바 포함)에게 '1일치 일당'을 더 주는 법적 의무임. 시급으로 환산하면 약 20%의 인건비가 폭등하는 치명적인 요소임.<br><br>
-이를 합법적으로 방어하려면 파트타이머의 근무 시간을 주 14시간 이하(예: 주 2일, 하루 7시간 근무)로 쪼개어 여러 명을 채용하는 스케줄링 전략이 필수적임.</p>
+        content: `<h4 id="6.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 근로계약서 작성 및 주휴수당의 실체</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「고용노동부 표준 양식 사용 및 벌금 방어」</strong>
+· 알바생이 단 1일을 일하더라도 출근 첫 1일 근무 시작 전에 근로계약서를 무조건 작성하고 교부해야 함.<br>
+· 미작성 시 최대 500만 원의 벌금이 부과됨. 양식은 고용노동부 홈페이지 정책자료실에서 '표준근로계약서'를 무료로 다운로드하여 사용하면 됨.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4대 보험 가입 의무와 3.3% 프리랜서 신고 리스크</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">탈세의 덫과 노동청 고발 원천 차단</strong>
-카페 알바생을 세금 덜 내겠다고 3.3% 사업소득자(프리랜서)로 신고하는 관행은 명백한 불법임. 직원이 퇴사 후 노동청에 실근로자임을 주장하며 고발하면, 그동안 미납된 4대 보험료와 과태료 수백만 원을 오너가 독박 쓰게 됨.<br><br>
-월 60시간 이상 근무자는 무조건 4대 보험에 가입시키고, 월 60시간 미만 초단시간 근로자는 산재보험만 가입시키는 것이 가장 안전한 원칙임.</p>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「주휴수당 지급 기준과 스케줄링 쪼개기」</strong>
+· 주휴수당은 1주일에 15시간 이상 근무하는 모든 근로자(알바 포함)에게 '1일치 일당'을 더 주는 법적 의무임. <br>
+· 시급으로 환산하면 약 20%의 인건비가 폭등하는 치명적인 요소임.<br>
+· 이를 합법적으로 방어하려면 파트타이머의 근무 시간을 주 14시간 이하(예: 주 2일, 하루 7시간 근무)로 쪼개어 여러 명을 채용하는 스케줄링 전략이 필수적임.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">노무사 기장 대행의 비용과 선택 기준</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">감정 노동의 외주화 및 피드백 속도</strong>
-직원이 3명 이상 넘어가면 급여 명세서 의무 교부, 4대 보험 취득 및 상실 신고, 일자리 안정자금 등 정부 지원금 신청을 오너가 직접 챙기기 불가능함.<br><br>
-매월 10만 원에서 15만 원의 기장료를 내고 노무법인에 아웃소싱하는 것이 정신 건강과 매장 운영에 압도적으로 이로움. 노무사를 선택할 때는 화려한 이력의 대형 법인보다, 실시간 카카오톡 소통이 가능하고 내 질문에 30분 이내로 명확한 가이드를 찍어주는 실무형 노무사를 고르는 것이 핵심임.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 4대 보험 가입 의무와 3.3% 프리랜서 신고 리스크</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「탈세의 덫과 노동청 고발 원천 차단」</strong>
+· 세금 감면을 위해 카페 아르바이트생을 3.3% 사업소득자(프리랜서)로 신고하는 관행은 명백한 불법임. <br>
+· 직원이 퇴사 후 노동청에 실근로자임을 주장하며 고발하면, 그동안 미납된 4대 보험료와 과태료 수백만 원을 오너가 지불해야 함.<br>
+· 월 60시간 이상 근무자는 무조건 4대 보험에 가입시킬 것.<br>
+· 월 60시간 미만 초단시간 근로자는 산재보험만이라도 반드시 가입시키는 것이 가장 안전한 원칙임.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 노무사 기장 대행의 비용과 선택 기준</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「감정 노동의 외주화 및 피드백 속도」</strong>
+· 직원이 3명 이상인 경우, 급여 명세서 의무 교부, 4대 보험 취득 및 상실 신고, 일자리 안정자금 등 정부 지원금 신청을 오너가 직접 챙기기 불가능함.<br>
+· 노무법인에 아웃소싱하는 것이 정신 건강과 매장 운영에 압도적으로 이로움. (월 기장료 발생)<br>
+· 노무사를 선택할 때는 화려한 이력의 대형 법인보다, 실시간 카카오톡 소통이 가능하고 내 질문에 30분 이내로 명확한 가이드를 찍어주는 실무형 노무사를 고르는 것이 핵심임. </p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#5.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.3 카테고리별 메뉴 레시피</a>
+  <a href="#6.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어 &rarr;</a>
+</div>`
       },
       {
         sectionId: "6.2",
         sectionTitle: "6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">매출이 높아도 통장에 남는 돈이 없다면 100이면 100 식자재 로스 관리에 구멍이 뚫린 것임. 바리스타의 손끝에서 새어나가는 10원의 손실을 막는 실무 시스템임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">· 높은 매출에도 통장에 남는 돈이 없다면 대부분의 경우 식자재 로스 관리에 구멍이 뚫린 것임. <br>
+· 바리스타의 손끝에서 새어나가는 10원의 손실을 막는 실무 시스템이 중요.</p>
 
-<div class="border-t border-stone-200 mt-6">
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 시럽 펌프 및 스쿠프 정량화의 절대 원칙</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      바닐라 라떼를 만들 때 '시럽 2펌프'라는 레시피는 쓰레기임. 제조사마다 1펌프의 토출량이 7g, 10g, 15g으로 전부 다름. 알바생이 펌프를 끝까지 누르지 않고 반만 누르는 습관이 있다면 음료 맛은 매번 달라지고 원가 계산은 붕괴됨.<br><br>
-      모든 시럽 및 소스 병 앞에는 '1펌프 = 10g'이라는 라벨을 붙이고, 전자저울에 올려 정확히 타겟 무게가 들어가는지 매일 확인하는 훈련을 시켜야 함. 파우더 역시 밥숟가락이 아닌 계량스푼을 깎아내어(Leveling) 15g을 정확히 맞추도록 통제해야 함.
-    </div>
-  </details>
+<h4 id="6.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 시럽 펌프 및 스쿠프 정량화의 절대 원칙</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
+· 바닐라 라떼 = '시럽 2펌프' 와 같은 레시피는 절대 지양해야 함.<br>
+· 제조사마다 1펌프의 토출량이 7g, 10g, 15g으로 전부 다름. 알바생이 펌프를 끝까지 누르지 않고 반만 누르는 습관이 있다면 음료 맛은 매번 달라지고 원가 계산은 붕괴됨.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(대안)</strong>
+· 모든 시럽 및 소스 병 앞에는 '1펌프 = 10g'이라는 라벨을 붙이고, 전자저울에 올려 정확히 타겟 무게가 들어가는지 매일 확인하는 훈련을 시켜야 함. <br>
+· 파우더 역시 밥숟가락이 아닌 계량스푼을 깎아내어(Leveling) 15g을 정확히 맞추도록 통제해야 함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 우유 및 빙과류 발주 사이클과 재고 회전</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      우유는 유통기한이 짧아 폐기율 1순위 품목임. 대리점을 통해 매일 배송받는 것이 가장 이상적이나, 최소 물량 제한(예: 1일 10팩 이상)이 있다면 주 3회(월, 수, 금) 분산 발주로 전환하여 냉장고 공간을 확보하고 폐기를 막아야 함.<br><br>
-      입고된 우유와 생과일은 무조건 매직으로 입고 날짜를 크게 적고 냉장고 안쪽에 배치하여 완벽한 선입선출(FIFO)이 이루어지도록 매장 룰을 세팅함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 우유 및 빙과류 발주 사이클과 재고 회전</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
+· 우유/생크림 등은 유통기한이 짧아 폐기율 1순위 품목임. <br>
+· 특히 휴무일이 있는 경우 폐기율이 높아질 수 있으니 주의. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(대안)</strong>
+· 대리점을 통해 매일 배송받는 것이 가장 이상적이나, 최소 물량 제한(예: 1일 10팩 이상)이 있다면 주 3회(월, 수, 금) 분산 발주로 전환하여 냉장고 공간을 확보하고 폐기를 막아야 함.<br>
+· 입고된 우유와 생과일은 무조건 매직으로 입고 날짜를 크게 적고 냉장고 안쪽에 배치하여 완벽한 선입선출(FIFO)이 이루어지도록 매장 룰을 세팅함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 스티밍 우유 로스율 제로화 훈련</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      라떼 1잔(10oz 잔 기준)을 만들기 위해 우유를 200g 스티밍하고 150g만 부은 뒤 50g을 개수대에 버리는 직원이 있다면 당장 교정해야 함. 하루 100잔이면 5L의 우유(약 13,000원)가 하수구로 버려지는 꼴이며 1개월이면 40만 원의 손실임.<br><br>
-      각 사이즈별 밀크 피처 내부에 타겟 용량 선(Line)을 긋고, 버려지는 우유가 10g을 넘지 않도록 스티밍 용량을 극한으로 타겟팅하는 연습을 시켜야 함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 스티밍 우유 로스율 제로화 훈련</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
+· 라떼 1잔(10oz 잔 기준)을 만들기 위해 우유를 200g 스티밍하고 150g만 부은 뒤 50g을 개수대에 버리는 직원이 있다면 당장 교정해야 함. <br>
+· 하루 100잔이면 5L의 우유(약 13,000원)가 하수구로 버려지는 꼴이며 1개월이면 40만 원의 손실임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(대안)</strong>
+· 각 사이즈별 밀크 피처 내부에 타겟 용량 선(Line)을 긋고, 버려지는 우유가 10g을 넘지 않도록 스티밍 용량을 극한으로 타겟팅하는 연습을 시켜야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#6.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.1 아르바이트 노무 관리 및 인건비 방어 실무</a>
+  <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.3 매장 셧다운을 막는 시설 유지보수 실무 &rarr;</a>
 </div>`
       },
       {
         sectionId: "6.3",
         sectionTitle: "6.3 매장 셧다운을 막는 시설 유지보수 실무",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">커피 머신보다 중요한 것이 매장의 기초 인프라임. 하수구가 막히거나 해충이 발생하면 그날 영업은 강제 종료됨. 오너가 반드시 챙겨야 할 시설 관리 루틴임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed">· 커피 머신보다 중요한 것이 매장의 기초 인프라임. <br>
+· 하수구가 막히거나 해충이 발생하면 그날 영업은 강제 종료됨. <br>
+· 오너가 반드시 챙겨야 할 시설 관리 루틴임.</p>
 
-<div class="border-t border-stone-200 mt-6">
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 배관 설계 한계 극복 및 역류 방어 플러싱</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      싱크대에서 버려지는 우유 찌꺼기와 커피 유분은 배관 내부에 고착되어 단단한 슬러지를 형성함. 애초에 75mm 이상의 넓은 배관 규격과 시원한 구배(기울기)를 확보한 완벽한 설비 환경이라면 큰 문제가 없으나, 배관 설계가 부실하거나 50mm 이하의 얇은 관을 사용하는 노후 상가의 경우 역류 방지를 위해 싱크대 하부에 유지망(그리스트랩) 설치를 고려해야 함.<br><br>
-      설비의 완벽함과 무관하게, 영업 마감 시 70도 이상의 뜨거운 물 10L를 메인 배수구에 1번에 부어 배관 내부에 쌓인 유분을 강제로 밀어내는(플러싱) 작업을 매일 수행하는 것만으로도 배관 막힘을 예방하는 가장 확실하고 경제적인 통제 수단이 됨.
-    </div>
-  </details>
+<h4 id="6.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 배관 설계 한계 극복 및 역류 방어 플러싱</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
+· 싱크대에서 버려지는 우유 찌꺼기와 커피 유분은 배관 내부에 고착되어 단단한 슬러지를 형성함. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(대안)</strong>
+· 처음부터 75mm 이상의 넓은 배관 규격과 시원한 구배(기울기)를 확보한 완벽한 설비 환경이라면 큰 문제가 없음.<br>
+· 배관 설계가 부실하거나 50mm 이하의 얇은 관을 사용하는 노후 상가의 경우 역류 방지를 위해 싱크대 하부에 유지망(그리스트랩) 설치를 고려해야 함.<br>
+· 설비의 완벽함과 무관하게, 영업 마감 시 70도 이상의 뜨거운 물 10L를 메인 배수구에 1번에 부어 배관 내부에 쌓인 유분을 강제로 밀어내는(플러싱) 작업을 매일 수행하는 것만으로도 배관 막힘을 예방하는 가장 확실하고 경제적인 통제 수단이 됨.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 정수 필터 교체 주기와 수압 펌프 체크</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      상업용 정수 필터의 교체 주기는 렌털 정수기처럼 개월 수로 정해진 것이 아님. 매장의 물 사용량과 수질에 따라 3개월이 될 수도 6개월이 될 수도 있음. 커피 머신 펌프 압력 게이지가 평소 9바에서 7바 이하로 떨어지거나, 제빙기 얼음 생성 속도가 현저히 느려졌다면 수압이 약해진 것이며 이는 필터가 이물질로 막혔다는 가장 확실한 신호임.<br><br>
-      이때 즉시 메인 밸브를 잠그고 스페어 필터로 교체할 수 있도록 항상 여분의 카트리지를 매장에 비치해 두어야 함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 정수 필터 교체 주기와 수압 펌프 체크</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(교체주기)</strong>
+· 상업용 정수 필터의 교체 주기는 렌털 정수기처럼 개월 수로 정해진 것이 아님. <br>
+· 매장의 물 사용량과 수질에 따라 3개월이 될 수도 6개월이 될 수도 있음. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(수압펌프 체크)</strong>
+· 커피 머신 펌프 압력 게이지가 평소 9바에서 7바 이하로 떨어지거나, 제빙기 얼음 생성 속도가 현저히 느려졌다면 수압이 약해진 것이며 이는 필터가 이물질로 막혔다는 가장 확실한 신호임.<br>
+· 이때 즉시 메인 밸브를 잠그고 스페어 필터로 교체할 수 있도록 항상 여분의 카트리지를 매장에 비치해 두어야 함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 방역 및 해충 통제(Pest Control) 시스템</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      커피 찌꺼기와 시럽의 단내는 바퀴벌레와 초파리를 끌어들이는 완벽한 환경임. 매장에 1번 해충이 번식하면 자체 방역으로는 완벽히 해결하기 어려움.<br><br>
-      오픈 첫 1달부터 전문 방역 업체와 계약하여 정기적인 관리를 받는 것이 유리함. 이는 단순한 위생을 넘어, 배달 앱 리뷰나 고객 컴플레인으로 인한 치명적인 브랜드 이미지 타격을 막는 가장 저렴한 보험임.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 방역 및 해충 통제(Pest Control) 시스템</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
+· 커피 찌꺼기와 시럽의 단내는 바퀴벌레와 초파리를 끌어들이는 완벽한 환경임. <br>
+· 매장에 한번 해충이 번식하면 자체 방역으로는 완벽히 해결하기 어려움.<br>
+· 특히 손님이 발견하여 리뷰에 언급하는 경우, 매장 이미지와 매출에 큰 타격을 줄 수 있음.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(대안)</strong>
+· 오픈 첫달부터 전문 방역 업체와 계약하여 정기적인 관리를 받는 것이 유리함. <br>
+· 이는 단순한 위생을 넘어, 배달 앱 리뷰나 고객 컴플레인으로 인한 치명적인 브랜드 이미지 타격을 막는 가장 저렴한 보험임.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#6.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어</a>
+  <a href="#7.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 7.1 필수 행정 절차와 절세 타임라인 &rarr;</a>
 </div>`
       }
     ]
