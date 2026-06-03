@@ -328,6 +328,38 @@ export const manualData = [
 · 이는 모터의 회전수(RPM)를 낮춰도 분쇄 속도를 유지할 수 있다는 뜻이며, 결과적으로 칼날의 마찰열(Friction Heat)을 최소화함. <br>
 · 연속 그라인딩 시 원두의 향미 성분이 열에 의해 훼손되는 현상을 방어하는 가장 확실한 물리적 스펙임.</p>
 
+<p class="text-stone-700 mb-4 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「주요 브랜드 모델별 칼날 스펙 참조」</strong></p>
+<div class="overflow-x-auto mb-10 border border-stone-200 rounded-lg">
+  <table class="w-full text-xs md:text-sm text-left text-stone-600">
+    <thead class="bg-stone-100 text-stone-800 font-bold border-b border-stone-200">
+      <tr>
+        <th class="px-4 py-3 whitespace-nowrap">브랜드</th>
+        <th class="px-4 py-3 whitespace-nowrap">대표 모델</th>
+        <th class="px-4 py-3 whitespace-nowrap">칼날 크기</th>
+        <th class="px-4 py-3 whitespace-nowrap">형태</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-stone-100">
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">말코닉 (Mahlkönig)</td><td class="px-4 py-3">E65S / K30</td><td class="px-4 py-3 font-mono">65mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">말코닉 (Mahlkönig)</td><td class="px-4 py-3">E80S / Peak</td><td class="px-4 py-3 font-mono">80mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">말코닉 (Mahlkönig)</td><td class="px-4 py-3">EK43 (에스프레소/브루잉 겸용)</td><td class="px-4 py-3 font-mono">98mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">메저 (Mazzer)</td><td class="px-4 py-3">Super Jolly V Pro</td><td class="px-4 py-3 font-mono">64mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">메저 (Mazzer)</td><td class="px-4 py-3">Major V</td><td class="px-4 py-3 font-mono">83mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">메저 (Mazzer)</td><td class="px-4 py-3">Kony S</td><td class="px-4 py-3 font-mono">63mm</td><td class="px-4 py-3">코니컬</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">메저 (Mazzer)</td><td class="px-4 py-3">Robur S</td><td class="px-4 py-3 font-mono">71mm</td><td class="px-4 py-3">코니컬</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">빅토리아 아르두이노</td><td class="px-4 py-3">Mythos One (MY75)</td><td class="px-4 py-3 font-mono">75mm</td><td class="px-4 py-3">플랫 (티타늄 코팅)</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">빅토리아 아르두이노</td><td class="px-4 py-3">Mythos 2 (MY85)</td><td class="px-4 py-3 font-mono">85mm</td><td class="px-4 py-3">플랫 (티타늄 코팅)</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">안핌 (Anfim)</td><td class="px-4 py-3">Pratica / Luna</td><td class="px-4 py-3 font-mono">65mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">안핌 (Anfim)</td><td class="px-4 py-3">SP II (SP2)</td><td class="px-4 py-3 font-mono">75mm</td><td class="px-4 py-3">플랫 (티타늄 코팅)</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">컴팍 (Compak)</td><td class="px-4 py-3">E6 / F6</td><td class="px-4 py-3 font-mono">64mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">컴팍 (Compak)</td><td class="px-4 py-3">E8 / F8</td><td class="px-4 py-3 font-mono">83mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">컴팍 (Compak)</td><td class="px-4 py-3">K10 / Master</td><td class="px-4 py-3 font-mono">68mm</td><td class="px-4 py-3">코니컬</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">피오렌자토 (Fiorenzato)</td><td class="px-4 py-3">F64 Evo</td><td class="px-4 py-3 font-mono">64mm</td><td class="px-4 py-3">플랫</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">피오렌자토 (Fiorenzato)</td><td class="px-4 py-3">F83 Evo</td><td class="px-4 py-3 font-mono">83mm</td><td class="px-4 py-3">플랫</td></tr>
+    </tbody>
+  </table>
+</div>
+
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 무게 기반 도징(GbW)과 추출(Gravimetric) 시스템</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「인적 오류 제로: Grind by Weight (GbW) 그라인더」</strong>
 · 기존 타이머 방식 그라인더는 호퍼에 담긴 원두의 하중에 따라 초당 토출량이 매번 달라지는 치명적인 단점이 있음. <br>
