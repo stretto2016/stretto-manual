@@ -1,4 +1,4 @@
-// 시작: src/data/manualData.js 1~4장 정밀 교정 코드
+// 시작: src/data/manualData.js 1장
 export const manualData = [
   {
     phaseId: 1,
@@ -6,44 +6,75 @@ export const manualData = [
     sections: [
       {
         sectionId: "1.1",
-        sectionTitle: "1.1 매장 규모별 비즈니스 모델 정의",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">소형 테이크아웃 전문점</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">초고속 회전율 및 박리다매 수익 구조</strong>
-공간의 제약을 극복하기 위해 테이크아웃과 배달 플랫폼에 매출의 절대다수를 의존하는 모델임. 좌석 점유율에 따른 수익 한계가 없으므로 피크 타임의 주문 처리 속도가 곧 일매출의 상한선을 결정함.<br><br>예를 들어 출근 시간대와 점심시간에 트래픽이 집중되므로 메뉴 라인업을 제조 속도가 빠른 핵심 음료 위주로 슬림화해야 함. 객단가가 낮은 대신 원가율을 엄격하게 통제하고 직관적인 동선 기획으로 바리스타 1인당 생산성을 극대화하여 수익을 창출하는 전술을 취함.</p>
+        sectionTitle: "1.1 비즈니스 모델 정의 - 매장 규모",
+        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 소형 테이크아웃 전문점</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「초고속 회전율 및 박리다매 수익 구조」</strong>
+· 공간의 한계를 극복하기 위해 테이크아웃과 배달 플랫폼에 매출의 절대다수를 의존하는 모델.<br>
+· 좌석 점유율에 따른 수익 한계가 없으므로 피크 타임의 주문 처리 속도가 곧 일매출의 상한선을 결정함.<br>
+· 출근 시간대와 점심시간에 트래픽이 집중되므로 메뉴 라인업을 제조 속도가 빠른 핵심 음료 위주로 슬림화해야 함. <br>
+· 객단가가 낮은 대신 원가율을 엄격하게 통제하고 직관적인 동선 기획으로 바리스타 1인당 생산성을 극대화하여 수익을 창출해야 함. </p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">소형 및 중형 동네 주거 상권</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">지역 밀착형 커뮤니티 및 리텐션 확보</strong>
-불특정 다수보다 매장 반경 1km 내의 거주민을 타겟으로 하여 압도적인 재방문율을 이끌어내는 것이 비즈니스의 핵심임. 하루 전반에 걸쳐 트래픽이 고르게 분포하며 고객의 공간 체류 시간이 상대적으로 긺.<br><br>예를 들어 오전에는 학부모 모임 수요를, 오후에는 재택근무자의 수요를 흡수하기 위해 편안한 좌석과 쾌적한 와이파이 환경을 제공함. 단순한 커피 판매를 넘어 동네의 커뮤니티 공간 역할을 수행하며, 수익성을 보완하기 위해 논커피 베리에이션이나 간단한 구움과자를 세트로 구성하여 1인당 객단가를 방어하는 전략이 필수적임.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 소형 및 중형 동네 주거 상권</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「지역 밀착형 커뮤니티 및 리텐션 확보」</strong>
+· 불특정 다수보다 매장 반경 1km 내의 거주민을 타겟으로 하여 압도적인 재방문율을 이끌어내는 것이 비즈니스의 핵심. <br>
+· 아침부터 밤까지 트래픽이 고르게 분포하며 고객의 공간 체류 시간이 상대적으로 긴 편.<br>
+· 오전에는 학부모 모임 수요, 오후에는 재택근무자의 수요를 흡수하기 위해 편안한 좌석과 쾌적한 와이파이 환경을 제공함. <br>
+· 단순한 커피 판매를 넘어 동네의 커뮤니티 공간 역할을 수행하며, 수익성을 보완하기 위해 논커피 베리에이션이나 간단한 디저트를 세트로 구성하여 1인당 객단가를 높이는 것이 유리함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">대형 베이커리 및 외곽형 카페</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">목적 방문형 공간 소비 및 객단가 극대화</strong>
-도심을 벗어나 차량을 이용해 방문하는 고객을 타겟으로 하는 공간 중심 비즈니스임. 지나가다 들르는 곳이 아니라 매장 자체가 하나의 온전한 휴식처이자 방문 목적이 되어야 함. 평일과 주말의 매출 편차가 매우 크며 주말과 공휴일에 주간 매출의 70% 이상이 집중되는 특성을 지님.<br><br>예를 들어 탁 트인 자연경관이나 압도적인 건축미 등 시각적 차별화 요소가 필수적임. 고객은 커피 1잔의 물리적 가치를 넘어 공간에 머무는 시간 전체에 프리미엄을 지불함. 따라서 베이커리나 브런치 등 식사를 대체할 수 있는 메뉴를 결합하여 1인당 객단가를 최고 수준으로 끌어올리는 전략이 수반되어야 함. 초기 부지 확보 및 건축에 투입되는 자본의 규모가 가장 크지만, 안정화 궤도에 오를 경우 가장 높은 볼륨의 매출액을 확보할 수 있음.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 대형 베이커리 및 외곽형 카페</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「목적 방문형 공간 소비 및 객단가 극대화」</strong>
+· 도심을 벗어나 차량을 이용해 방문하는 고객을 타겟으로 하는 공간 중심 비즈니스. <br>
+· 지나가다 들르는 곳이 아니라 매장 자체가 하나의 온전한 휴식처이자 방문 목적이 되어야 함. <br>
+· 평일과 주말의 매출 편차가 매우 크며 주말과 공휴일에 주간 매출의 70% 이상이 집중됨.<br>
+· 탁 트인 자연경관이나 압도적인 건축미 등 시각적 차별화 요소가 필수. <br>
+· 고객은 커피 1잔의 물리적 가치를 넘어 공간에 머무는 시간 전체에 프리미엄을 지불함.<br>
+· 베이커리나 브런치 등 식사를 대체할 수 있는 메뉴를 결합하여 1인당 객단가를 최고 수준으로 끌어올리는 전략이 수반되어야 함. <br>
+· 초기 부지 확보 및 건축에 투입되는 자본의 규모가 가장 크지만, 안정화 궤도에 오를 경우 가장 높은 볼륨의 매출액을 확보할 수 있음.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">스페셜티 지향 에스프레소 바</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">하이엔드 미식 경험 제공 및 브랜드 가치 창출</strong>
-커피 자체의 압도적인 품질과 바리스타의 전문성에 기꺼이 프리미엄 비용을 지불하는 마니아층을 타겟으로 함. 좌석의 편안함보다는 커피를 추출하고 시음하는 미식 경험 자체를 서비스하는 비즈니스 모델임.<br><br>예를 들어 일반적인 아메리카노 외에도 다채로운 싱글 오리진 라인업이나 독창적인 에스프레소 베리에이션 메뉴를 고가에 판매함. 바리스타가 고객과 대면하여 원두의 산지와 가공 방식 등 스토리를 설명하는 도슨트 역할을 수행함. 이러한 하이엔드 이미지는 단기적인 음료 판매 수익을 넘어, 향후 원두 납품 비즈니스나 가맹 사업으로 브랜드를 확장하기 위한 가장 강력한 쇼룸이자 포트폴리오로 작동함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D. 스페셜티 지향 에스프레소 바</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「하이엔드 미식 경험 제공 및 브랜드 가치 창출」</strong>
+· 커피 자체의 압도적인 품질과 바리스타의 전문성에 프리미엄 비용을 지불하는 마니아층을 타겟으로 함.<br>
+· 좌석의 편안함보다는 커피를 추출하고 시음하는 미식 경험 자체를 서비스하는 비즈니스 모델.<br>
+· 일반적인 아메리카노 외에도 다채로운 싱글 오리진 라인업이나 독창적인 에스프레소 베리에이션 메뉴를 고가에 판매함. <br>
+· 바리스타가 고객과 대면하여 원두의 산지와 가공 방식 등 스토리를 설명하는 도슨트 역할을 수행함. <br>
+· 이러한 하이엔드 이미지는 단기적인 음료 판매 수익을 넘어, 향후 원두 납품 비즈니스나 가맹 사업으로 브랜드를 확장하기 위한 가장 강력한 쇼룸이자 포트폴리오가 될 수 있음.</p>`
       },
       {
         sectionId: "1.2",
         sectionTitle: "1.2 현실적인 예산 및 자금 조달 계획",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">초기 투자 비용 매몰 방어</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">보이지 않는 인프라 견적의 함정</strong>
-단순히 평당 200만 원이라는 식의 겉보기 인테리어 단가 산정은 폐업으로 가는 지름길임. 실제 공사에서는 눈에 보이지 않는 설비에 막대한 예산이 투입됨.<br><br>예를 들어 낡은 상가의 경우 계약 전력이 5kW 수준이라 에스프레소 머신 1대만 켜도 차단기가 떨어짐. 이를 15kW로 승압하는 한국전력 불입금 및 배전반 공사, 바 스테이션까지 수도관을 끌어오는 코어 타공 및 배관 연장 공사 비용만 수백만 원이 추가됨. 따라서 전체 공사 예산의 최소 20%는 반드시 인프라 예비비로 할당하여 자금 경색을 막아야 함.</p>
+        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 초기 투자 비용 매몰 방어</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「보이지 않는 인프라 견적의 함정」</strong>
+· 단순히 평당 200만 원이라는 식의 겉보기 인테리어 단가 산정은 폐업으로 가는 지름길일 수 있음. (실제 공사에서는 눈에 보이지 않는 설비에 막대한 예산이 투입됨)<br>
+· 전체 공사 예산의 최소 20%는 반드시 인프라 예비비로 할당하여 예산 초과를 방지해야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 낡은 상가의 경우 계약 전력이 5kW 수준이라 에스프레소 머신 1대만 켜도 차단기가 떨어지는데 이를 15kW로 승압하는 한국전력 불입금 및 배전반 공사, 바 스테이션까지 수도관을 끌어오는 코어 타공 및 배관 연장 공사 비용만 수백만 원이 추가됨.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">운영 고정비 및 손익분기점 설계</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">생존을 위한 한계이익 역산 모델</strong>
-월 임대료는 장마철이나 비수기여도 감당할 수 있도록 예상 월 매출의 10%에서 최대 15% 선으로 강력하게 억제해야 함.<br><br>예를 들어 월 임대료가 300만 원이라면 해당 매장의 생존을 위한 목표 매출은 최소 2,000만 원에서 3,000만 원이 되어야 함. 아메리카노 1잔의 객단가가 4,000원이고 원두 및 컵 리드 등 변동비가 1,000원이라면 1잔 판매 시 한계이익은 3,000원임. 임대료와 인건비 등 월 고정비 총액이 900만 원일 때 적자를 면하기 위해서는 매월 정확히 3,000잔, 즉 하루 100잔의 아메리카노를 팔아야 한다는 손익분기점 수치가 도출됨. 이 수치를 바탕으로 영업 전략을 세워야 함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 운영 고정비 및 손익분기점 설계</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「생존을 위한 한계이익 역산 모델」</strong>
+· 월 임대료는 장마철이나 비수기에도 감당할 수 있도록 예상 월 매출의 10%에서 최대 15% 선으로 강력하게 억제해야 함.<br>
+· 대부분 카페의 경우 3~6월, 9~11월이 성수기.  <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 월 임대료가 300만 원이라면 해당 매장의 생존을 위한 목표 매출은 최소 2,000만 원에서 3,000만 원이 되어야 함.<br>
+· 아메리카노 1잔의 객단가가 4,000원이고 원두 및 컵 리드 등 변동비가 1,000원이라면 1잔 판매 시 한계이익은 3,000원임.<br>
+· 임대료와 인건비 등 월 고정비 총액이 900만 원일 때 적자를 면하기 위해서는 매월 정확히 3,000잔, 즉 하루 100잔의 아메리카노를 팔아야 한다는 손익분기점 수치가 도출됨. <br>
+· 이 수치를 바탕으로 영업 전략을 세워야 함.</p>`
       },
       {
         sectionId: "1.3",
         sectionTitle: "1.3 브랜드 정체성 구축",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">공감각적 아이덴티티 매핑</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">공간과 철학의 완벽한 동기화</strong>
-브랜딩은 단순히 예쁜 로고를 만드는 작업이 아님. 매장의 조도, 음악의 장르, 가구의 질감, 직원들의 응대 톤까지 매장이 지향하는 타겟 페르소나와 일치해야 함.<br><br>예를 들어 철제 마감과 노출 콘크리트를 사용한 인더스트리얼 컨셉의 매장이라면 커피 역시 묵직하고 다크한 블렌딩 원두를 사용해야 함. 음악도 베이스가 강조된 로우 템포의 장르를 선택하여 고객의 시각, 미각, 청각 등 모든 감각 채널에 동일하고 일관된 브랜드 메시지를 전달해야 함.</p>
+        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 공감각적 경험 제공 </h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「공간과 철학의 완벽한 동기화」</strong>
+· 브랜딩은 단순히 예쁜 로고를 만드는 작업이 아닌 매장의 조도, 음악의 장르, 가구의 질감, 직원들의 응대 톤까지 매장이 지향하는 타겟 페르소나와 일치해야 하는 전체적인 그림.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 철제 마감과 노출 콘크리트를 사용한 인더스트리얼 컨셉의 매장이라면 커피 역시 묵직하고 다크한 블렌딩 원두를 사용하는 것이 좋음. <br>
+· 음악도 베이스가 강조된 로우 템포의 장르를 선택하여 고객의 시각, 미각, 청각 등 모든 접점에 동일하고 일관된 브랜드 메시지를 전달해야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">패키징 확장성 및 시각화 가이드</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">테이스팅 노트의 디자인 자산화</strong>
-고객이 매장 밖으로 들고 나가는 테이크아웃 컵과 브로슈어는 가장 강력하고 저렴한 마케팅 수단임.<br><br>예를 들어 중강배전 로스팅 레벨의 스트레토 블렌드를 사용할 때 단순히 고소하고 진하다라고 설명하는 대신 초콜릿, 아몬드, 자스민, 건포도, 카라멜의 복합적인 향미를 직관적으로 연상시키는 색채와 그래픽이 담긴 컵 노트 카드를 음료와 함께 제공함. 이는 고객에게 스페셜티 커피를 대하는 매장의 전문성을 각인시키고 재방문을 유도하는 훌륭한 시각적 장치로 작용함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 패키징 확장성 및 시각화 가이드</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「테이스팅 노트의 디자인 자산화」</strong>
+· 고객이 매장 밖으로 들고 나가는 테이크아웃 컵과 브로슈어, 원두 카드 등은 가장 강력하고 저렴한 마케팅 수단임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 중강배전 로스팅 레벨의 스트레토 블렌드를 사용할 때 단순히 고소하고 진하다라고 설명하는 대신 초콜릿, 아몬드, 자스민, 건포도, 카라멜의 복합적인 향미를 직관적으로 연상시키는 색채와 그래픽이 담긴 컵 노트 카드를 음료와 함께 제공함. <br>
+· 이는 고객에게 스페셜티 커피를 대하는 매장의 전문성을 각인시키고 재방문을 유도하는 훌륭한 시각적 장치로 작용함.</p>`
       }
     ]
   },
