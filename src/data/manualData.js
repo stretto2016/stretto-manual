@@ -1058,6 +1058,12 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 영업신고 현장 실사와 위반건축물 리스크 통제</h4>
 <p class="text-stone-700 mb-8 leading-relaxed">· 영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. <br>· 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨. <br>· 오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.</p>
 
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4. 세무 기장 대행 및 세무사 선정 기준</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「초보 창업자가 간과하기 쉬운 세무 리스크 통제」</strong>
+· 처음 매장을 오픈할 때 당장의 매출과 인테리어에 집중하느라 부가세와 종합소득세 관리를 간과하기 쉬우나, 이를 놓치면 훗날 예상치 못한 세금 폭탄으로 돌아와 순수익에 큰 타격을 입으므로 반드시 1순위로 염두에 두어야 함.<br>
+· 특히 수천만 원 단위의 인테리어 및 장비 대금이 오가는 오픈 초기에는 세금계산서 등 적격 증빙을 철저히 챙겨 부가세를 완벽하게 환급받아야 하므로, 오픈 준비 단계부터 세무 대행을 맡겨 리스크를 선제적으로 차단하는 것을 적극 권장함.<br>
+· 세무사를 고를 때는 화려한 이력보다는 카카오톡 등 모바일 메신저로 증빙 자료 전달이 용이하고, 실시간 피드백 소통이 원활한 실무 중심 업체를 선정하는 것이 매장 운영에 압도적으로 편리함.</p>
+
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.3 매장 셧다운을 막는 시설 유지보수 실무</a>
   <a href="#7.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 7.2 로컬 알고리즘 최적화 및 초기 마케팅 &rarr;</a>
