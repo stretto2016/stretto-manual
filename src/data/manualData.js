@@ -92,10 +92,6 @@ export const manualData = [
     ]
   },
   {
-    phaseId: 2,
-    phaseTitle: "2 상권 분석 및 부동산 계약",
-    sections: [
-      {
         sectionId: "2.1",
         sectionTitle: "2.1 상권 유형별 타겟 고객 분석",
         content: `<h4 id="2.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 오피스 상권</h4>
@@ -108,18 +104,23 @@ export const manualData = [
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 주거 및 학원가 상권</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「지역 밀착형 커뮤니티 및 체류 시간 통제」</strong>
-· 특정 시간대의 폭발적인 트래픽보다는 하루 전반에 걸쳐 고른 매출이 발생. <br>
+· 특정 시간대의 폭발적인 트래픽보다는 하루 전반에 걸쳐 고른 매출이 발생. <br>
 · 오전 시간대 학부모 모임과 저녁 시간대 학원 하원 수요를 모두 흡수해야 하는 상권임.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">&lt;전략&gt;</strong>
-· 에스프레소 베이스 음료 외에도 시즌별 과일 에이드나 상하목장 아이스크림 등 가족 단위 고객을 겨냥한 논커피 메뉴가 강력한 무기가 됨. <br>
+· 에스프레소 베이스 음료 외에도 시즌별 과일 에이드나 상하목장 아이스크림 등 가족 단위 고객을 겨냥한 논커피 메뉴가 강력한 무기가 됨. <br>
 · 거주민의 반복적인 방문을 유도하기 위해 카카오톡 기반의 포인트 적립 제도를 도입하고 편안한 좌석을 배치하되, 카공족으로 인한 회전율 저하를 막기 위해 콘센트 위치를 전략적으로 제한하는 공간 기획이 수반되어야 함.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 대학가 및 번화가 상권</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「트렌드 선점 및 수익 다각화 유연성」</strong>
-· 유행에 가장 민감하고 시각적 자극을 중시하는 20대 소비층이 주를 이룸. <br>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「트렌드 선점 및 수익 다각화 유연성」</strong>
+· 유행에 가장 민감하고 시각적 자극을 중시하는 20대 소비층이 주를 이룸. <br>
 · 커피 본연의 맛을 넘어 인스타그래머블한 시그니처 디저트나 화려한 베버리지 라인업이 매장의 흥망을 결정함.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">&lt;전략&gt;</strong>
 · 상권 특성상 늦은 밤과 새벽까지 유동 인구가 발생하므로, 주간에는 스페셜티 카페로 야간에는 하이볼이나 가벼운 주류를 판매하는 에스프레소 바 형태로 영업시간을 연장하여 임대료 대비 수익을 극대화하는 유연한 전략을 검토해야 함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D. 상권 데이터 분석 툴 활용</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「객관적인 데이터 기반의 의사결정」</strong>
+· 상권분석사이트를 참고하면 평균 매출, 업소 수, 유동인구 등 다양한 정보를 수집할 수 있음.<br>
+· '빅데이터플랫폼 소상공인 365' (http://bigdata.sbiz.or.kr/#/hotplace/gisDetail)</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#1.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 1.3 브랜드 정체성 구축</a>
