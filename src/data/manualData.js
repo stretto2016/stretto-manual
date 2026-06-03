@@ -1036,112 +1036,58 @@ export const manualData = [
       {
         sectionId: "7.1",
         sectionTitle: "7.1 필수 행정 절차와 절세 타임라인",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">구청과 세무서를 오가며 시간을 낭비하지 않으려면 행정 절차의 순서를 정확히 지켜야 함. 특히 초기 투자금의 부가세를 환급받기 위한 타임라인 엄수가 핵심임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 구청과 세무서를 오가며 시간을 낭비하지 않으려면 행정 절차의 순서를 정확히 지켜야 함. <br>· 특히 초기 투자금의 부가세를 환급받기 위한 타임라인 엄수가 핵심임.</p>
 
-<div class="border-t border-stone-200 mt-6">
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 순서가 생명인 인허가 발급 타임라인</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      보건증 발급은 검사 후 수령까지 최소 1주일이 소요되므로 가장 먼저 보건소에 방문해야 함. 이후 한국휴게음식업중앙회에서 주관하는 온라인 위생교육을 수료함. 이 2가지 서류와 임대차계약서, 신분증을 지참해야만 관할 구청에서 '영업신고증' 발급이 가능함. 영업신고증 없이는 다음 단계인 사업자등록이 불가능하므로 반드시 이 순서를 지켜야 함.
-    </div>
-  </details>
+<h4 id="7.1" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 순서가 생명인 인허가 발급 타임라인</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 보건증 발급은 검사 후 수령까지 최소 1주일이 소요되므로 가장 먼저 보건소에 방문해야 함. <br>· 이후 한국휴게음식업중앙회에서 주관하는 온라인 위생교육을 수료. <br>· 이 2가지 서류와 임대차계약서, 신분증을 지참해야만 관할 구청에서 '영업신고증' 발급이 가능함. <br>· 영업신고증 없이는 다음 단계인 사업자등록이 불가능하므로 반드시 이 순서를 지켜야 함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 인테리어 부가세 환급을 위한 사업자등록 선발급</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      수천만 원이 깨지는 인테리어 대금과 에스프레소 머신 구매 시 부가세 10%를 환급받는 것이 초기 자금 방어의 핵심임. 영업신고증이 나오기 전이라도, 임대차계약서와 신분증을 지참해 관할 세무서에 가면 '오픈 예정'으로 사업자등록증 선발급이 가능함. 이를 통해 장비 계약 및 공사 대금 송금 시 반드시 매장 사업자 번호로 세금계산서를 발급받아 두어야 추후 온전하게 부가세를 돌려받을 수 있음.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 인테리어 부가세 환급을 위한 사업자등록 선발급</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 수천만 원 혹은 그 이상의 인테리어 대금과 에스프레소 머신 구매 시 부가세 10%를 환급받는 것이 초기 자금 방어의 핵심. <br>· 영업신고증이 나오기 전이라도, 임대차계약서와 신분증을 지참해 관할 세무서에 가면 '오픈 예정'으로 사업자등록증 선발급이 가능함. <br>· 이를 통해 장비 계약 및 공사 대금 송금 시 반드시 매장 사업자 번호로 세금계산서를 발급받아 두어야 추후 온전하게 부가세를 돌려받을 수 있음.<br>· 사업자등록증을 발급하기 전이라도 모든 대금 거래 영수증은 받아두는 것이 유리함. </p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 영업신고 현장 실사와 위반건축물 리스크 통제</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨. 오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 영업신고 현장 실사와 위반건축물 리스크 통제</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· 영업신고증 발급 과정 혹은 발급 후 1개월 내에 구청 위생과에서 현장 실사를 나옴. <br>· 이때 도면과 다르게 불법 증축된 테라스 공간이나 허가받지 않은 복층 구조가 적발되면, 즉시 철거 명령과 함께 막대한 이행강제금이 부과됨. <br>· 오픈 직후 영업이 중단되는 치명적인 상황을 피하려면 인테리어 설계 단계부터 건축물대장에 위배되지 않는 합법적인 가이드라인을 엄수해야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.3 매장 셧다운을 막는 시설 유지보수 실무</a>
+  <a href="#7.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 7.2 로컬 알고리즘 최적화 및 초기 마케팅 &rarr;</a>
 </div>`
       },
       {
         sectionId: "7.2",
         sectionTitle: "7.2 로컬 알고리즘 최적화 및 초기 마케팅",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">전단지를 돌리는 시대는 끝났음. 로컬 카페의 성패는 고객이 지도 앱을 켰을 때 우리 매장이 어떻게, 얼마나 상단에 노출되느냐에 달려 있음.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 전단지나 오프라인 홍보방식의 효과는 더이상 기대할 수 없는 시대임.<br>· 로컬 카페의 성패는 고객이 지도 앱을 켰을 때 우리 매장이 어떻게, 얼마나 상단에 노출되느냐에 달려 있음.</p>
 
-<div class="border-t border-stone-200 mt-6">
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 네이버 스마트플레이스 SEO 및 키워드 타겟팅</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      초행길 고객의 90%는 네이버 검색으로 유입됨. 스마트플레이스 등록 시 매장명 뒤에 '지역명 + 로스터리 카페' 또는 '지역명 + 스페셜티' 같은 직관적인 타겟 키워드를 전략적으로 배치해야 함. 또한 텍스트로만 메뉴를 적어두면 클릭률이 현저히 떨어지므로, 시그니처 메뉴 3개 이상은 반드시 스튜디오급 고해상도 이미지를 촬영하여 등록해 시각적인 신뢰도를 줘야 함.
-    </div>
-  </details>
+<h4 id="7.2" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 네이버 스마트플레이스 SEO 및 키워드 타겟팅</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 초행길 고객의 90%는 네이버 검색으로 유입됨. <br>· 스마트플레이스 등록 시 매장명 뒤에 '지역명 + 로스터리 카페' 또는 '지역명 + 스페셜티' 같은 직관적인 타겟 키워드를 전략적으로 배치해야 함. <br>· 텍스트로만 메뉴를 적어두면 클릭률이 현저히 떨어지므로, 시그니처 메뉴 3개 이상은 반드시 스튜디오급 고해상도 이미지를 촬영하여 등록해 시각적인 신뢰도를 줘야 함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 어뷰징 없는 초기 영수증 리뷰 빌드업</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      마케팅 대행사에 돈을 주고 가짜 영수증 리뷰를 찍어내는 행위는 네이버 알고리즘에 의해 매장 검색 노출이 영구 누락되는 자살 행위임. 정식 오픈 전 지인이나 동네 커뮤니티 기반의 소규모 체험단을 초대하여 실제 결제 트래픽을 일으키고, 텍스트가 아닌 '사진이 3장 이상 포함된 양질의 영수증 리뷰' 30개를 초기 데이터로 탄탄하게 쌓아 플레이스 순위를 안전하게 끌어올리는 것이 정석임.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 어뷰징 없는 초기 영수증 리뷰 빌드업</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 마케팅 대행사에 의뢰하여 가짜 영수증 리뷰를 찍어내는 행위는 네이버 알고리즘에 의해 매장 검색 노출이 영구 누락될 수 있음. <br>· 정식 오픈 전 지인이나 동네 커뮤니티 기반의 소규모 체험단을 초대하여 실제 결제 트래픽을 일으키고, 텍스트가 아닌 '사진이 3장 이상 포함된 양질의 영수증 리뷰' 30개를 초기 데이터로 탄탄하게 쌓아 플레이스 순위를 안전하게 끌어올리는 것이 정석임.<br>· 소비자들도 돈을 쓴 리뷰와 그렇지 않은 리뷰를 구별할 수 있기 때문에 진정성 있는 리뷰가 중요함. </p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 텍스트 배제 및 시각 중심의 인스타그램 포트폴리오</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      인스타그램 피드에 원두의 산지와 철학을 설명하는 구구절절한 텍스트는 아무도 읽지 않음. 커피 맛이 좋다는 천 마디 말보다, 에스프레소가 쫀득하게 떨어지는 하이엔드 머신의 릴스 영상이나 매장의 묵직한 조도가 담긴 공간 사진 1장이 훨씬 강력함. 피드는 매장의 톤앤매너를 보여주는 룩북(Look-book)으로만 활용하고, 지저분해 보일 수 있는 휴무일이나 공지사항은 스토리 하이라이트로 따로 빼서 브랜드의 시각적 일관성을 유지해야 함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 시각 중심의 인스타그램 포트폴리오 </h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· 인스타그램 피드에 원두의 산지와 철학을 설명하는 구구절절한 텍스트는 아무도 읽지 않음. <br>· 커피 맛이 좋다는 천 마디 말보다, 에스프레소가 쫀득하게 떨어지는 하이엔드 머신의 릴스 영상이나 매장의 묵직한 조도가 담긴 공간 사진 1장이 훨씬 강력함. <br>· 피드는 매장의 톤앤매너를 보여주는 룩북(Look-book)으로만 활용하고, 지저분해 보일 수 있는 휴무일이나 공지사항은 스토리 하이라이트로 따로 빼서 브랜드의 시각적 일관성을 유지해야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#7.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 7.1 필수 행정 절차와 절세 타임라인</a>
+  <a href="#7.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 7.3 스트레스 테스트 및 그랜드 오픈 전략 &rarr;</a>
 </div>`
       },
       {
         sectionId: "7.3",
         sectionTitle: "7.3 스트레스 테스트 및 그랜드 오픈 전략",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed">오픈 첫날 손님이 몰려 음료가 20분씩 지연되면 그 매장의 이미지는 회복 불가능함. 완벽한 대비태세를 갖추기 위한 실무 매뉴얼임.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 오픈 첫날 손님이 몰려 음료가 20분씩 지연되면 그 매장의 이미지는 회복 불가능함. <br>· 완벽한 대비태세를 갖추기 위한 실무 매뉴얼.</p>
 
-<div class="border-t border-stone-200 mt-6">
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">1. 축하 파티가 아닌 극한의 가오픈 스트레스 테스트</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      가오픈(Soft Opening)은 지인들을 불러 칭찬을 듣는 자리가 아님. 동시에 10팀이 몰려들었을 때 POS 영수증이 꼬이지 않는지, 연속 추출 시 머신의 보일러 스팀 압력이 버티는지, 피크 타임에 제빙기 얼음이 동나지 않는지 점검하는 '버그 리포트' 기간임. 고의로 오퍼레이션의 한계치를 유발하여 바리스타 간의 동선 충돌과 레시피의 병목 현상을 찾아내고, 정식 오픈 전까지 바 세팅을 전면 수정하는 데 목적을 둬야 함.
-    </div>
-  </details>
+<h4 id="7.3" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 축하 파티가 아닌 극한의 가오픈 스트레스 테스트</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 가오픈(Soft Opening)은 지인들을 불러 칭찬을 듣는 자리가 아님. <br>· 동시에 10팀이 몰려들었을 때 POS 영수증이 꼬이지 않는지, 연속 추출 시 머신의 보일러 스팀 압력이 버티는지, 피크 타임에 제빙기 얼음이 동나지 않는지 점검하는 '버그 리포트' 기간임. <br>· 고의로 오퍼레이션의 한계치를 유발하여 바리스타 간의 동선 충돌과 레시피의 병목 현상을 찾아내고, 정식 오픈 전까지 바 세팅을 전면 수정하는 데 목적을 둬야 함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">2. 체리피커를 걸러내는 브랜드 가치 보존 프로모션</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      그랜드 오픈 시 '전 메뉴 50% 할인'이나 '아메리카노 1000원' 같은 단가 인하 행사는 절대 금물임. 이는 행사 기간이 끝나면 즉시 발길을 끊는 체리피커(Cherry Picker)들만 매장에 바글거리게 만듦. 음료의 제값을 온전히 받되, 결제 고객에게 매장의 시그니처 블렌드 드립백을 무료로 제공하거나 로고가 각인된 고품질 리유저블 컵을 증정하여, 가격 훼손 없이 우리 브랜드의 퀄리티를 집까지 가져가게 만드는 전략이 압도적으로 유리함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 체리피커를 걸러내는 브랜드 가치 보존 프로모션</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 그랜드 오픈 시 '전 메뉴 50% 할인'이나 '아메리카노 1000원' 같은 단가 인하 행사는 절대 금물임. <br>· 이는 행사 기간이 끝나면 즉시 발길을 끊는 체리피커(Cherry Picker)들만 매장에 바글거리게 만듦. <br>· 음료의 제값을 온전히 받되, 결제 고객에게 매장의 시그니처 블렌드 드립백을 무료로 제공하거나 로고가 각인된 고품질 리유저블 컵을 증정하여, 가격 훼손 없이 우리 브랜드의 퀄리티를 집까지 가져가게 만드는 전략이 압도적으로 유리함.</p>
 
-  <details class="group border-b border-stone-200 overflow-hidden">
-    <summary class="list-none cursor-pointer py-5 flex justify-between items-center transition-colors [&::-webkit-details-marker]:hidden hover:opacity-70">
-      <span class="font-bold text-stone-900 text-lg tracking-tight">3. 초기 단골 록인(Lock-in)을 위한 리텐션 바우처</span>
-      <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-    </summary>
-    <div class="pb-6 pt-2 text-stone-600 leading-relaxed">
-      오픈발로 밀려든 첫 방문 고객이 2주일 내에 다시 매장을 찾도록 강제하는 장치가 필요함. 구두로만 "또 오세요"라고 인사하는 것은 의미가 없음. 첫 결제 고객에게 음료와 함께 '2주일 내 재방문 시 시그니처 구움과자 무료 증정' 등 확실하고 매력적인 베네핏이 적힌 실물 바우처 쿠폰을 건네주어, 단발성 호기심 방문을 정기적인 소비 습관으로 전환시키는 리텐션(Retention) 시스템을 가동해야 함.
-    </div>
-  </details>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 초기 단골 락인(Lock-in)을 위한 리텐션 바우처</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· 오픈발로 밀려든 첫 방문 고객이 2주일 내에 다시 매장을 찾도록 강제하는 장치가 필요함. <br>· 구두로만 "또 오세요"라고 인사하는 것은 의미가 없음. <br>· 첫 결제 고객에게 음료와 함께 '2주일 내 재방문 시 시그니처 구움과자 무료 증정' 등 확실하고 매력적인 베네핏이 적힌 실물 바우처 쿠폰을 건네주어, 단발성 호기심 방문을 정기적인 소비 습관으로 전환시키는 리텐션(Retention) 시스템을 가동해야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#7.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 7.2 로컬 알고리즘 최적화 및 초기 마케팅</a>
+  <a href="#8.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 8.1 고객 접객 및 MOT 행동 강령 &rarr;</a>
 </div>`
       }
     ]
