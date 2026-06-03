@@ -4,7 +4,7 @@ import { manualData } from './data/manualData';
 
 function App() {
   // 보안 핀 번호 설정 (원하는 4자리 숫자로 변경)
-  const CORRECT_PIN = '1014';
+  const CORRECT_PIN = '6068';
   
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [pinInput, setPinInput] = useState('');
