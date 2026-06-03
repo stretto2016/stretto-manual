@@ -1272,10 +1272,82 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4. 매장 내외부 사인물(Signage) 및 VMD</h4>
 <p class="text-stone-700 mb-8 leading-relaxed">· <strong class="font-semibold text-stone-900">외부 시각물:</strong> 워크인 고객의 시선을 끄는 옥외 A보드(입간판), 영업시간과 로고가 각인된 출입문 시트지(데칼 스티커), 어닝(천막) 인쇄.<br>· <strong class="font-semibold text-stone-900">내부 디스플레이:</strong> 시그니처 메뉴의 퀄리티를 직관적으로 보여주는 벽면 포스터, 원두 진열대(매대)의 네임택 및 아크릴 POP 테이블 텐트.</p>
 
-<div class="mt-12 flex justify-start text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#9.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 9.3 초도 식자재 및 일일 오퍼레이션 루틴</a>
+  <a href="#10.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 10.1 누락 없는 창업 예산 편성 프레임워크 &rarr;</a>
 </div>`
       }
     ]
   },
+  {
+    phaseId: 10,
+    phaseTitle: "10 전체적인 예산 편성 및 스케줄링",
+    sections: [
+      {
+        sectionId: "10.1",
+        sectionTitle: "10.1 누락 없는 창업 예산 편성 프레임워크",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 예산 초과로 인한 오픈 전 자금 고갈을 막기 위해서는 추상적인 '평당 단가' 계산을 버리고, 4대 카테고리로 예산을 완전히 분리하여 실원가를 역산해야 함. 모든 견적은 부가세(VAT) 10%를 별도로 표기하여 자금 흐름의 착시를 방지함.</p>
+
+<h4 id="10.1" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 부동산 및 행정 고정비 (Budget A)</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">항목:</strong> 상가 보증금, 권리금(영업/시설), 중개 수수료, 인허가 관련 세금(면허세 등).<br>· <strong class="font-semibold text-stone-900">편성 팁:</strong> 보증금은 나중에 돌려받는 돈이지만 초기 현금 흐름을 가장 크게 묶어둠. 상가 계약 시 '렌트프리(무상 임대 기간)'를 최소 3주 이상 확보하여 인테리어 기간 동안 발생하는 월세 누수를 방어해야 함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 인테리어 및 인프라 설비비 (Budget B)</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">항목:</strong> 내/외부 인테리어, 파사드(간판), 냉난방기, 가구 및 조명, 소방 설비.<br>· <strong class="font-semibold text-stone-900">인프라 예비비(핵심):</strong> 눈에 보이는 디자인 외에 한전 전기 승압(불입금), 메인 배전함 교체, 상하수도 코어 타공 및 연장, 덕트 배기 공사 등 '보이지 않는 기초 설비'에 예산의 최소 20%를 예비비로 할당해 두어야 공사 중단 사태를 막을 수 있음.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 장비 및 초도 물량비 (Budget C)</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">항목:</strong> 에스프레소 머신, 그라인더, 제빙기, 냉장고, 포스(POS), 초도 식자재(원두, 시럽), 패키징(컵, 봉투) 초도 인쇄 물량.<br>· <strong class="font-semibold text-stone-900">편성 팁:</strong> 하드웨어 장비는 수입사 재고 상황에 따라 단가가 변동될 수 있으므로 여유 예산을 잡음. 특히 커스텀 패키징(인쇄 컵, 로고 냅킨 등)은 동판비 등 초기 세팅비가 발생하며 최소 수량(MOQ)이 단위가 크기 때문에 식자재보다 예산 비중을 높게 잡아야 함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">4. 생존을 위한 운영 예비 자금 (Budget D)</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· <strong class="font-semibold text-stone-900">항목:</strong> 최소 3개월 치의 월 임대료 + 고정 인건비 + 공과금 및 관리비.<br>· <strong class="font-semibold text-stone-900">편성 팁:</strong> 오픈 첫 달부터 손익분기점(BEP)을 넘길 것이라는 낙관적 기대는 금물임. 장마, 혹한기 등 외부 변수로 인해 적자가 발생하더라도 매장이 셧다운되지 않고 버틸 수 있는 '3개월 치 생존 자금'은 인테리어를 타협하더라도 반드시 현금으로 보유하고 있어야 함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#9.4" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 9.4 고객 접점(MOT) 패키징 및 인쇄물 제작</a>
+  <a href="#10.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 10.2 D-Day 역산형 스케줄링 타임라인 &rarr;</a>
+</div>`
+      },
+      {
+        sectionId: "10.2",
+        sectionTitle: "10.2 D-Day 역산형 스케줄링 타임라인",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 스케줄링은 앞서부터 계획하는 것이 아니라 '오픈 목표일(D-Day)'을 정해두고 역순으로 데드라인을 설정(Reverse-engineering)해야만 일정 지연을 막을 수 있음.</p>
+
+<h4 id="10.2" class="text-xl font-bold text-stone-900 mt-10 mb-4">D-60 ~ D-45 : 기획 및 계약 단계</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">상가 임대차 계약:</strong> 건축물대장 용도 확인 및 계약 완료 (렌트프리 협상).<br>· <strong class="font-semibold text-stone-900">인테리어 도면 픽스:</strong> 현장 실사 및 3D 도면 확정, 급배수/전기 인프라 설계 완료.<br>· <strong class="font-semibold text-stone-900">브랜딩 및 로고 기획:</strong> BI/CI 디자인 착수. (패키징 발주를 위해 가장 먼저 끝나야 함)</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D-45 ~ D-30 : 인테리어 착공 및 핵심 발주</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">인테리어 공사 시작:</strong> 철거, 설비(전기 승압 신청, 상하수도 매립), 목공 작업 진행.<br>· <strong class="font-semibold text-stone-900">대형 장비 발주:</strong> 에스프레소 머신 등 수입 장비 재고 확인 및 계약 (품절 시 대체품 수배).<br>· <strong class="font-semibold text-stone-900">커스텀 패키징 발주:</strong> 종이컵, 원두 봉투 등 인쇄물 발주. (동판 제작 및 인쇄에 평균 3~4주 소요되므로 이 시기에 넘기지 않으면 무지 컵으로 오픈하게 됨)</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D-30 ~ D-15 : 행정 처리 및 인프라 마감</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">필수 행정 서류:</strong> 보건증 발급 신청, 위생교육 온라인 수료 완료.<br>· <strong class="font-semibold text-stone-900">인터넷 및 보안:</strong> 통신사(인터넷/전화) 및 CCTV 업체 계약. (목공 마감 전 통신선과 CCTV 케이블을 보이지 않게 사전 포설해야 함)<br>· <strong class="font-semibold text-stone-900">영업신고 및 사업자등록:</strong> 인테리어 완료 전이라도 구청 방문해 영업신고 후 세무서 사업자등록증 발급 완료.<br>· <strong class="font-semibold text-stone-900">카드 가맹점 신청:</strong> 사업자등록증이 나오자마자 POS 업체나 밴(VAN) 사를 통해 카드사 가맹 심사 신청. (심사에 약 1~2주 소요됨)</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D-15 ~ D-7 : 장비 세팅 및 실무 준비</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">인테리어 준공 청소:</strong> 공사 분진 완벽 제거.<br>· <strong class="font-semibold text-stone-900">장비 반입 및 튜닝:</strong> 머신, 그라인더, 제빙기, 정수 필터 설치 완료 및 정상 작동(수압, 전압) 테스트.<br>· <strong class="font-semibold text-stone-900">초도 물량 입고:</strong> 원두, 우유, 시럽, 소모품 등 완벽 세팅.<br>· <strong class="font-semibold text-stone-900">인력 채용 및 포스 세팅:</strong> 직원 근로계약서 작성 완료 및 POS 메뉴/단가 입력 세팅.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D-7 ~ D-1 : 가오픈 및 스트레스 테스트</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· <strong class="font-semibold text-stone-900">레시피 캘리브레이션:</strong> 그라인더 분쇄도 세팅, 머신 온도/압력 미세 조정 및 전 메뉴 시음.<br>· <strong class="font-semibold text-stone-900">가오픈(스트레스 테스트):</strong> 지인 및 소수 고객 대상 운영하며 바리스타 동선 충돌, 장비 과부하 여부 체크 및 수정.<br>· <strong class="font-semibold text-stone-900">온라인 세팅:</strong> 네이버 스마트플레이스 등록 및 영수증 리뷰 빌드업, 인스타그램 최종 공지.<br>· <strong class="font-semibold text-stone-900">최종 마감:</strong> 전체 방역 실시, 제빙기 얼음 상태 재확인, 결제용 시재금(현금) 준비.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#10.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 10.1 누락 없는 창업 예산 편성 프레임워크</a>
+  <a href="#10.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 10.3 치명적 셧다운을 유발하는 누락 주의보 &rarr;</a>
+</div>`
+      },
+      {
+        sectionId: "10.3",
+        sectionTitle: "10.3 치명적 셧다운을 유발하는 누락 주의보",
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 스케줄링 시 가볍게 여겼다가 오픈 당일 영업을 불가능하게 만드는 가장 흔하고 치명적인 3가지 실무 누락 포인트임.</p>
+
+<h4 id="10.3" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 인터넷 통신선 사전 포설 누락 (포스기 먹통)</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 인테리어 목공 공사가 한창일 때 인터넷 기사를 불러 카운터 쪽으로 랜(LAN) 선을 미리 빼두지 않으면, 공사 마감 후 바닥이나 천장으로 지저분하게 선이 노출됨. <br>· 최악의 경우 선을 뺄 공간이 없어 오픈 당일 POS 결제와 배달 앱 연동이 전면 마비될 수 있음.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">2. 카드 가맹점 심사 지연 (결제 불가 사태)</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 사업자등록증이 나왔다고 바로 카드를 긁을 수 있는 것이 아님. 8개 주요 카드사에 가맹 심사를 넣고 승인이 나기까지 영업일 기준 최소 1주에서 2주가 소요됨. <br>· 이 일정을 D-15 이전에 소화하지 않으면 가오픈 기간 내내 손님에게 "현금 결제나 계좌이체만 가능합니다"라고 말해야 하는 치명적인 브랜드 이미지 훼손이 발생함.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 전기 승압 행정 처리 지연 (차단기 셧다운)</h4>
+<p class="text-stone-700 mb-8 leading-relaxed">· 전기 승압(예: 5kW → 15kW)은 인테리어 업체가 선을 깐다고 끝나는 것이 아님. 전기안전공사의 안전 검사를 통과하고 한국전력(한전)에 서류가 접수되어 최종 전력이 인입되기까지 최소 2주~3주의 행정 기간이 소요됨. <br>· 이 일정을 도외시하고 장비부터 켜면 피크 타임에 에스프레소 머신과 냉난방기가 동시에 돌아가면서 메인 차단기가 떨어지는 대참사가 발생함.</p>
+
+<div class="mt-12 flex justify-start text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#10.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 10.2 D-Day 역산형 스케줄링 타임라인</a>
+</div>`
+      }
+    ]
+  }
 ];
