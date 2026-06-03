@@ -1,4 +1,3 @@
-// 시작: src/data/manualData.js 1장
 export const manualData = [
   {
     phaseId: 1,
@@ -37,7 +36,11 @@ export const manualData = [
 · 좌석의 편안함보다는 커피를 추출하고 시음하는 미식 경험 자체를 서비스하는 비즈니스 모델.<br>
 · 일반적인 아메리카노 외에도 다채로운 싱글 오리진 라인업이나 독창적인 에스프레소 베리에이션 메뉴를 고가에 판매함. <br>
 · 바리스타가 고객과 대면하여 원두의 산지와 가공 방식 등 스토리를 설명하는 도슨트 역할을 수행함. <br>
-· 이러한 하이엔드 이미지는 단기적인 음료 판매 수익을 넘어, 향후 원두 납품 비즈니스나 가맹 사업으로 브랜드를 확장하기 위한 가장 강력한 쇼룸이자 포트폴리오가 될 수 있음.</p>`
+· 이러한 하이엔드 이미지는 단기적인 음료 판매 수익을 넘어, 향후 원두 납품 비즈니스나 가맹 사업으로 브랜드를 확장하기 위한 가장 강력한 쇼룸이자 포트폴리오가 될 수 있음.</p>
+
+<div class="mt-12 flex justify-end text-sm text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.2" class="hover:text-stone-600 transition-colors cursor-pointer">다음: 1.2 현실적인 예산 및 자금 조달 계획 &rarr;</a>
+</div>`
       },
       {
         sectionId: "1.2",
@@ -57,7 +60,12 @@ export const manualData = [
 · 월 임대료가 300만 원이라면 해당 매장의 생존을 위한 목표 매출은 최소 2,000만 원에서 3,000만 원이 되어야 함.<br>
 · 아메리카노 1잔의 객단가가 4,000원이고 원두 및 컵 리드 등 변동비가 1,000원이라면 1잔 판매 시 한계이익은 3,000원임.<br>
 · 임대료와 인건비 등 월 고정비 총액이 900만 원일 때 적자를 면하기 위해서는 매월 정확히 3,000잔, 즉 하루 100잔의 아메리카노를 팔아야 한다는 손익분기점 수치가 도출됨. <br>
-· 이 수치를 바탕으로 영업 전략을 세워야 함.</p>`
+· 이 수치를 바탕으로 영업 전략을 세워야 함.</p>
+
+<div class="mt-12 flex justify-between text-sm text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.1" class="hover:text-stone-600 transition-colors cursor-pointer">&larr; 이전: 1.1 비즈니스 모델 정의 - 매장 규모</a>
+  <a href="#1.3" class="hover:text-stone-600 transition-colors cursor-pointer">다음: 1.3 브랜드 정체성 구축 &rarr;</a>
+</div>`
       },
       {
         sectionId: "1.3",
@@ -74,7 +82,11 @@ export const manualData = [
 · 고객이 매장 밖으로 들고 나가는 테이크아웃 컵과 브로슈어, 원두 카드 등은 가장 강력하고 저렴한 마케팅 수단임.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
 · 중강배전 로스팅 레벨의 스트레토 블렌드를 사용할 때 단순히 고소하고 진하다라고 설명하는 대신 초콜릿, 아몬드, 자스민, 건포도, 카라멜의 복합적인 향미를 직관적으로 연상시키는 색채와 그래픽이 담긴 컵 노트 카드를 음료와 함께 제공함. <br>
-· 이는 고객에게 스페셜티 커피를 대하는 매장의 전문성을 각인시키고 재방문을 유도하는 훌륭한 시각적 장치로 작용함.</p>`
+· 이는 고객에게 스페셜티 커피를 대하는 매장의 전문성을 각인시키고 재방문을 유도하는 훌륭한 시각적 장치로 작용함.</p>
+
+<div class="mt-12 flex justify-start text-sm text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.2" class="hover:text-stone-600 transition-colors cursor-pointer">&larr; 이전: 1.2 현실적인 예산 및 자금 조달 계획</a>
+</div>`
       }
     ]
   },
