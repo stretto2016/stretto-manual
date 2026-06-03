@@ -510,18 +510,18 @@ export const manualData = [
         sectionTitle: "5.1 시그니처 메뉴 기획과 메뉴판 슬림화",
         content: `<h4 id="5.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 선택과 집중을 통한 메뉴판 슬림화</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「재고 폐기율(Loss) 최소화를 위한 실전 메뉴 최적화」</strong>
-· 메뉴가 많다고 매출이 오르지 않음. <br>
+· 메뉴가 많다고 매출이 오르지 않음.<br>
 · 오히려 안 팔리는 재료가 유통기한을 넘겨 버려지는 폐기율만 높아질 뿐.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(적용)</strong>
-· 아메리카노와 라떼 같은 필수 커피 메뉴를 제외한 논커피 베리에이션은 최대 5개에서 7개 이하로 제한하는 것이 좋음. <br>
+· 아메리카노와 라떼 같은 필수 커피 메뉴를 제외한 논커피 베리에이션은 최대 5개에서 7개 이하로 제한하는 것이 좋음.<br>
 · 특히 과일 스무디나 생과일주스처럼 손이 많이 가고 재료 보관이 까다로운 메뉴는 과감히 덜어내고, 제조 속도가 빠르며 마진이 좋은 에이드류와 시그니처 밀크티 등으로 라인업을 슬림화해야 바리스타의 노동 피로도를 낮추고 피크 타임 회전율을 높일 수 있음.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 매장의 정체성을 담은 시그니처 베버리지</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「시각적 차별화와 원두 캐릭터의 결합」</strong>
-· 다른 카페에는 없는 우리 매장만의 시그니처 메뉴 1~2개는 필수적으로 기획해야 함. <br>
+· 다른 카페에는 없는 우리 매장만의 시그니처 메뉴 1~2개는 필수적으로 기획해야 함.<br>
 · 단순히 달콤한 크림을 올리는 것을 넘어, 납품받는 원두의 향미를 극대화하는 레시피가 필요함.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(적용)</strong>
-· 초콜릿, 아몬드, 자스민, 건포도, 카라멜 향미가 특징인 중강배전 스트레토 블렌드를 사용할 경우, 이 원두로 추출한 진하고 묵직한 에스프레소 베이스에 아몬드 우유와 수제 카라멜 크림을 얹어 견과류의 고소함과 단맛을 배가시키는 '너티 카라멜 크림 라떼'를 시그니처로 내세울 수 있음. <br>
+· 초콜릿, 아몬드, 자스민, 건포도, 카라멜 향미가 특징인 중강배전 스트레토 블렌드를 사용할 경우, 이 원두로 추출한 진하고 묵직한 에스프레소 베이스에 아몬드 우유와 수제 카라멜 크림을 얹어 견과류의 고소함과 단맛을 배가시키는 '너티 카라멜 크림 라떼'를 시그니처로 내세울 수 있음.<br>
 · 이는 시각적으로 화려할 뿐만 아니라 원두의 캐릭터를 완벽히 활용하는 훌륭한 브랜딩 전략임.</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
@@ -1270,8 +1270,9 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3. 마감 조(Close) 데일리 루틴</h4>
 <p class="text-stone-700 mb-8 leading-relaxed">· <strong class="font-semibold text-stone-900">장비 심층 세척:</strong> 블라인드 바스켓과 전용 약품으로 그룹헤드 5회 백플러싱 및 약품 제거용 10회 강제 린싱 실시, 스팀 완드 팁 일자 드라이버로 분해 후 찌꺼기 청소<br>· <strong class="font-semibold text-stone-900">그라인더 큐씨:</strong> 호퍼 내부 잔여 원두 밀폐 용기로 이동, 버(Burr) 주변 고착된 커피 미분 진공청소기 흡입<br>· <strong class="font-semibold text-stone-900">배관 역류 통제:</strong> 싱크대 하부 그리스트랩 슬러지 비우기, 메인 배수구에 70도 이상 고온수 10L 한 번에 부어 내부 유분 뚫어주기(플러싱)<br>· <strong class="font-semibold text-stone-900">위생 및 보안 마감:</strong> 개봉된 잔여 우유 폐기, 제빙기 스쿱 살균, 포스 정산 및 영수증 용지 잔량 체크, CCTV 녹화 점검 후 완전 차단</p>
 
-<div class="mt-12 flex justify-start text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#9.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 9.2 장비, 바웨어 및 홀 인프라 검증</a>
+  <a href="#9.4" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 9.4 고객 접점(MOT) 패키징 및 인쇄물 제작 &rarr;</a>
 </div>`
       },
       {
@@ -1327,7 +1328,7 @@ export const manualData = [
       {
         sectionId: "10.2",
         sectionTitle: "10.2 D-Day 역산형 스케줄링 타임라인",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 스케줄링은 앞서부터 계획하는 것이 아니라 '오픈 목표일(D-Day)'을 정해두고 역순으로 데드라인을 설정(Reverse-engineering)해야만 일정 지연을 막을 수 있음.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 스케줄링은 프로젝트 시작일부터 계획해선 안되고, '오픈 목표일(D-Day)'을 정해두고 역순으로 데드라인을 설정(Reverse-engineering)해야만 일정 지연을 막을 수 있음.</p>
 
 <h4 id="10.2" class="text-xl font-bold text-stone-900 mt-10 mb-4">D-60 ~ D-45 : 기획 및 계약 단계</h4>
 <p class="text-stone-700 mb-6 leading-relaxed">· <strong class="font-semibold text-stone-900">상가 임대차 계약:</strong> 건축물대장 용도 확인 및 계약 완료 (렌트프리 협상).<br>· <strong class="font-semibold text-stone-900">인테리어 도면 픽스:</strong> 현장 실사 및 3D 도면 확정, 급배수/전기 인프라 설계 완료.<br>· <strong class="font-semibold text-stone-900">브랜딩 및 로고 기획:</strong> BI/CI 디자인 착수. (패키징 발주를 위해 가장 먼저 끝나야 함)</p>
