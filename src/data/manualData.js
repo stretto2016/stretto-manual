@@ -489,39 +489,62 @@ export const manualData = [
       {
         sectionId: "5.1",
         sectionTitle: "5.1 시그니처 메뉴 기획과 메뉴판 슬림화",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">선택과 집중을 통한 메뉴판 슬림화</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">재고 폐기율(Loss)을 줄이는 백엔드 기획</strong>
-메뉴가 많다고 매출이 오르지 않음. 오히려 안 팔리는 재료가 유통기한을 넘겨 버려지는 폐기율만 높아질 뿐임.<br><br>
-아메리카노와 라떼 같은 필수 커피 메뉴를 제외한 논커피 베리에이션은 최대 5개에서 7개 이하로 제한하는 것이 좋음. 특히 과일 스무디나 생과일주스처럼 손이 많이 가고 재료 보관이 까다로운 메뉴는 과감히 덜어내고, 제조 속도가 빠르며 마진이 좋은 에이드류와 시그니처 밀크티 등으로 라인업을 슬림화해야 바리스타의 노동 피로도를 낮추고 피크 타임 회전율을 높일 수 있음.</p>
+        content: `<h4 id="5.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 선택과 집중을 통한 메뉴판 슬림화</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「재고 폐기율(Loss)을 줄이는 백엔드 기획」</strong>
+· 메뉴가 많다고 매출이 오르지 않음. <br>
+· 오히려 안 팔리는 재료가 유통기한을 넘겨 버려지는 폐기율만 높아질 뿐.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(적용)</strong>
+· 아메리카노와 라떼 같은 필수 커피 메뉴를 제외한 논커피 베리에이션은 최대 5개에서 7개 이하로 제한하는 것이 좋음. <br>
+· 특히 과일 스무디나 생과일주스처럼 손이 많이 가고 재료 보관이 까다로운 메뉴는 과감히 덜어내고, 제조 속도가 빠르며 마진이 좋은 에이드류와 시그니처 밀크티 등으로 라인업을 슬림화해야 바리스타의 노동 피로도를 낮추고 피크 타임 회전율을 높일 수 있음.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">매장의 정체성을 담은 시그니처 베버리지</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">시각적 차별화와 원두 캐릭터의 결합</strong>
-다른 카페에는 없는 우리 매장만의 시그니처 메뉴 1개에서 2개는 필수적으로 기획해야 함. 단순히 달콤한 크림을 올리는 것을 넘어, 납품받는 원두의 향미를 극대화하는 레시피가 필요함.<br><br>
-예를 들어 초콜릿, 아몬드, 자스민, 건포도, 카라멜 향미가 특징인 중강배전 스트레토 블렌드를 사용할 경우, 이 원두로 추출한 진하고 묵직한 에스프레소 베이스에 아몬드 우유와 수제 카라멜 크림을 얹어 견과류의 고소함과 단맛을 배가시키는 '너티 카라멜 크림 라떼'를 시그니처로 내세울 수 있음. 이는 시각적으로 화려할 뿐만 아니라 원두의 캐릭터를 완벽히 활용하는 훌륭한 브랜딩 전략임.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 매장의 정체성을 담은 시그니처 베버리지</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「시각적 차별화와 원두 캐릭터의 결합」</strong>
+· 다른 카페에는 없는 우리 매장만의 시그니처 메뉴 1~2개는 필수적으로 기획해야 함. <br>
+· 단순히 달콤한 크림을 올리는 것을 넘어, 납품받는 원두의 향미를 극대화하는 레시피가 필요함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(적용)</strong>
+· 초콜릿, 아몬드, 자스민, 건포도, 카라멜 향미가 특징인 중강배전 스트레토 블렌드를 사용할 경우, 이 원두로 추출한 진하고 묵직한 에스프레소 베이스에 아몬드 우유와 수제 카라멜 크림을 얹어 견과류의 고소함과 단맛을 배가시키는 '너티 카라멜 크림 라떼'를 시그니처로 내세울 수 있음. <br>
+· 이는 시각적으로 화려할 뿐만 아니라 원두의 캐릭터를 완벽히 활용하는 훌륭한 브랜딩 전략임.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#4.4" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 4.4 장비 자가 진단 및 트러블슈팅 가이드</a>
+  <a href="#5.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 5.2 부가세와 로스율을 반영한 실원가 책정법 &rarr;</a>
+</div>`
       },
       {
         sectionId: "5.2",
         sectionTitle: "5.2 부가세와 로스율을 반영한 실원가 책정법",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">공급가액 기준의 원가 계산과 로스율(Loss Rate) 적용</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">숨은 비용과 세무 기준을 적용한 정확한 단가 산출</strong>
-모든 식자재 원가는 부가세(VAT) 10%를 제외한 '공급가액' 기준으로 계산해야 함. 매입 시 지불한 부가세는 종합소득세 및 부가세 신고 시 환급받거나 공제되기 때문임. 또한 매일 아침 영점 조절을 위해 버려지는 원두, 스티밍 후 남는 우유 등 필연적으로 발생하는 5% 내외의 로스율을 반드시 원가에 얹어야 함.
-<br><br>
-아이스 바닐라 라떼 1잔의 원가 역산 예시 (공급가액 기준):<br>
-1. 원두: 1kg 30,000원 기준 20g 사용 = 600원.<br>
-2. 우유: 1L 2,500원 기준 200ml 사용 = 500원.<br>
-3. 포장재: 테이크아웃 컵 80원, 뚜껑 30원, 홀더 40원, 빨대 10원 = 160원.<br>
-4. 기타: 시럽 1펌프 50원, 얼음 및 정수 필터 감가상각 10원.<br><br>
-순수 원가 합계는 1,320원이며, 여기에 로스율 5%(66원)를 더한 1,386원이 1잔의 정확한 실원가임.</p>
+        content: `<h4 id="5.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 공급가액 기준의 원가 계산과 로스율 적용</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「숨은 비용과 세무 기준을 적용한 정확한 단가 산출」</strong>
+· 모든 식자재 원가는 부가세(VAT) 10%를 제외한 '공급가액' 기준으로 계산해야 함. <br>
+· 매입 시 지불한 부가세는 종합소득세 및 부가세 신고 시 환급받거나 공제되기 때문임. <br>
+· 매일 아침 영점 조절을 위해 버려지는 원두, 스티밍 후 남는 우유 등 필연적으로 발생하는 5% 내외의 로스율을 반드시 원가에 얹어야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(예시) </strong>
+아이스 바닐라 라떼 1잔의 원가 역산 *공급가액 기준<br>
+1. 원두: 1kg 30,000원 기준 20g 사용 = 600원<br>
+2. 우유: 1L 2,500원 기준 200ml 사용 = 500원<br>
+3. 포장재: 테이크아웃 컵 80원, 뚜껑 30원, 홀더 40원, 빨대 10원 = 160원<br>
+4. 기타: 시럽 1펌프 50원, 얼음 및 정수 필터 감가상각 10원<br><br>
+▷ 순수 원가 합계는 1,320원이며, 여기에 로스율 5%(66원)를 더한 1,386원이 1잔의 정확한 실원가임.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">실매출 기반의 원가율 계산과 교차 마진 전략</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">부가세 포함 판매가의 함정 피하기</strong>
-위 라떼를 메뉴판에 4,500원으로 책정했다면, 이 판매가에는 부가세 10%가 포함되어 있음. 즉, 매장 통장에 꽂히는 진짜 내 돈(실매출)은 4,091원이고 나머지 409원은 세무서에 낼 세금임.<br><br>
-실매출 4,091원 대비 실원가 1,386원을 나누면 이 음료의 실제 원가율은 약 33.8%임. 이상적인 카페 식자재 원가율인 30%를 초과하는 수치임. 이처럼 스페셜티 원두나 프리미엄 시럽 사용으로 특정 메뉴의 원가율이 치솟을 경우, 무작정 가격을 5,000원으로 올리기보다 원가율이 15% 미만인 아이스티나 티백 차 종류의 판매 비중을 늘려 매장 전체의 '통합 원가율'을 25%에서 30% 사이로 방어하는 교차 마진(Cross Margin) 설계가 외식업 생존의 핵심임.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 실매출 기반의 원가율 계산과 교차 마진 전략</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「부가세 포함 판매가의 함정 피하기」</strong>
+· 매장 전체의 '통합 원가율'을 25%에서 30% 사이로 방어하는 교차 마진(Cross Margin) 설계가 외식업 생존의 핵심임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(예시) </strong>
+· 위 A 예시의 아이스 바닐라 라떼를 메뉴판에 4,500원으로 책정했다면, 이 판매가에는 부가세 10%가 포함되어 있음. <br>
+· 즉, 매장 통장에 꽂히는 진짜 내 돈(실매출)은 4,091원이고 나머지 409원은 세무서에 낼 세금임.<br>
+· 실매출 4,091원 대비 실원가 1,386원을 나누면 이 음료의 실제 원가율은 약 33.8%임.<br>
+· 이상적인 카페 식자재 원가율인 30%를 초과하는 수치임. <br>
+· 이처럼 스페셜티 원두나 프리미엄 시럽 사용으로 특정 메뉴의 원가율이 치솟을 경우, 무작정 가격을 5,000원으로 올리기보다 원가율이 15% 미만인 아이스티나 티백 차 종류의 판매 비중을 늘려 통합 원가율을 맞추는 것이 중요. </p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#5.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.1 시그니처 메뉴 기획과 메뉴판 슬림화</a>
+  <a href="#5.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 5.3 카테고리별 메뉴 레시피 &rarr;</a>
+</div>`
       },
       {
         sectionId: "5.3",
         sectionTitle: "5.3 카테고리별 메뉴 레시피",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-bold text-stone-900 block mb-1">메뉴 레시피 노트</strong>제시된 레시피는 메뉴 기획을 위한 기본적인 뼈대임. 이를 토대로 각 매장의 상권과 타겟 고객에 맞춰 재료의 배합량을 가감하여, 오너가 만족하는 최상의 시그니처 음료를 완성하는 데 필요한 메뉴 개발 가이드라인으로 활용해야 함.</p>
+        content: `<p id="5.3" class="text-stone-700 mb-8 leading-relaxed"><strong class="font-bold text-stone-900 block mb-1">메뉴 레시피 노트</strong>제시된 레시피는 메뉴 기획을 위한 기본적인 뼈대임. 이를 토대로 각 매장의 상권과 타겟 고객에 맞춰 재료의 배합량을 가감하여, 오너가 만족하는 최상의 시그니처 음료를 완성하는 데 필요한 메뉴 개발 가이드라인으로 활용해야 함.</p>
 
 <div class="border-t border-stone-200 mt-6">
   <details class="group border-b border-stone-200 overflow-hidden">
@@ -889,6 +912,11 @@ export const manualData = [
       </div>
     </div>
   </details>
+</div>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#5.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.2 부가세와 로스율을 반영한 실원가 책정법</a>
+  <a href="#6.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.1 아르바이트 노무 관리 및 인건비 방어 실무 &rarr;</a>
 </div>`
       }
     ]
