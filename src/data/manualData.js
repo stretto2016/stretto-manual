@@ -55,7 +55,7 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 운영 고정비 및 손익분기점 설계</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「생존을 위한 한계이익 역산 모델」</strong>
 · 월 임대료는 장마철이나 비수기에도 감당할 수 있도록 예상 월 매출의 10%에서 최대 15% 선으로 강력하게 억제해야 함.<br>
-· 대부분 카페의 경우 6~8월 성수기, 1~2월 비수기, 6월말~7월초 장마철 비수기. <br>(출처: 외식업 상권 분석 리포트)<br><br>
+· 대부분 카페의 경우 6~8월 성수기, 1~2월 비수기, 6월말~7월중순 장마철 비수기. <br>(출처: 외식업 상권 분석 리포트)<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
 · 월 임대료가 300만 원이라면 해당 매장의 생존을 위한 목표 매출은 최소 2,000만 원에서 3,000만 원이 되어야 함.<br>
 · 아메리카노 1잔의 객단가가 4,000원이고 원두 및 컵 리드 등 변동비가 1,000원이라면 1잔 판매 시 한계이익은 3,000원임.<br>
@@ -131,7 +131,7 @@ export const manualData = [
         content: `<h4 id="2.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 건축물대장 열람 및 위반건축물 점검</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「치명적인 행정 리스크 원천 차단」</strong>
 · 상가 임대차 계약 전 건축물대장 발급 필수. <br>
-· 해당 호실의 용도가 제1종 또는 제2종 근린생활시설 휴게음식점으로 명시되어 있는지 최우선으로 점검해야 함.<br><br>
+· 해당 호실의 용도가 제1종 또는 제2종 근린생활시설로 명시되어 있는지 최우선으로 점검해야 함.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">&lt;체크사항&gt;</strong>
 · 이전 세입자가 테라스를 불법으로 증축했거나 매장 내부를 복층으로 개조하여 위반건축물 표기가 노란색 딱지로 붙어 있다면 관할 구청에서 영업신고증 자체가 발급되지 않음. <br>
 · 건물주가 원상복구를 약속하더라도 이행되기 전까지는 절대 계약금을 입금해서는 안 됨.</p>
@@ -186,46 +186,93 @@ export const manualData = [
       {
         sectionId: "3.1",
         sectionTitle: "3.1 인테리어 시공 프로세스와 업체 소통법",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">단계별 시공 프로세스와 마일스톤 관리</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">설비 공정의 비가역성 이해</strong>
-카페 인테리어는 일반 상가와 달리 급배수와 고용량 전기가 좁은 바 스테이션에 밀집되는 특수 목적 공간임. 철거 및 레이아웃 스케치 단계에서 바의 정확한 위치를 확정해야 함. 이후 바닥을 파내고 배관과 전기를 묻는 설비 공사가 끝나면 동선 수정이 힘들어지므로, 목공 및 마감재 공사로 넘어가기 전 반드시 장비 도면과 현장 설비 라인이 일치하는지 교차 검증하는 현장 점검이 필수적임.</p>
+        content: `<h4 id="3.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 단계별 시공 프로세스와 마일스톤 관리</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「설비 공정 중 수정이 불가한 시공에 대해 사전에 파악해야 함」</strong>
+· 카페 인테리어는 일반 상가와 달리 급배수와 고용량 전기가 좁은 바 스테이션에 밀집되는 특수 목적 공간임. <br>
+· 철거 및 레이아웃 스케치 단계에서 바의 정확한 위치를 확정해야 함. <br>
+· 이후 바닥을 파내고 배관과 전기를 묻는 설비 공사가 끝나면 동선 수정이 힘들어지므로, 목공 및 마감재 공사로 넘어가기 전 반드시 장비 도면과 현장 설비 라인이 일치하는지 교차 검증하는 현장 점검이 필수.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">견적서 해독 및 명확한 과업 지시</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">추상적 언어 배제와 수치화된 소통</strong>
-인테리어 업체와의 분쟁은 대부분 불분명한 요구사항에서 발생함. 따뜻한 느낌이나 모던한 스타일 같은 추상적인 언어를 배제하고 마감재의 정확한 품번, 조명의 캘빈 값, 바 카운터 상판의 재질과 두께를 명사와 수치로 지시해야 함. 또한 평당 단가로 뭉뚱그린 가견적서가 아닌 자재비와 인건비가 상세히 분리된 물량 산출 내역서를 요구하여 공사 중간에 발생하는 추가금 폭탄 리스크를 원천 차단해야 함.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 견적서 해독 및 명확한 과업 지시</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「추상적 언어 배제와 수치화된 소통」</strong>
+· 인테리어 업체와의 분쟁은 대부분 불분명한 요구사항에서 발생함. <br>
+· 추상적인 언어('따뜻한 느낌', '모던한 스타일')를 배제하고 마감재의 정확한 품번, 조명의 캘빈 값, 바 카운터 상판의 재질과 두께를 명사와 수치로 지시해야 함. <br>
+· 평당 단가로 산정된 가견적서가 아닌 자재비와 인건비가 상세히 분리된 물량 산출 내역서를 요구하여 공사 중간에 발생하는 추가금 폭탄 리스크를 원천 차단해야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">현장 감리 및 커뮤니케이션 프로토콜</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">기록의 의무화 및 엔지니어 다이렉트 매칭</strong>
-시공 중 발생하는 모든 변수와 설계 변경은 구두가 아닌 텍스트와 현장 사진 기록으로 남겨 책임 소재를 명확히 함. 장비가 반입되는 최종 세팅 단계에서는 클라이언트가 중간에 말을 전하는 대신, 커피 머신 납품 엔지니어와 인테리어 현장 소장 간의 다이렉트 소통 채널을 개설해 주어야 함. 이를 통해 상판 타공 규격 오류나 전기 결선 실수로 인한 오픈 지연을 막는 것이 효율적인 소통의 핵심임.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 현장 감리 및 커뮤니케이션 프로토콜</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「기록의 의무화 및 엔지니어 다이렉트 매칭」</strong>
+· 시공 중 발생하는 모든 변수와 설계 변경은 구두가 아닌 텍스트와 현장 사진 기록으로 남겨 책임 소재를 명확히 함. <br>
+(모든 시공 현장을 전체적인 사진, 클로즈업 사진, 사람들 사진 등 습관적으로 기록해두면 카페 완공 후에도 유지보수 공사, 카페 SNS등에서 유용하게 활용할 수 있음.)<br>
+· 장비가 반입되는 최종 세팅 단계에서는 클라이언트가 중간에 말을 전하는 대신, 커피 머신 납품 엔지니어와 인테리어 현장 소장 간의 다이렉트 소통 채널을 개설해 주는 것이 매우 중요함. 상판 타공 규격 오류나 전기 결선 실수로 인해 오픈이 지연될 수 있음.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#2.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 2.3 권리금 협상 및 임대차 계약 주의사항</a>
+  <a href="#3.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 3.2 규모별 최적의 바 워크플로우 설계 &rarr;</a>
+</div>`
       },
       {
         sectionId: "3.2",
         sectionTitle: "3.2 규모별 최적의 바 워크플로우 설계",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">인체공학적 치수 및 작업 반경 설계</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">근무 인원에 따른 필수 교차 동선 폭</strong>
-바 내부의 통로 너비는 근무자의 피로도와 직결되는 가장 중요한 수치임.<br><br>1인이 단독으로 근무하는 콤팩트 바의 경우 800mm에서 900mm의 통로 폭을 확보하여 깊이 600mm의 언더카운터 냉장고 문을 열고 닫는 데 간섭이 없도록 설계함. 반면 2인 이상이 동시에 근무하며 수시로 교차해야 하는 중대형 바는 최소 1200mm를 확보해야 작업자 간의 물리적 충돌을 막고 뜨거운 음료나 워터 보일러로 인한 화상 사고를 예방할 수 있음.</p>
+        content: `<h4 id="3.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 인체공학적 치수 및 작업 반경 설계</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「근무 인원에 따른 필수 교차 동선 폭」</strong>
+· 바 내부의 통로 너비는 근무자의 피로도와 직결되는 가장 중요한 수치임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 콤팩트바 (1인 단독 근무)</strong>
+· 800mm ~ 900mm의 통로 폭을 확보하여 깊이 600mm의 언더카운터 냉장고 문을 열고 닫는 데 간섭이 없도록 설계함. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 중대형바 (2인 이상 동시 근무)</strong>
+· 여럿이 동시에 근무하며 수시로 교차해야 하는 중대형 바는 최소 1200mm를 확보해야 작업자 간의 물리적 충돌을 막고 뜨거운 음료나 워터 보일러로 인한 화상 사고를 예방할 수 있음.</p>
 
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">바 카운터 상판 규격 및 하부장 매립 스펙</strong>
-에스프레소 머신이 올라가는 메인 바의 상판 높이는 900mm가 표준임. 이는 탬핑 시 15kg에서 20kg의 압력을 가할 때 어깨와 손목 관절에 무리가 가지 않는 인체공학적 최적 높이임.<br><br>또한 상업용 테이블 냉장고와 제빙기의 높이가 보통 800mm에서 850mm이므로 이들을 매립하기 위한 필수 공간임. 바의 깊이는 하이엔드 상업용 머신의 깊이 600mm를 수용하고 전면부 여유 공간을 확보하기 위해 최소 750mm에서 800mm로 타설해야 함.</p>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「바 카운터 상판 규격 및 하부장 매립 스펙」</strong>
+· 표준 상판 높이는 900mm, 바의 깊이는 750mm ~ 800mm.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 높이</strong>
+· 탬핑 시 15kg에서 20kg의 압력을 가할 때 어깨와 손목 관절에 무리가 가지 않는 인체공학적 최적 높이, 에스프레소 머신이 올라가는 메인 바의 상판 높이는 900mm가 표준. <br>
+· 상업용 테이블 냉장고와 제빙기의 높이가 보통 800mm ~ 850mm이므로 이들을 매립하기 위한 필수 공간임. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 깊이</strong>
+· 하이엔드 상업용 머신의 깊이 600mm를 수용하고 전면부 여유 공간을 확보하기 위해 최소 750mm에서 800mm로 타설해야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">1인 및 2인 소형 바 기기 배치 로직</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">동선 제로를 향한 트라이앵글 세팅</strong>
-작업자가 제자리에서 1보 이내로 움직여 모든 음료를 완성하는 것이 핵심임.<br><br>포스기에서 주문을 받으면 즉시 90도 회전하여 컵과 얼음을 세팅할 수 있도록 일일 생산량 50kg 급의 제빙기를 작업자의 등 뒤 혹은 측면 하부장에 매립함. 에스프레소 머신 우측에는 메인 그라인더와 탬핑 스테이션을 두고 바로 아래 상판을 타공하여 매립형 넉박스를 위치시킴. 블렌더와 피처 린서는 머신 좌측에 배치하고 폭 600mm 이상의 메인 싱크대와 연계하여 우유 스티밍 후 즉각적인 세척이 가능하도록 세팅함.</p>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 1인 및 2인 소형 바 기기 배치</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「동선 효율화를 위한 트라이앵글 세팅」</strong>
+· 작업자가 제자리에서 1보 이내로 움직여 모든 음료를 완성하는 것이 핵심.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 작업자의 등 뒤 혹은 측면 하부장</strong>
+· 포스기에서 주문을 받으면 즉시 90도 회전하여 컵과 얼음을 세팅할 수 있도록 일일 생산량 50kg 급의 제빙기를 작업자의 등 뒤 혹은 측면 하부장에 매립함. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 에스프레소 머신 우측</strong>
+· 메인 그라인더와 탬핑 스테이션을 두고 바로 아래 상판을 타공하여 매립형 넉박스를 위치시킴.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">c. 에스프레소 머신 좌측</strong>
+· 블렌더와 피처 린서는 머신 좌측에 배치하고 폭 600mm 이상의 메인 싱크대와 연계하여 우유 스티밍 후 즉각적인 세척이 가능하도록 세팅함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">3인 이상 다인원 대형 바 기기 배치 로직</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">컨베이어 벨트식 병목 차단 세팅</strong>
-러시 타임에 3명 이상의 바리스타가 투입될 경우 샷 추출 파트, 우유 및 논커피 파트, 픽업 서비스 파트를 완벽히 분리하는 11자형 평행 바를 구축함.<br><br>전면 바 중앙에는 3그룹 머신과 듀얼 그라인더를 세팅하고 양쪽 끝단에 싱크대와 피처 린서를 각각 1조씩 독립 설치하여 직원 간 동선 겹침을 방지함. 진동과 소음이 심한 블렌더 스테이션은 후면 바에 일렬로 배치함. 핵심은 후면 바 하단에 논커피 전담 작업자용 50kg 급 서브 제빙기와 베버리지용 우유 냉장고를 별도로 매립하여 에스프레소 파트의 얼음을 공유하기 위해 교차 이동하는 동선 낭비를 차단함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 3인 이상 다인원 대형 바 기기 배치</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「컨베이어 벨트식 병목 차단 세팅」</strong>
+· 러시 타임에 3명 이상의 바리스타가 투입될 경우 샷 추출 파트, 우유 및 논커피 파트, 픽업 서비스 파트를 완벽히 분리하는 11자형 평행 바를 구축.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">a. 전면 바 중앙</strong>
+· 3그룹 머신과 듀얼 그라인더를 세팅하고 양쪽 끝단에 싱크대와 피처 린서를 각각 1조씩 독립 설치하여 직원 간 동선 겹침을 방지함. <br><br>
+<strong class="font-semibold text-stone-900 block mb-1">b. 후면 바</strong>
+· 진동과 소음이 심한 블렌더 스테이션은 후면 바에 일렬로 배치. <br>
+· 후면 바 하단에 논커피 전담 작업자용 50kg 급 서브 제빙기와 베버리지용 우유 냉장고를 별도로 매립하여 에스프레소 파트의 얼음을 공유하기 위해 교차 이동하는 동선 낭비를 차단하는 것이 핵심. </p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#3.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 3.1 인테리어 시공 프로세스와 업체 소통법</a>
+  <a href="#3.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 3.3 설비 인프라 세부 가이드 &rarr;</a>
+</div>`
       },
       {
         sectionId: "3.3",
         sectionTitle: "3.3 설비 인프라 세부 가이드",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">밀리미터 단위 급배수 관로 타겟팅</h4>
-<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">장비 고장 역류를 방어하는 배관 엔지니어링</strong>
-에스프레소 머신, 그라인더, 제빙기, 온수기가 안착될 최종 위치를 입체 도면상에 픽스하고 바닥 단차 타설 전 각 장비의 스펙에 맞는 급배수 라인을 개별적으로 뽑아내야 함.<br><br>예를 들어 에스프레소 머신 하부 배수관은 커피 찌꺼기로 인한 배수 불량 및 냄새 역류를 막기 위해 메인 배수구로 향하는 구배를 가파르게 주어야 함. 또한 공냉식 제빙기와 대형 온수기가 밀집된 구역은 과열로 인한 펌프 셧다운을 막기 위해 별도의 배기 그릴과 흡기 팬을 설치하는 기초 열역학 설계가 도면에 선행되어야 함.</p>
+        content: `<h4 id="3.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 밀리미터 단위 급배수 관로 타겟팅</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「장비 고장 역류를 방어하는 배관 엔지니어링」</strong>
+· 에스프레소 머신, 그라인더, 제빙기, 온수기가 안착될 최종 위치를 입체 도면상에 픽스하고 바닥 단차 타설 전 각 장비의 스펙에 맞는 급배수 라인을 개별적으로 뽑아내야 함.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 에스프레소 머신 하부 배수관은 커피 찌꺼기로 인한 배수 불량 및 냄새 역류를 막기 위해 메인 배수구로 향하는 구배를 가파르게 주어야 함. <br>
+· 공냉식 제빙기와 대형 온수기가 밀집된 구역은 과열로 인한 펌프 셧다운을 막기 위해 별도의 배기 그릴과 흡기 팬을 설치하는 기초 열역학 설계가 도면에 선행되어야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">타겟 체류 시간 제어 조명 및 가구 배치</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">공간의 조도를 활용한 심리적 통제</strong>
-조명 설계와 가구의 물성은 고객의 매장 체류 시간을 조종하는 가장 조용하고 강력 무기임.<br><br>예를 들어 빠른 회전율이 생명인 테이크아웃 위주의 매장은 캘빈 값이 높은 차가운 백색 조명과 등받이가 없는 스탠딩 테이블을 배치하여 고객의 빠른 퇴장을 유도함. 반면 하이엔드 로스터리 바는 메인 바 스테이션에만 핀 조명을 집중시켜 바리스타의 추출 퍼포먼스를 무대처럼 연출하고, 홀 좌석은 눈이 편안한 따뜻한 전구색 조명과 묵직한 목재 가구로 세팅하여 프리미엄 공간 체류 경험을 완성함.</p>`
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 타겟 체류 시간 제어 조명 및 가구 배치</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「공간의 조도를 활용한 심리적 통제」</strong>
+· 조명 설계와 가구의 물성은 고객의 매장 체류 시간을 조종하는 가장 조용하고 강력한 무기.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 빠른 회전율이 생명인 테이크아웃 위주의 매장은 캘빈 값이 높은 차가운 백색 조명과 등받이가 없는 스탠딩 테이블을 배치하여 고객의 빠른 퇴장을 유도함. <br>
+· 반면 하이엔드 로스터리 바는 메인 바 스테이션에만 핀 조명을 집중시켜 바리스타의 추출 퍼포먼스를 무대처럼 연출하고, 홀 좌석은 눈이 편안한 따뜻한 전구색 조명과 묵직한 목재 가구로 세팅하여 프리미엄 공간 체류 경험을 완성함.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#3.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 3.2 규모별 최적의 바 워크플로우 설계</a>
+  <a href="#4.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 4.1 에스프레소 머신 스펙 및 엔지니어링 큐레이션 &rarr;</a>
+</div>`
       }
     ]
   },
