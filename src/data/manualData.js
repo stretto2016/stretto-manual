@@ -6,7 +6,7 @@ export const manualData = [
       {
         sectionId: "1.1",
         sectionTitle: "1.1 비즈니스 모델 정의 - 매장 규모",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 소형 테이크아웃 전문점</h4>
+        content: `<h4 id="1.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 소형 테이크아웃 전문점</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「초고속 회전율 및 박리다매 수익 구조」</strong>
 · 공간의 한계를 극복하기 위해 테이크아웃과 배달 플랫폼에 매출의 절대다수를 의존하는 모델.<br>
 · 좌석 점유율에 따른 수익 한계가 없으므로 피크 타임의 주문 처리 속도가 곧 일매출의 상한선을 결정함.<br>
@@ -38,14 +38,14 @@ export const manualData = [
 · 바리스타가 고객과 대면하여 원두의 산지와 가공 방식 등 스토리를 설명하는 도슨트 역할을 수행함. <br>
 · 이러한 하이엔드 이미지는 단기적인 음료 판매 수익을 넘어, 향후 원두 납품 비즈니스나 가맹 사업으로 브랜드를 확장하기 위한 가장 강력한 쇼룸이자 포트폴리오가 될 수 있음.</p>
 
-<div class="mt-12 flex justify-end text-sm text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#1.2" class="hover:text-stone-600 transition-colors cursor-pointer">다음: 1.2 현실적인 예산 및 자금 조달 계획 &rarr;</a>
+<div class="mt-12 flex justify-end text-[11px] sm:text-xs text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 1.2 현실적인 예산 및 자금 조달 계획 &rarr;</a>
 </div>`
       },
       {
         sectionId: "1.2",
         sectionTitle: "1.2 현실적인 예산 및 자금 조달 계획",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 초기 투자 비용 매몰 방어</h4>
+        content: `<h4 id="1.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 초기 투자 비용 매몰 방어</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「보이지 않는 인프라 견적의 함정」</strong>
 · 단순히 평당 200만 원이라는 식의 겉보기 인테리어 단가 산정은 폐업으로 가는 지름길일 수 있음. (실제 공사에서는 눈에 보이지 않는 설비에 막대한 예산이 투입됨)<br>
 · 전체 공사 예산의 최소 20%는 반드시 인프라 예비비로 할당하여 예산 초과를 방지해야 함.<br><br>
@@ -62,15 +62,15 @@ export const manualData = [
 · 임대료와 인건비 등 월 고정비 총액이 900만 원일 때 적자를 면하기 위해서는 매월 정확히 3,000잔, 즉 하루 100잔의 아메리카노를 팔아야 한다는 손익분기점 수치가 도출됨. <br>
 · 이 수치를 바탕으로 영업 전략을 세워야 함.</p>
 
-<div class="mt-12 flex justify-between text-sm text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#1.1" class="hover:text-stone-600 transition-colors cursor-pointer">&larr; 이전: 1.1 비즈니스 모델 정의 - 매장 규모</a>
-  <a href="#1.3" class="hover:text-stone-600 transition-colors cursor-pointer">다음: 1.3 브랜드 정체성 구축 &rarr;</a>
+<div class="mt-12 flex justify-between gap-4 text-[11px] sm:text-xs text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 1.1 비즈니스 모델 정의 - 매장 규모</a>
+  <a href="#1.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 1.3 브랜드 정체성 구축 &rarr;</a>
 </div>`
       },
       {
         sectionId: "1.3",
         sectionTitle: "1.3 브랜드 정체성 구축",
-        content: `<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 공감각적 경험 제공 </h4>
+        content: `<h4 id="1.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 공감각적 경험 제공 </h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「공간과 철학의 완벽한 동기화」</strong>
 · 브랜딩은 단순히 예쁜 로고를 만드는 작업이 아닌 매장의 조도, 음악의 장르, 가구의 질감, 직원들의 응대 톤까지 매장이 지향하는 타겟 페르소나와 일치해야 하는 전체적인 그림.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
@@ -84,8 +84,8 @@ export const manualData = [
 · 중강배전 로스팅 레벨의 스트레토 블렌드를 사용할 때 단순히 고소하고 진하다라고 설명하는 대신 초콜릿, 아몬드, 자스민, 건포도, 카라멜의 복합적인 향미를 직관적으로 연상시키는 색채와 그래픽이 담긴 컵 노트 카드를 음료와 함께 제공함. <br>
 · 이는 고객에게 스페셜티 커피를 대하는 매장의 전문성을 각인시키고 재방문을 유도하는 훌륭한 시각적 장치로 작용함.</p>
 
-<div class="mt-12 flex justify-start text-sm text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#1.2" class="hover:text-stone-600 transition-colors cursor-pointer">&larr; 이전: 1.2 현실적인 예산 및 자금 조달 계획</a>
+<div class="mt-12 flex justify-start text-[11px] sm:text-xs text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#1.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 1.2 현실적인 예산 및 자금 조달 계획</a>
 </div>`
       }
     ]
