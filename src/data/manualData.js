@@ -516,10 +516,10 @@ export const manualData = [
         sectionTitle: "5.2 부가세와 로스율을 반영한 실원가 책정법",
         content: `<h4 id="5.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 공급가액 기준의 원가 계산과 로스율 적용</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「숨은 비용과 세무 기준을 적용한 정확한 단가 산출」</strong>
-· 모든 식자재 원가는 부가세(VAT) 10%를 제외한 '공급가액' 기준으로 계산해야 함. <br>
-· 매입 시 지불한 부가세는 종합소득세 및 부가세 신고 시 환급받거나 공제되기 때문임. <br>
+· 모든 식자재 원가는 부가세(VAT) 10%를 제외한 '공급가액' 기준으로 계산해야 함. <br>
+· 매입 시 지불한 부가세는 종합소득세 및 부가세 신고 시 환급받거나 공제되기 때문임. <br>
 · 매일 아침 영점 조절을 위해 버려지는 원두, 스티밍 후 남는 우유 등 필연적으로 발생하는 5% 내외의 로스율을 반드시 원가에 얹어야 함.<br><br>
-<strong class="font-semibold text-stone-900 block mb-1">(예시) </strong>
+<strong class="font-semibold text-stone-900 block mb-1">(예시) </strong>
 아이스 바닐라 라떼 1잔의 원가 역산 *공급가액 기준<br>
 1. 원두: 1kg 30,000원 기준 20g 사용 = 600원<br>
 2. 우유: 1L 2,500원 기준 200ml 사용 = 500원<br>
@@ -528,14 +528,19 @@ export const manualData = [
 ▷ 순수 원가 합계는 1,320원이며, 여기에 로스율 5%(66원)를 더한 1,386원이 1잔의 정확한 실원가임.</p>
 
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 실매출 기반의 원가율 계산과 교차 마진 전략</h4>
-<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「부가세 포함 판매가의 함정 피하기」</strong>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「부가세 포함 판매가의 함정 피하기」</strong>
 · 매장 전체의 '통합 원가율'을 25%에서 30% 사이로 방어하는 교차 마진(Cross Margin) 설계가 외식업 생존의 핵심임.<br><br>
-<strong class="font-semibold text-stone-900 block mb-1">(예시) </strong>
-· 위 A 예시의 아이스 바닐라 라떼를 메뉴판에 4,500원으로 책정했다면, 이 판매가에는 부가세 10%가 포함되어 있음. <br>
+<strong class="font-semibold text-stone-900 block mb-1">(예시) </strong>
+· 위 A 예시의 아이스 바닐라 라떼를 메뉴판에 4,500원으로 책정했다면, 이 판매가에는 부가세 10%가 포함되어 있음. <br>
 · 즉, 매장 통장에 꽂히는 진짜 내 돈(실매출)은 4,091원이고 나머지 409원은 세무서에 낼 세금임.<br>
 · 실매출 4,091원 대비 실원가 1,386원을 나누면 이 음료의 실제 원가율은 약 33.8%임.<br>
-· 이상적인 카페 식자재 원가율인 30%를 초과하는 수치임. <br>
-· 이처럼 스페셜티 원두나 프리미엄 시럽 사용으로 특정 메뉴의 원가율이 치솟을 경우, 무작정 가격을 5,000원으로 올리기보다 원가율이 15% 미만인 아이스티나 티백 차 종류의 판매 비중을 늘려 통합 원가율을 맞추는 것이 중요. </p>
+· 이상적인 카페 식자재 원가율인 30%를 초과하는 수치임. <br>
+· 이처럼 스페셜티 원두나 프리미엄 시럽 사용으로 특정 메뉴의 원가율이 치솟을 경우, 무작정 가격을 5,000원으로 올리기보다 원가율이 15% 미만인 아이스티나 티백 차 종류의 판매 비중을 늘려 통합 원가율을 맞추는 것이 중요. </p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 초기 판매가 설정 및 상권 단가 분석</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「신중한 초기 가격 셋팅과 경쟁력 파악」</strong>
+· 한번 정한 가격은 인상하기가 쉽지 않기 때문에 초반 가격 셋팅이 중요함.<br>
+· 주변 카페 음료 중 아메리카노/라떼 가격은 모두 파악하고 고려하는 것이 중요함.</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#5.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.1 시그니처 메뉴 기획과 메뉴판 슬림화</a>
