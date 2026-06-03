@@ -246,7 +246,9 @@ function App() {
               {manualData.map((phase) => (
                 <div key={phase.phaseId} className="group cursor-pointer" onClick={() => handleSectionClick(phase.sections[0])}>
                   <div className="flex items-baseline gap-3 md:gap-4 mb-4 md:mb-5">
-                    <span className="text-stone-300 font-black text-3xl md:text-4xl">0{phase.phaseId}</span>
+                    <span className="text-stone-300 font-black text-3xl md:text-4xl">
+                    {String(phase.phaseId).padStart(2, '0')}
+                  </span>
                     <h4 className="text-lg md:text-xl font-bold text-stone-900 tracking-tight break-keep">{phase.phaseTitle.replace(`${phase.phaseId} `, '')}</h4>
                   </div>
                   <div className="pl-10 md:pl-14 space-y-2 md:space-y-3 border-l border-stone-200 ml-3 md:ml-4 py-1 md:py-2">
