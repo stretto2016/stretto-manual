@@ -71,7 +71,7 @@ export const manualData = [
         sectionId: "1.3",
         sectionTitle: "1.3 브랜드 정체성 구축",
         content: `<h4 id="1.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 브랜드 아이덴티티(BI) 확립 및 전사적 일관성 유지 전략</h4>
-<p class="text-stone-700 mb-6 leading-relaxed">· 소비자에게 전달하고자 하는 기능적 편익 (Functional Benefit)/정서적 편익(Emotional Benefit)을 바탕으로 브랜드의 정체성과 가치(Value)를 명확하게 정립해야 함. 
+<p class="text-stone-700 mb-6 leading-relaxed">· 소비자에게 전달하고자 하는 기능적 편익(Functional Benefit)/정서적 편익(Emotional Benefit)을 바탕으로 브랜드의 정체성과 가치(Value)를 명확하게 정립해야 함. 
 <br>
 · 모든 소비자 접점에서 이러한 브랜드 가치가 일관성있게 전달될 수 있도록 커뮤니케이션 전략을 수립해야 함.<br>
 · 오너 뿐 아니라 모든 직원에게도 브랜드 아이덴티티 일관성에 대한 중요성을 교육시키고, 모든 구성원으로부터 일관된 메시지가 전달할 수 있도록 해야 함. <br>
