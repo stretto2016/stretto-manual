@@ -190,7 +190,7 @@ function App() {
               </h2>
               <div className="w-8 md:w-12 h-[2px] bg-stone-900 mb-6 md:mb-8"></div>
               <p className="text-base md:text-xl text-stone-600 font-light max-w-2xl leading-relaxed break-keep">
-                STRETTO COFFEE FACTORY의 축적된 데이터와 엔지니어링 노하우를 바탕으로 설계된 하이엔드 상업 공간 구축 솔루션
+                STRETTO COFFEE FACTORY의 축적된 데이터와 노하우를 바탕으로 설계된 창업 솔루션
               </p>
             </div>
             
