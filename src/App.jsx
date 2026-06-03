@@ -1,5 +1,5 @@
 // 시작: src/App.jsx 전체 교체
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { manualData } from './data/manualData';
 
 function App() {
@@ -51,6 +51,33 @@ function App() {
     setActiveSection(section);
     setIsMobileMenuOpen(false);
   };
+
+  // [추가된 로직] 해시(#) 링크 클릭 시 부드럽게 스크롤 이동시키는 이벤트 가로채기
+  useEffect(() => {
+    const handleHashClick = (e) => {
+      // 클릭된 요소가 <a> 태그인지, 그리고 href 속성이 '#'으로 시작하는지 확인
+      const target = e.target.closest('a');
+      if (!target) return;
+      
+      const href = target.getAttribute('href');
+      if (!href || !href.startsWith('#')) return;
+
+      // '#'을 제외한 id 값 추출
+      const id = href.substring(1);
+      const element = document.getElementById(id);
+
+      if (element) {
+        e.preventDefault(); // 주소창 URL 변경 방지
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    };
+
+    // 전역 클릭 이벤트 등록
+    document.addEventListener('click', handleHashClick);
+    
+    // 컴포넌트가 언마운트될 때 이벤트 제거
+    return () => document.removeEventListener('click', handleHashClick);
+  }, []);
 
   // 인증되지 않은 경우 잠금 화면 렌더링
   if (!isAuthorized) {
