@@ -1066,7 +1066,7 @@ export const manualData = [
       {
         sectionId: "7.2",
         sectionTitle: "7.2 로컬 알고리즘 최적화 및 초기 마케팅",
-        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 전단지나 오프라인 홍보방식의 효과는 더이상 기대할 수 없는 시대임.<br>· 로컬 카페의 성패는 고객이 지도 앱을 켰을 때 우리 매장이 어떻게, 얼마나 상단에 노출되느냐에 달려 있음.</p>
+        content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 전단지나 오프라인 홍보방식의 효과는 더이상 기대할 수 없는 시대임.<br>· 로컬 카페의 성패는 고객이 지도 앱을 켰을 때 우리 매장이 어떻게, 얼마나 상단에 노출되느냐에 달려 있음.<br>· 인스타그램을 오픈 전 개설하여 사전 홍보에 활용할 수 있음.</p>
 
 <h4 id="7.2" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 네이버 스마트플레이스 SEO 및 키워드 타겟팅</h4>
 <p class="text-stone-700 mb-6 leading-relaxed">· 초행길 고객의 90%는 네이버 검색으로 유입됨. <br>· 스마트플레이스 등록 시 매장명 뒤에 '지역명 + 로스터리 카페' 또는 '지역명 + 스페셜티' 같은 직관적인 타겟 키워드를 전략적으로 배치해야 함. <br>· 텍스트로만 메뉴를 적어두면 클릭률이 현저히 떨어지므로, 시그니처 메뉴 3개 이상은 반드시 스튜디오급 고해상도 이미지를 촬영하여 등록해 시각적인 신뢰도를 줘야 함.</p>
