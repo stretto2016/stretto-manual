@@ -92,6 +92,10 @@ export const manualData = [
     ]
   },
   {
+    phaseId: 2,
+    phaseTitle: "2 상권 분석 및 입지 선정",
+    sections: [
+      {
         sectionId: "2.1",
         sectionTitle: "2.1 상권 유형별 타겟 고객 분석",
         content: `<h4 id="2.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 오피스 상권</h4>
