@@ -70,14 +70,27 @@ export const manualData = [
       {
         sectionId: "1.3",
         sectionTitle: "1.3 브랜드 정체성 구축",
-        content: `<h4 id="1.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 공감각적 경험 제공 </h4>
+        content: `<h4 id="1.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 브랜드 아이덴티티(BI) 확립 및 전사적 일관성 유지 전략</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 소비자에게 전달하고자 하는 물질적/감성적 베네핏을 바탕으로 브랜드의 가치와 방향성을 분명히 정립해야 함.<br>
+· 모든 소비자 접점에서 이러한 브랜드 가치가 일관성있게 전달될 수 있도록 커뮤니케이션 전략을 수립해야 함.<br>
+· 오너 뿐 아니라 모든 직원에게도 브랜드 아이덴티티 일관성에 대한 중요성을 교육시키고, 모든 구성원으로부터 일관된 메시지가 전달할 수 있도록 해야 함. <br>
+· 브랜드 네이밍, 슬로건, 온오프라인 커뮤니케이션 톤앤매너를 모두 일관성있게 가져가는 것이 가장 중요함. <br>
+· 브랜드의 일관성을 위한 브랜드 가이드북 제작을 추천함.</p>
+
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">&lt;임직원 브랜드 가이드북 구성 가이드라인&gt;</strong>
+제1장. 우리의 본질 (Brand Essence) : 브랜드 탄생 배경 및 미션 / 브랜드 핵심 가치 (Core Values)<br>
+제2장. 대외 커뮤니케이션 원칙 : 브랜드 네임 & 슬로건 사용법 / 온·오프라인 톤앤매너<br>
+제3장. 소비자 접점별 행동 가이드 : 제품 제조 및 포장 단계 / 고객 경험 및 서비스 단계<br>
+제4장. 브랜드 내재화 및 점검 : 모든 구성원의 역할과 책임 / 자가 진단 체크리스트</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 공감각적 경험 제공</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「공간과 철학의 완벽한 동기화」</strong>
 · 브랜딩은 단순히 예쁜 로고를 만드는 작업이 아닌 매장의 조도, 음악의 장르, 가구의 질감, 직원들의 응대 톤까지 매장이 지향하는 타겟 페르소나와 일치해야 하는 전체적인 그림.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
 · 철제 마감과 노출 콘크리트를 사용한 인더스트리얼 컨셉의 매장이라면 커피 역시 묵직하고 다크한 블렌딩 원두를 사용하는 것이 좋음. <br>
 · 음악도 베이스가 강조된 로우 템포의 장르를 선택하여 고객의 시각, 미각, 청각 등 모든 접점에 동일하고 일관된 브랜드 메시지를 전달해야 함.</p>
 
-<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 패키징 확장성 및 시각화 가이드</h4>
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 패키징 확장성 및 시각화 가이드</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「테이스팅 노트의 디자인 자산화」</strong>
 · 고객이 매장 밖으로 들고 나가는 테이크아웃 컵과 브로슈어, 원두 카드 등은 가장 강력하고 저렴한 마케팅 수단임.<br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
