@@ -124,7 +124,7 @@ export const manualData = [
 <h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D. 상권 데이터 분석 툴 활용</h4>
 <p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「객관적인 데이터 기반의 의사결정」</strong>
 · 상권분석사이트를 참고하면 평균 매출, 업소 수, 유동인구 등 다양한 정보를 수집할 수 있음.<br>
-· '빅데이터플랫폼 소상공인 365' (http://bigdata.sbiz.or.kr/#/hotplace/gisDetail)</p>
+· '빅데이터플랫폼 소상공인 365' (<a href="http://bigdata.sbiz.or.kr/#/hotplace/gisDetail" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">http://bigdata.sbiz.or.kr/#/hotplace/gisDetail</a>)</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#1.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 1.3 브랜드 정체성 구축</a>
