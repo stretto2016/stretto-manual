@@ -1352,7 +1352,7 @@ export const manualData = [
       },
       {
         sectionId: "10.3",
-        sectionTitle: "10.3 치명적 셧다운을 유발하는 누락 주의보",
+        sectionTitle: "10.3 영업 불가로 이어질 수 있는 놓치기 쉬운 사항 3가지",
         content: `<p class="text-stone-700 mb-8 leading-relaxed first:mt-0">· 스케줄링 시 가볍게 여겼다가 오픈 당일 영업을 불가능하게 만드는 가장 흔하고 치명적인 3가지 실무 누락 포인트임.</p>
 
 <h4 id="10.3" class="text-xl font-bold text-stone-900 mt-10 mb-4">1. 인터넷 통신선 사전 포설 누락 (포스기 먹통)</h4>
