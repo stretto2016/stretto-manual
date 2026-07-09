@@ -3,8 +3,8 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { manualData } from './data/manualData';
 
 function App() {
-  // 보안 핀 번호 설정 (원하는 4자리 숫자로 변경)
-  const CORRECT_PIN = '6068';
+  // 보안 핀 번호 설정 (원하는 4자리 숫자로 변경, 여러 개 등록 가능)
+  const CORRECT_PINS = ['6068', '1014'];
   
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [pinInput, setPinInput] = useState('');
@@ -17,7 +17,7 @@ function App() {
   // PIN 번호 제출 핸들러
   const handlePinSubmit = (e) => {
     e.preventDefault();
-    if (pinInput === CORRECT_PIN) {
+    if (CORRECT_PINS.includes(pinInput)) {
       setIsAuthorized(true);
       setPinError(false);
     } else {
