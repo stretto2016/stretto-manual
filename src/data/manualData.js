@@ -941,7 +941,7 @@ export const manualData = [
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
   <a href="#5.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.2 부가세와 로스율을 반영한 실원가 책정법</a>
-  <a href="#6.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.1 아르바이트 노무 관리 및 인건비 방어 실무 &rarr;</a>
+  <a href="#6.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.1 채용 채널 전략 및 공고 작성 실무 &rarr;</a>
 </div>`
       }
     ]
@@ -952,8 +952,106 @@ export const manualData = [
     sections: [
       {
         sectionId: "6.1",
-        sectionTitle: "6.1 아르바이트 노무 관리 및 인건비 방어 실무",
-        content: `<h4 id="6.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 근로계약서 작성 및 주휴수당의 실체</h4>
+        sectionTitle: "6.1 채용 채널 전략 및 공고 작성 실무",
+        content: `<h4 id="6.1" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 오픈 전 채용 채널 선택</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「지원자 풀과 광고 비용의 트레이드오프」</strong>
+· 오픈 전 채용 공고는 알바천국, 잡코리아, 당근마켓을 메인 채널로 진행하는 것을 추천함.<br>
+· 알바천국, 잡코리아 같은 대표 채널은 지원자 풀이 넓어 매니저급 경력직부터 신입 알바까지 다양한 포지션 채용에 유리하지만, 공고를 상단에 노출하려면 옵션과 기간에 따라 적지 않은 광고 비용이 발생함.<br>
+· 당근마켓은 기본 글쓰기가 무료이며, 소액의 광고비를 지불하고 노출을 높일 수도 있음. 매장 반경 거주자에게 노출되므로 출퇴근 거리가 짧은 지원자를 찾는 데 가장 효율적임.<br><br>
+<strong class="font-semibold text-stone-900 block mb-1">(Case)</strong>
+· 매장 근처에 거주하는 직원을 우선적으로 채용해야 하는 상황이라면 당근마켓을 메인으로 활용하는 것이 비용 대비 효과가 가장 좋았음. 도보 출퇴근이 가능한 직원은 지각과 급작스러운 퇴사 리스크가 현저히 낮음.</p>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">B. 오픈 후 채용 채널 확장</h4>
+<p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「브랜드 결이 맞는 지원자 유입 설계」</strong>
+· 매장 오픈 후에는 인스타그램과 블랙워터이슈를 활용하면 채용이 훨씬 수월해짐.<br>
+· 인스타그램은 카페의 감성과 분위기를 직접 보여줄 수 있어, 매장과 비슷한 결의 지원자가 지원하는 경향이 있음.<br>
+· 블랙워터이슈는 커피 업계 종사자들이 많이 보는 커뮤니티로, 경력직 바리스타나 매니저급 지원자를 찾기에 가장 적합한 채널임.<br>
+· 단, 블랙워터이슈는 사업자 등록 후 유료로 기업 등록을 해야 공고 작성이 가능하므로 오픈 전에는 활용이 제한됨.</p>
+
+<p class="text-stone-700 mb-4 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「채용 채널별 특성 비교」</strong></p>
+<div class="overflow-x-auto mb-10 border border-stone-200 rounded-lg">
+  <table class="w-full text-xs md:text-sm text-left text-stone-600">
+    <thead class="bg-stone-100 text-stone-800 font-bold border-b border-stone-200">
+      <tr>
+        <th class="px-4 py-3 whitespace-nowrap">채널</th>
+        <th class="px-4 py-3 whitespace-nowrap">비용</th>
+        <th class="px-4 py-3 whitespace-nowrap">지원자 풀</th>
+        <th class="px-4 py-3 whitespace-nowrap">적합 포지션</th>
+        <th class="px-4 py-3 whitespace-nowrap">추천 시점</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-stone-100">
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">알바천국 / 잡코리아</td><td class="px-4 py-3">기본 무료, 상단 노출 유료</td><td class="px-4 py-3">가장 넓음</td><td class="px-4 py-3">신입 알바 ~ 매니저급 전반</td><td class="px-4 py-3">오픈 전후 모두</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">당근마켓</td><td class="px-4 py-3">기본 무료, 소액 광고 가능</td><td class="px-4 py-3">매장 인근 거주자</td><td class="px-4 py-3">근거리 파트타이머</td><td class="px-4 py-3">오픈 전후 모두</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">인스타그램</td><td class="px-4 py-3">무료 (계정 운영 필요)</td><td class="px-4 py-3">팔로워 및 매장 팬층</td><td class="px-4 py-3">브랜드 결이 맞는 지원자</td><td class="px-4 py-3">오픈 후</td></tr>
+      <tr class="hover:bg-stone-50 transition-colors"><td class="px-4 py-3 font-medium text-stone-800">블랙워터이슈</td><td class="px-4 py-3">사업자 등록 후 유료 등록</td><td class="px-4 py-3">커피 업계 종사자</td><td class="px-4 py-3">경력직 바리스타, 매니저급</td><td class="px-4 py-3">오픈 후</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">C. 채널별 공고문 샘플 양식</h4>
+<p class="text-stone-700 mb-6 leading-relaxed">· 같은 채용 조건이라도 채널의 톤앤매너에 맞춰 공고문을 다르게 작성해야 지원율이 올라감. 아래 3종 샘플을 매장 조건에 맞게 수정하여 사용할 것.</p>
+
+<p class="text-stone-700 mb-2 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">샘플 1. 당근마켓용 — 동네 친화형</strong></p>
+<div class="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-8 text-sm text-stone-700 leading-relaxed">
+안녕하세요, ○○동 카페 △△입니다 ☕<br>
+함께 오래 일할 동네 이웃을 찾고 있어요!<br><br>
+· 근무 위치 : ○○역 3번 출구 도보 2분 (△△카페)<br>
+· 근무 요일/시간 : 주 2일 (토, 일) / 12:00~19:00<br>
+· 시급 : 10,500원 (주휴수당 별도, 수습 2주 동일 시급)<br>
+· 업무 : 음료 제조 보조, 홀 정리, 마감 청소<br>
+· 우대 : 매장 도보 20분 이내 거주, 6개월 이상 근무 가능하신 분<br><br>
+커피를 좋아하시면 경험이 없어도 처음부터 차근차근 알려드려요.<br>
+간단한 자기소개와 함께 채팅 주세요 :)
+</div>
+
+<p class="text-stone-700 mb-2 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">샘플 2. 알바천국 / 잡코리아용 — 정보 정리형</strong></p>
+<div class="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-8 text-sm text-stone-700 leading-relaxed">
+[△△카페] 오픈조 바리스타 채용 (경력 우대)<br><br>
+■ 모집 부문 : 바리스타 1명 (파트타임)<br>
+■ 근무 조건<br>
+&nbsp;&nbsp;- 근무 요일 : 주 3일 (월/수/금)<br>
+&nbsp;&nbsp;- 근무 시간 : 07:30~14:30 (휴게 30분 포함)<br>
+&nbsp;&nbsp;- 시급 : 11,000원 (주휴수당 별도 지급)<br>
+&nbsp;&nbsp;- 수습 기간 : 1개월 (시급 동일)<br>
+■ 담당 업무 : 에스프레소 음료 제조, POS 응대, 오픈 준비<br>
+■ 지원 자격 : 카페 근무 경력 6개월 이상 우대, 초보 지원 가능<br>
+■ 4대 보험 : 근무 시간 기준 법정 요건에 따라 가입<br>
+■ 지원 방법 : 온라인 이력서 제출 → 서류 검토 후 개별 연락 → 매장 면접<br>
+■ 접수 마감 : 채용 시 마감
+</div>
+
+<p class="text-stone-700 mb-2 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">샘플 3. 인스타그램용 — 브랜드 감성형</strong></p>
+<div class="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-8 text-sm text-stone-700 leading-relaxed">
+[STAFF WANTED] 🌿<br><br>
+△△카페와 같은 방향을 바라볼 팀원을 찾습니다.<br>
+커피 한 잔을 대하는 태도가 우리와 닮은 분이라면, 경력보다 그 마음을 먼저 봅니다.<br><br>
+· 포지션 : 바리스타 (주 5일, 협의 가능)<br>
+· 시간 : 09:00~17:00 / 시급 및 처우는 면접 시 상세 안내<br>
+· 원두 교육 및 커핑 세션 참여 기회 제공<br><br>
+프로필 링크의 지원서를 작성해 주시거나,<br>
+간단한 자기소개를 DM으로 보내주세요 💌<br><br>
+#○○동카페 #바리스타채용 #카페알바 #△△카페
+</div>
+
+<h4 class="text-xl font-bold text-stone-900 mt-10 mb-4">D. 공고 필수 기재사항 체크리스트</h4>
+<p class="text-stone-700 mb-8 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「법적 리스크를 차단하는 공고 작성 원칙」</strong>
+· 시급 : 최저임금 이상인지 확인하고 정확한 금액을 명시할 것. '시급 협의' 단독 표기보다 기준 금액을 밝히는 편이 지원율이 높음.<br>
+· 근무 요일 및 시간 : 주간 근무 시간이 확정되어야 주휴수당, 4대 보험 여부를 지원자에게 정확히 안내할 수 있음.<br>
+· 수습 기간 : 수습 여부와 기간, 수습 시급을 반드시 사전 고지할 것. (1년 이상 계약 시에만 최저임금의 90% 감액 가능, 단순노무직은 감액 불가)<br>
+· 주휴수당 / 4대 보험 : 주 15시간 이상 근무 시 주휴수당 지급 의무가 발생하므로 공고 단계에서 근무 시간 설계를 끝내둘 것. (상세 기준은 <a href="#6.2" class="text-blue-600 hover:text-blue-800 underline">6.2 노무 관리</a> 참조)<br>
+· 차별 금지 문구 : 성별, 연령, 외모 제한 문구(예: '여성만', '20대만')는 채용절차법 및 고용상 차별 금지 위반으로 과태료 대상임. '오픈조 가능하신 분' 등 업무 기준으로 표현할 것.<br>
+· 지원 방법 및 마감일 : 지원 경로(채팅, 이력서, DM)와 마감 기준을 명확히 하여 문의 응대 부담을 줄일 것.</p>
+
+<div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
+  <a href="#5.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.3 카테고리별 메뉴 레시피</a>
+  <a href="#6.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.2 아르바이트 노무 관리 및 인건비 방어 실무 &rarr;</a>
+</div>`
+      },
+      {
+        sectionId: "6.2",
+        sectionTitle: "6.2 아르바이트 노무 관리 및 인건비 방어 실무",
+        content: `<h4 id="6.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">A. 근로계약서 작성 및 주휴수당의 실체</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">「고용노동부 표준 양식 사용 및 벌금 방어」</strong>
 · 알바생이 단 1일을 일하더라도 출근 첫 1일 근무 시작 전에 근로계약서를 무조건 작성하고 교부해야 함.<br>
 · 미작성 시 최대 500만 원의 벌금이 부과됨. 양식은 고용노동부 홈페이지 정책자료실에서 '표준근로계약서'를 무료로 다운로드하여 사용하면 됨.</p>
@@ -977,17 +1075,17 @@ export const manualData = [
 · 노무사를 선택할 때는 화려한 이력의 대형 법인보다, 실시간 카카오톡 소통이 가능하고 내 질문에 30분 이내로 명확한 가이드를 찍어주는 실무형 노무사를 고르는 것이 핵심임. </p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#5.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 5.3 카테고리별 메뉴 레시피</a>
-  <a href="#6.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어 &rarr;</a>
+  <a href="#6.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.1 채용 채널 전략 및 공고 작성 실무</a>
+  <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.3 보이지 않는 재고 로스(Loss) 통제와 원가 방어 &rarr;</a>
 </div>`
       },
       {
-        sectionId: "6.2",
-        sectionTitle: "6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어",
+        sectionId: "6.3",
+        sectionTitle: "6.3 보이지 않는 재고 로스(Loss) 통제와 원가 방어",
         content: `<p class="text-stone-700 mb-8 leading-relaxed">· 높은 매출에도 통장에 남는 돈이 없다면 대부분의 경우 식자재 로스 관리에 구멍이 뚫린 것임. <br>
 · 바리스타의 손끝에서 새어나가는 10원의 손실을 막는 실무 시스템이 중요.</p>
 
-<h4 id="6.2" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 시럽 펌프 및 스쿠프 정량화의 절대 원칙</h4>
+<h4 id="6.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 시럽 펌프 및 스쿠프 정량화의 절대 원칙</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
 · 바닐라 라떼 = '시럽 2펌프' 와 같은 레시피는 절대 지양해야 함.<br>
 · 제조사마다 1펌프의 토출량이 7g, 10g, 15g으로 전부 다름. 알바생이 펌프를 끝까지 누르지 않고 반만 누르는 습관이 있다면 음료 맛은 매번 달라지고 원가 계산은 붕괴됨.<br><br>
@@ -1011,18 +1109,18 @@ export const manualData = [
 · 각 사이즈별 밀크 피처 내부에 타겟 용량 선(Line)을 긋고, 버려지는 우유가 10g을 넘지 않도록 스티밍 용량을 극한으로 타겟팅하는 연습을 시켜야 함.</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#6.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.1 아르바이트 노무 관리 및 인건비 방어 실무</a>
-  <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.3 매장 셧다운을 막는 시설 유지보수 실무 &rarr;</a>
+  <a href="#6.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.2 아르바이트 노무 관리 및 인건비 방어 실무</a>
+  <a href="#6.4" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 6.4 매장 셧다운을 막는 시설 유지보수 실무 &rarr;</a>
 </div>`
       },
       {
-        sectionId: "6.3",
-        sectionTitle: "6.3 매장 셧다운을 막는 시설 유지보수 실무",
+        sectionId: "6.4",
+        sectionTitle: "6.4 매장 셧다운을 막는 시설 유지보수 실무",
         content: `<p class="text-stone-700 mb-8 leading-relaxed">· 커피 머신보다 중요한 것이 매장의 기초 인프라임. <br>
 · 하수구가 막히거나 해충이 발생하면 그날 영업은 강제 종료됨. <br>
 · 오너가 반드시 챙겨야 할 시설 관리 루틴임.</p>
 
-<h4 id="6.3" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 배관 설계 한계 극복 및 역류 방어 플러싱</h4>
+<h4 id="6.4" class="text-xl font-bold text-stone-900 mt-10 mb-4 first:mt-0">1. 배관 설계 한계 극복 및 역류 방어 플러싱</h4>
 <p class="text-stone-700 mb-6 leading-relaxed"><strong class="font-semibold text-stone-900 block mb-1">(문제)</strong>
 · 싱크대에서 버려지는 우유 찌꺼기와 커피 유분은 배관 내부에 고착되어 단단한 슬러지를 형성함. <br><br>
 <strong class="font-semibold text-stone-900 block mb-1">(대안)</strong>
@@ -1048,7 +1146,7 @@ export const manualData = [
 · 이는 단순한 위생을 넘어, 배달 앱 리뷰나 고객 컴플레인으로 인한 치명적인 브랜드 이미지 타격을 막는 가장 저렴한 보험임.</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#6.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.2 보이지 않는 재고 로스(Loss) 통제와 원가 방어</a>
+  <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.3 보이지 않는 재고 로스(Loss) 통제와 원가 방어</a>
   <a href="#7.1" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 7.1 필수 행정 절차와 절세 타임라인 &rarr;</a>
 </div>`
       }
@@ -1079,7 +1177,7 @@ export const manualData = [
 · 세무사를 고를 때는 화려한 이력보다는 카카오톡 등 모바일 메신저로 증빙 자료 전달이 용이하고, 실시간 피드백 소통이 원활한 실무 중심 업체를 선정하는 것이 매장 운영에 압도적으로 편리함.</p>
 
 <div class="mt-12 flex justify-between gap-4 text-[10px] text-stone-400 border-t border-stone-100 pt-4">
-  <a href="#6.3" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.3 매장 셧다운을 막는 시설 유지보수 실무</a>
+  <a href="#6.4" class="hover:text-stone-600 transition-colors cursor-pointer break-keep">&larr; 이전: 6.4 매장 셧다운을 막는 시설 유지보수 실무</a>
   <a href="#7.2" class="hover:text-stone-600 transition-colors cursor-pointer break-keep text-right">다음: 7.2 로컬 알고리즘 최적화 및 초기 마케팅 &rarr;</a>
 </div>`
       },
