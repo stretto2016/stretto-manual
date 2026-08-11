@@ -230,8 +230,7 @@ function App() {
 
       <main className="flex-1 overflow-y-auto bg-stone-50 relative w-full">
         {!activeSection ? (
-          /* select-none 추가로 메인 화면 드래그/복사 차단 */
-          <div className="min-h-full flex flex-col px-6 py-12 md:px-16 md:py-24 max-w-6xl mx-auto select-none">
+          <div className="min-h-full flex flex-col px-6 py-12 md:px-16 md:py-24 max-w-6xl mx-auto">
             <div className="mb-16 md:mb-24">
               <span className="text-stone-400 font-medium tracking-[0.2em] text-[10px] md:text-xs mb-4 md:mb-6 block">B2B PARTNERSHIP MANUAL</span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter mb-6 md:mb-8 text-stone-900 leading-[1.2] md:leading-[1.1]">
@@ -292,7 +291,7 @@ function App() {
               </div>
             )}
 
-            <article className="select-none">
+            <article>
               <header className="mb-10 md:mb-16">
                 <span className="text-stone-500 font-mono text-xs md:text-sm tracking-widest block mb-3 md:mb-4">SECTION {activeSection.sectionId}</span>
                 <h2 className="text-2xl md:text-4xl font-black tracking-tight text-stone-900 leading-snug md:leading-tight break-keep">
